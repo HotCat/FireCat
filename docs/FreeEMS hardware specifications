@@ -1,0 +1,67 @@
+ 
+
+General
+//Sandwich construction
+//FM Adapt board on top for upgradeable processor options
+//Input board in the middle, 160mm x 100mm Eurocard form factor
+//Output board below that, 160mm x 100mm Eurocard form factor
+//Further boards can be added above and below the 3 base boards
+//All 100 pins passed through every board
+//Where space allows, prototyping areas on the main two boards, but this is not required as extra boards can be added to the sandwich with ease
+* serial communications for tuning and firmware bootlading.
+* BDM port to flash the bootloader.
+* FR4 or better for the pcb.
+* Metal, chassis grounded case.
+* 16MHz crystal for firmware compatibility (?)
+* leaded solder (?)
+* a connector.
+
+Power
+Separate battery feeds for MCU supply/sensor supply, High power devices, Battery reference (4)
+Separate grounds for signal/MCU/sensor/reference and High power devices (3)
+MCU supply VERY well filtered and protected
+Zener clamp/regulator at around 20V for MCU
+Reverse voltage protection diode and possibly fuse
+//Series Diode for revers protection too (possibly not as the voltage loss may be intolerable)
+Fused heavy power and ground lines (large values for reliability)
+Reverse voltage and clamping/clean up on the heavy power and ground feeds too.
+//Independent filter return pins for these
+?High power series resistor that can stomach 15V continuously for the previous two features.
+Good sized reservoir capacitor to supply the MCU during low transients. //NOTE: a 2200uF cap woud discharge in ~0.15sec if the cpu draws 200mA
+Sensor 5v reference voltage using own self protected regulator		//NOTE: a stable regulator may be enough
+MCU LDO regulator on processor board
+* cpu constant supply
+* correct heat dissipation for every component (ground planes for the MCU, heatsinks for power devices, etc). 65°C could be the minumim allowable for certain applications; 85°C is a regular commercial standard; 125° is for automotive rated applications.
+
+Input features
+1 or 2 layer only (easily printable at home)
+//At least 50 built in input conditioning circuits total
+Sensitive inputs at same end of the board as the MCU
+//Multiple VR sensor inputs provisioned (discrete or integrated) : 3x engine, 4x wheel, 1x drive shaft, ???
+//All 16 ADC channels provided with multi configurable setup (input impedance resistor, series resistor, internal filter cap, external filter cap, ??)
+//General digital IO filter circuits provided for most pins (same as or similar to ADC input circuits)
+//Space for up to 4 MAP sensors (pre-intercooler, post-intercooler/pre-throttle, manifold/ports, altitude OR 4cyl multiplexed ITB use (chosen in software)
+All input pins clamped with 5V1 zeners
+All input pins reverse voltage protected with signal to ground reverse biased diode
+All input pins current limited with 1k resistors
+All input pins filtered at the CPU with a capacitor of application dependent size
+?Pull up (5V) and/or downs (0V) provisioned for all MCU pins that do not have built in ones
+* the ADC pinout must met XDP512-freeEMS-pin-assignment.ods //NOTE: as soon as the file is updated, all pinouts must met its requirements.
+
+Output features
+1 or 2 layer only (easily printable at home)
+//At least 50 built in output drive circuits total
+High current stuff positioned at the far end of the board from the MCU (and on the bottom side)
+//Provision for 24 heat-sinked high current devices in to220 and/or DPAK form for driving injectors, coils, relays, solenoids, fans, pumps etc
+//Provision for at least 50 to92 pre-driver transistors/FETs of a common pin out with triangle footprint (jumper out otherwise)
+//As many as possible configured for high side OR low side use via jumpers
+//Provision for optional P&H chips before the 6 injector drivers (jumper out otherwise)
+//Provision for pull up or pull down for each pin by way of four pads in square layout for vertical resistor (0,5,12,Out)
+//Provision for remote current sense resistor on at least the 6 injector outputs (jumper out otherwise)
+All output pins current limited with 1.6k resistors
+* ign outputs are in port T, injectors in port B and A. Extra devices should be connected to port P (PWMable), and the fuel pump on pin (?)
+* 
+
+Add on compatibility features
+Headers provided for SCI/SPI/IIC/CAN etc for easy interface
+* Leds?

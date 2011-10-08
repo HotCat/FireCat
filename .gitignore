@@ -1,0 +1,17 @@
+*.bak
+*.bck
+*.gts
+*.gbs
+*.gtl
+*.ps
+*.pho
+*.drl
+*.gto
+*.gbo
+*.gbr
+*.gbl
+.directory
+*~
+$savepcb*
+screenshots/
+website/

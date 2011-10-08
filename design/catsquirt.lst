@@ -1,0 +1,63 @@
+eeschema (2011-01-22 BZR 2754)-stable  >> Creation date: 01/10/2011 12:48:27
+
+#Cmp ( order = Reference )
+| C1         .1uF        ;             
+| C2         .1uF        ;             
+| C3         .1uF        ;             
+| C4         22pF        ;             
+| C5         .1uF        ;             
+| C6         3.3nF       ;             
+| C7         330pF       ;             
+| C8         22pF        ;             
+| C9         .1uF        ;             
+| C10        100nF       ;             
+| C11        104         ;             
+| P1         CONN_8X2_CATSQUIRT;             
+| P2         BDM         ;             
+| P3         CONN_2      ;             
+| P4         CONN_8X2_CATSQUIRT;             
+| P5         CONN_8X2_CATSQUIRT;             
+| R1         3.9K        ;             
+| R2         10M         ;             
+| R3         10k         ;             
+| R4         10k         ;             
+| R5         10k         ;             
+| R6         4.7K        ;             
+| R7         10k         ;             
+| R8         100R        ;             
+| SW1        SW_PUSH     ;             
+| U1         MC9S12XDP512;             
+| X1         CRYSTAL     ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| .1uF         C1        ;             
+| .1uF         C2        ;             
+| .1uF         C3        ;             
+| .1uF         C5        ;             
+| .1uF         C9        ;             
+| 100nF        C10       ;             
+| 100R         R8        ;             
+| 104          C11       ;             
+| 10k          R3        ;             
+| 10k          R4        ;             
+| 10k          R5        ;             
+| 10k          R7        ;             
+| 10M          R2        ;             
+| 22pF         C4        ;             
+| 22pF         C8        ;             
+| 3.3nF        C6        ;             
+| 3.9K         R1        ;             
+| 330pF        C7        ;             
+| 4.7K         R6        ;             
+| BDM          P2        ;             
+| CONN_2       P3        ;             
+| CONN_8X2_CATSQUIRT P1        ;             
+| CONN_8X2_CATSQUIRT P4        ;             
+| CONN_8X2_CATSQUIRT P5        ;             
+| CRYSTAL      X1        ;             
+| MC9S12XDP512 U1        ;             
+| SW_PUSH      SW1       ;             
+#End Cmp
+
+#End List
