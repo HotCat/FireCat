@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 07/10/2011 12:23:20
+EESchema-DOCLIB  Version 2.0  Date: 11/10/2011 16:52:27
 #
 $CMP 74LS86_FREEEMS
 D Quad XOR 2 inputs
@@ -74,6 +74,11 @@ $ENDCMP
 $CMP MPX4100A
 D MAP SENSOR
 K MAP MPX4100A
+$ENDCMP
+#
+$CMP NC7WZ86K8X
+D tach signal processing
+K tach
 $ENDCMP
 #
 $CMP NCV1124

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 08/10/2011 12:36:15
+EESchema Schematic File Version 2  date 11/10/2011 18:45:22
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:freeEMS_lib
 LIBS:catsquirt_ioboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 25 29
+Sheet 11 11
 Title "Puma board"
-Date "8 oct 2011"
+Date "11 oct 2011"
 Rev ""
 Comp "diyefi.org"
 Comment1 ""

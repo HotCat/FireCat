@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 08/10/2011 12:36:15
+EESchema Schematic File Version 2  date 10/10/2011 22:26:24
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,9 +33,9 @@ LIBS:catsquirt_ioboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 18 29
+Sheet 16 18
 Title "rs232 channel"
-Date "8 oct 2011"
+Date "10 oct 2011"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/10/2011 22:36:14
+EESchema Schematic File Version 2  date 10/10/2011 12:09:13
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 1 1
 Title ""
-Date "22 sep 2011"
+Date "10 oct 2011"
 Rev "v0.01"
 Comp "diyefi.org"
 Comment1 "Citroen ZX TU5JP/K"
@@ -560,8 +560,6 @@ F 1 "PWR_FLAG" H 7500 2880 30  0000 C CNN
 	1    7500 2650
 	1    0    0    -1  
 $EndComp
-Text Notes 4350 1950 0    60   ~ 0
-Core board specially design for tony transfer
 NoConn ~ 10750 6850
 NoConn ~ 10750 6650
 NoConn ~ 10750 6750

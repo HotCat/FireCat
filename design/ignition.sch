@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 08/10/2011 12:36:15
+EESchema Schematic File Version 2  date 11/10/2011 09:30:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,9 +33,9 @@ LIBS:catsquirt_ioboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 24 29
+Sheet 20 20
 Title "ignition module"
-Date "8 oct 2011"
+Date "11 oct 2011"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
