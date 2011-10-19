@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/10/2011 09:07:12
+EESchema Schematic File Version 2  date 19/10/2011 12:22:27
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +30,10 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:freeEMS_lib
-LIBS:catsquirt_ioboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 7 12
+Sheet 2 6
 Title ""
 Date "19 oct 2011"
 Rev ""
