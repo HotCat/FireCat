@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/10/2011 15:17:47
+EESchema Schematic File Version 2  date 19/10/2011 09:07:12
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 12
 Title ""
-Date "13 oct 2011"
+Date "19 oct 2011"
 Rev "0.01"
 Comp ""
 Comment1 ""
@@ -44,6 +44,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L +12V_SWITCHED #PWR?
+U 1 1 4E9E22BA
+P 3550 4950
+F 0 "#PWR?" H 3550 4900 20  0001 C CNN
+F 1 "+12V_SWITCHED" H 3550 5050 30  0000 C CNN
+	1    3550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V_SWITCHED #PWR?
+U 1 1 4E9E2255
+P 3550 6250
+F 0 "#PWR?" H 3550 6200 20  0001 C CNN
+F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
+	1    3550 6250
+	1    0    0    -1  
+$EndComp
 NoConn ~ 3000 2800
 Text Notes 3900 2250 0    60   ~ 0
 RFU cam signal providing\nengine phase info
@@ -210,15 +228,6 @@ F 1 "HCURGND" H 3550 3630 40  0000 C CNN
 	1    3550 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V_SWITCHED #PWR?
-U 1 1 4E95B36C
-P 3550 6250
-F 0 "#PWR?" H 3550 6200 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 3550 6350 30  0000 C CNN
-	1    3550 6250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9100 2200
 $Comp
 L SENSORGND #PWR?
@@ -236,15 +245,6 @@ P 3550 5200
 F 0 "#PWR?" H 3550 5200 40  0001 C CNN
 F 1 "SENSORGND" H 3550 5130 40  0000 C CNN
 	1    3550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V_SWITCHED #PWR?
-U 1 1 4E95B1B3
-P 3550 4950
-F 0 "#PWR?" H 3550 4900 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 3550 5050 30  0000 C CNN
-	1    3550 4950
 	1    0    0    -1  
 $EndComp
 $Comp

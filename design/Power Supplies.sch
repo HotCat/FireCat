@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/10/2011 15:17:47
+EESchema Schematic File Version 2  date 19/10/2011 09:07:12
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 12 12
 Title "Power supplies"
-Date "13 oct 2011"
+Date "19 oct 2011"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
