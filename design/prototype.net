@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  25/10/2011 13:22:43
+# EESchema Netlist Version 1.1 created  25/10/2011 22:53:23
 (
  ( /4E9E509D SM0805 C1 0.1
   ( 1 N-000025 )
@@ -48,7 +48,7 @@
   ( 1 N-000012 )
   ( 2 GND )
  )
- ( /4E9E539F DB9FC J1 DB9
+ ( /4E9E539F DB9RA/F J1 DB9
   ( 1 ? )
   ( 2 N-000015 )
   ( 3 N-000032 )

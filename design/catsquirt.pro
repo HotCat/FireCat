@@ -1,7 +1,12 @@
-update=25/10/2011 12:44:45
+update=26/10/2011 21:27:33
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -65,16 +70,11 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=freeEMS_lib
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=100
-PadDimH=800
-PadDimV=800
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -84,10 +84,10 @@ TxtModH=600
 TxtModW=120
 VEgarde=100
 DrawLar=150
-EdgeLar=400
+EdgeLar=150
 TxtLar=120
-MSegLar=80
-LastNetListRead=catsquirt.net
+MSegLar=150
+LastNetListRead=
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -100,4 +100,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=D:\\catprj\\CatSquirt\\PCB-modules\\free_EMS
+LibName11=E:\\CatSquirt\\PCB-modules\\free_EMS
