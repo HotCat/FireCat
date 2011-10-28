@@ -4,7 +4,7 @@ Hardware design to run FreeEMS on my Citroen ZX TU5JP/K engine. The goal is to
 completely replace the stock Bosch MP5.2 ECU.
 
 This is a project by Yu Zhou to implement a hardware design for FreeEMS. It is
-licensed under GPL V2, please see the LICENSE.txt file for more information.
+licensed under GPL V2 or later, please see the LICENSE.txt file for more information.
 
 #### Why is it code named "Migrant Worker"?
 
