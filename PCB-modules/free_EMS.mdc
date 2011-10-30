@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  25/10/2011 22:51:28
+PCBNEW-LibDoc----V1  30/10/2011 09:46:06
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -59,12 +59,6 @@ Cd Connecteur DB9 femelle couche
 Kw CONN DB9
 $EndMODULE
 #
-$MODULE SO8NB
-Li SO8NB
-Cd Module CMS SOJ 8 pins large
-Kw CMS SOJ
-$EndMODULE
-#
 $MODULE pin_array_8x1_catsquirt
 Li pin_array_8x1_catsquirt
 Cd Double rangee de contacts 2 x 8 pins
@@ -75,6 +69,36 @@ $MODULE DB9RA/F
 Li DB9RA/F
 Cd Connecteur DB9 femelle couche
 Kw CONN DB9
+$EndMODULE
+#
+$MODULE SO8NB
+Li SO8NB
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE DB9RA/F_TF
+Li DB9RA/F_TF
+Cd Connecteur DB9 femelle couche
+Kw CONN DB9
+$EndMODULE
+#
+$MODULE SIL-8_TF
+Li SIL-8_TF
+Cd Connecteur 8 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE CP5_TF
+Li CP5_TF
+Cd Condensateur polarise
+Kw CP
+$EndMODULE
+#
+$MODULE PIN_ARRAY_2X1_TF
+Li PIN_ARRAY_2X1_TF
+Cd Connecteurs 2 pins
+Kw CONN DEV
 $EndMODULE
 #
 $EndLIBDOC
