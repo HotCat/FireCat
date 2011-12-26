@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/10/2011 09:07:12
+EESchema Schematic File Version 2  date 27/12/2011 00:52:12
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,21 +29,22 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_lib
-LIBS:catsquirt_ioboard-cache
+LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 12
-Title ""
-Date "19 oct 2011"
+Sheet 3 12
+Title "OEM harness interface"
+Date "26 dec 2011"
 Rev "0.01"
-Comp ""
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1350 4350 0    60   ~ 0
+all ground should be meet together
 $Comp
 L +12V_SWITCHED #PWR?
 U 1 1 4E9E22BA
@@ -60,29 +61,6 @@ P 3550 6250
 F 0 "#PWR?" H 3550 6200 20  0001 C CNN
 F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
 	1    3550 6250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3000 2800
-Text Notes 3900 2250 0    60   ~ 0
-RFU cam signal providing\nengine phase info
-Text Notes 2300 2250 0    60   ~ 0
-RFU injector interface\nfor sequencial injection
-$Comp
-L CONN_4 P?
-U 1 1 4E95B4F9
-P 3350 2650
-F 0 "P?" V 3300 2650 50  0000 C CNN
-F 1 "CONN_4" V 3400 2650 50  0000 C CNN
-	1    3350 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P?
-U 1 1 4E95B4EB
-P 4750 2600
-F 0 "P?" V 4700 2600 40  0000 C CNN
-F 1 "CONN_2" V 4800 2600 40  0000 C CNN
-	1    4750 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -306,10 +284,6 @@ Text HLabel 4450 5400 0    60   Input ~ 0
 AC_CLUTCH_RELAY
 Text HLabel 4500 3800 0    60   Input ~ 0
 GAS_VENTI_VALVE
-Text HLabel 4400 2700 0    60   Input ~ 0
-RPM1-
-Text HLabel 4400 2500 0    60   Input ~ 0
-RPM1+
 Text HLabel 4450 4300 0    60   Input ~ 0
 RPM0-
 Text HLabel 4450 6000 0    60   Input ~ 0
@@ -332,12 +306,6 @@ Text HLabel 4450 5500 0    60   Input ~ 0
 CHT
 Text HLabel 4450 5700 0    60   Input ~ 0
 IAT
-Text HLabel 3000 2700 0    60   Input ~ 0
-RFU_Injector_#3
-Text HLabel 3000 2600 0    60   Input ~ 0
-RFU_Injector_#2
-Text HLabel 3000 2500 0    60   Input ~ 0
-RFU_Injector_#1
 Text HLabel 4450 4900 0    60   Input ~ 0
 INJECTOR1-4
 Text HLabel 4450 5200 0    60   Input ~ 0

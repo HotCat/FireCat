@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/10/2011 09:07:12
+EESchema Schematic File Version 2  date 27/12/2011 00:52:12
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_lib
-LIBS:catsquirt_ioboard-cache
+LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 12
+Sheet 4 12
 Title ""
-Date "19 oct 2011"
+Date "26 dec 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -471,7 +470,7 @@ F 1 "HCURGND" H 4550 3330 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4800 3150 0    60   ~ 0
-???
+????????
 Text Notes 3150 3950 0    60   ~ 0
 tachometer PWM output
 $Comp
