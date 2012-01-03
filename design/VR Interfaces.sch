@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/01/2012 14:25:41
+EESchema Schematic File Version 2  date 03/01/2012 09:04:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 10 12
 Title "VR interface"
-Date "2 jan 2012"
+Date "3 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,6 +43,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR99
+U 1 1 4F01BE3E
+P 7050 2700
+F 0 "#PWR99" H 7050 2700 30  0001 C CNN
+F 1 "GND" H 7050 2630 30  0001 C CNN
+	1    7050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2700 7050 2550
+Wire Wire Line
+	7050 2550 6850 2550
+Wire Wire Line
+	6850 2550 6850 2600
 Connection ~ 4850 3900
 Wire Wire Line
 	4550 3900 5400 3900
@@ -85,11 +100,23 @@ Wire Wire Line
 	6800 3450 7000 3450
 Wire Wire Line
 	6650 3150 6950 3150
+Wire Wire Line
+	6850 3150 6850 3000
+Connection ~ 6850 3150
 $Comp
-L GND #PWR095
+L TEST W6
+U 1 1 4F01BDF8
+P 6850 2800
+F 0 "W6" H 6850 2860 40  0000 C CNN
+F 1 "TEST" H 6850 2730 40  0000 C CNN
+	1    6850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR101
 U 1 1 4EFDED08
 P 5050 4050
-F 0 "#PWR095" H 5050 4050 30  0001 C CNN
+F 0 "#PWR101" H 5050 4050 30  0001 C CNN
 F 1 "GND" H 5050 3980 30  0001 C CNN
 	1    5050 4050
 	1    0    0    -1  
@@ -101,10 +128,10 @@ RPM0+
 Text HLabel 6950 3150 2    60   Output ~ 0
 PT0
 $Comp
-L +5V_SWITCHED #PWR096
+L +5V_SWITCHED #PWR100
 U 1 1 4E94109E
 P 7000 3450
-F 0 "#PWR096" H 7000 3400 20  0001 C CNN
+F 0 "#PWR100" H 7000 3400 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 7000 3550 30  0000 C CNN
 	1    7000 3450
 	1    0    0    -1  

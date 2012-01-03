@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/01/2012 14:25:41
+EESchema Schematic File Version 2  date 03/01/2012 09:04:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 11 12
 Title "batch injection"
-Date "2 jan 2012"
+Date "3 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,20 +43,64 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4250 4250 4250 4100
+Wire Wire Line
+	4400 3050 4400 3250
+Wire Wire Line
+	4400 3250 4750 3250
+Wire Wire Line
+	6400 3250 5800 3250
+Wire Wire Line
+	6050 4200 6050 3900
+Wire Wire Line
+	4650 3700 5050 3700
+Wire Wire Line
+	5550 3700 5750 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	5250 3250 5400 3250
+Wire Wire Line
+	6050 3500 6050 3250
+Connection ~ 6050 3250
+Wire Wire Line
+	4250 3700 4250 3500
+Wire Wire Line
+	4250 3500 4900 3500
+Wire Wire Line
+	4900 3500 4900 3750
 $Comp
-L LSGND #PWR097
+L GND #PWR104
+U 1 1 4F01C391
+P 4250 4250
+F 0 "#PWR104" H 4250 4250 30  0001 C CNN
+F 1 "GND" H 4250 4180 30  0001 C CNN
+	1    4250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST W7
+U 1 1 4F01C365
+P 4250 3900
+F 0 "W7" H 4250 3960 40  0000 C CNN
+F 1 "TEST" H 4250 3830 40  0000 C CNN
+	1    4250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L LSGND #PWR103
 U 1 1 4EFDEB71
 P 6050 4200
-F 0 "#PWR097" H 6050 4200 40  0001 C CNN
+F 0 "#PWR103" H 6050 4200 40  0001 C CNN
 F 1 "LSGND" H 6050 4130 40  0000 C CNN
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V_SWITCHED #PWR098
+L +12V_SWITCHED #PWR102
 U 1 1 4E924AFA
 P 4400 3050
-F 0 "#PWR098" H 4400 3000 20  0001 C CNN
+F 0 "#PWR102" H 4400 3000 20  0001 C CNN
 F 1 "+12V_SWITCHED" H 4400 3150 30  0000 C CNN
 	1    4400 3050
 	1    0    0    -1  
@@ -97,10 +141,10 @@ F 1 "100K" V 4900 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR099
+L GND #PWR105
 U 1 1 4E919ABB
 P 4900 4250
-F 0 "#PWR099" H 4900 4250 30  0001 C CNN
+F 0 "#PWR105" H 4900 4250 30  0001 C CNN
 F 1 "GND" H 4900 4180 30  0001 C CNN
 	1    4900 4250
 	1    0    0    -1  
@@ -123,24 +167,4 @@ F 1 "2K4" V 5000 3250 50  0000 C CNN
 	1    5000 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 3050 4400 3250
-Wire Wire Line
-	4400 3250 4750 3250
-Wire Wire Line
-	5800 3250 6400 3250
-Wire Wire Line
-	6050 4200 6050 3900
-Wire Wire Line
-	5050 3700 4650 3700
-Wire Wire Line
-	5550 3700 5750 3700
-Wire Wire Line
-	4900 3750 4900 3700
-Connection ~ 4900 3700
-Wire Wire Line
-	5250 3250 5400 3250
-Wire Wire Line
-	6050 3500 6050 3250
-Connection ~ 6050 3250
 $EndSCHEMATC
