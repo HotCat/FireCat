@@ -1,0 +1,104 @@
+PCBNEW-LibDoc----V1  30/10/2011 09:46:06
+#
+$MODULE SOP_case_482
+Li SOP_case_482
+Kw SOP_case_482
+$EndMODULE
+#
+$MODULE D4-SM0805
+Li D4-SM0805
+Cd Diode 4 pas
+Kw DIODE DEV
+$EndMODULE
+#
+$MODULE FUSE5-20-LINKED
+Li FUSE5-20-LINKED
+Cd Support fusible 5 x 20
+Kw DEV
+$EndMODULE
+#
+$MODULE FUSE5-20-default-2A
+Li FUSE5-20-default-2A
+Cd Support fusible 5 x 20
+Kw DEV
+$EndMODULE
+#
+$MODULE FUSE5-20-default-10A
+Li FUSE5-20-default-10A
+Cd Support fusible 5 x 20
+Kw DEV
+$EndMODULE
+#
+$MODULE 9S12XDP512
+Li 9S12XDP512
+Cd MCU9S12
+Kw Adapt, MCU, 9S12, Freescale
+$EndMODULE
+#
+$MODULE R4-SM0805
+Li R4-SM0805
+Cd Resitance 4 pas
+Kw R
+$EndMODULE
+#
+$MODULE D4-SMB
+Li D4-SMB
+Cd Diode 4 pas
+Kw DIODE DEV
+$EndMODULE
+#
+$MODULE TO220_sm
+Li TO220_sm
+Cd Transistor TO 220
+Kw TR TO220 DEV
+$EndMODULE
+#
+$MODULE DB9-CUST
+Li DB9-CUST
+Cd Connecteur DB9 femelle couche
+Kw CONN DB9
+$EndMODULE
+#
+$MODULE pin_array_8x1_catsquirt
+Li pin_array_8x1_catsquirt
+Cd Double rangee de contacts 2 x 8 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE DB9RA/F
+Li DB9RA/F
+Cd Connecteur DB9 femelle couche
+Kw CONN DB9
+$EndMODULE
+#
+$MODULE SO8NB
+Li SO8NB
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE DB9RA/F_TF
+Li DB9RA/F_TF
+Cd Connecteur DB9 femelle couche
+Kw CONN DB9
+$EndMODULE
+#
+$MODULE SIL-8_TF
+Li SIL-8_TF
+Cd Connecteur 8 pins
+Kw CONN DEV
+$EndMODULE
+#
+$MODULE CP5_TF
+Li CP5_TF
+Cd Condensateur polarise
+Kw CP
+$EndMODULE
+#
+$MODULE PIN_ARRAY_2X1_TF
+Li PIN_ARRAY_2X1_TF
+Cd Connecteurs 2 pins
+Kw CONN DEV
+$EndMODULE
+#
+$EndLIBDOC

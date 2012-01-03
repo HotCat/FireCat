@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 11/10/2011 16:52:27
+EESchema-DOCLIB  Version 2.0  Date: 03/01/2012 08:39:22
 #
 $CMP 74LS86_FREEEMS
 D Quad XOR 2 inputs
@@ -42,6 +42,16 @@ $ENDCMP
 $CMP LM1815
 D LM1815
 K LM1815
+$ENDCMP
+#
+$CMP LM2941
+D tach signal processing
+K tach
+$ENDCMP
+#
+$CMP LM2941S
+D tach signal processing
+K tach
 $ENDCMP
 #
 $CMP LM7805

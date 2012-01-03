@@ -1,0 +1,756 @@
+EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mainboard-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 12
+Title "CatSquirt main board(code migrant worker)"
+Date "3 jan 2012"
+Rev "0.01"
+Comp "diyefi.org"
+Comment1 "for PSA TU5JP/K engine"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4350 2400 1400 650 
+U 4E918900
+F0 "U_Core Analogue Inputs" 60
+F1 "Core Analogue Inputs.sch" 60
+F2 "MAP" I R 5750 2850 60 
+F3 "AN04" O L 4350 2850 60 
+F4 "TPS" I R 5750 2650 60 
+F5 "AN02" O L 4350 2650 60 
+F6 "AN01" O L 4350 2550 60 
+F7 "CHT" I R 5750 2550 60 
+F8 "AN03" O L 4350 2750 60 
+F9 "EGO" I R 5750 2750 60 
+F10 "IAT" I R 5750 2450 60 
+F11 "AN00" O L 4350 2450 60 
+F12 "AN06" O L 4350 2950 60 
+$EndSheet
+Wire Wire Line
+	3700 6400 4350 6400
+Wire Wire Line
+	3700 4550 4350 4550
+Wire Wire Line
+	2600 4900 3050 4900
+Wire Wire Line
+	2600 4700 3050 4700
+Wire Wire Line
+	2600 4400 3050 4400
+Wire Wire Line
+	2600 4200 3050 4200
+Wire Wire Line
+	2600 4000 3050 4000
+Wire Wire Line
+	2600 3750 3050 3750
+Wire Wire Line
+	2600 3550 3050 3550
+Wire Wire Line
+	2600 3350 3050 3350
+Wire Wire Line
+	2600 3150 3050 3150
+Wire Wire Line
+	2600 2900 3050 2900
+Wire Wire Line
+	2600 2700 3050 2700
+Wire Wire Line
+	2600 2550 3050 2550
+Wire Wire Line
+	5750 4650 6900 4650
+Wire Wire Line
+	3700 2050 4350 2050
+Wire Bus Line
+	3600 1950 3150 1950
+Wire Bus Line
+	3150 1950 3150 4900
+Wire Wire Line
+	4350 6000 3700 6000
+Wire Wire Line
+	4350 5450 3700 5450
+Wire Wire Line
+	4350 5250 3700 5250
+Wire Wire Line
+	4350 5050 3700 5050
+Wire Wire Line
+	4350 4050 3700 4050
+Wire Wire Line
+	4350 3850 3700 3850
+Wire Wire Line
+	4350 3450 3700 3450
+Wire Wire Line
+	4350 2950 3700 2950
+Wire Wire Line
+	4350 2750 3700 2750
+Wire Wire Line
+	4350 2550 3700 2550
+Wire Wire Line
+	4350 1650 3700 1650
+Wire Wire Line
+	8700 4350 7750 4350
+Wire Wire Line
+	8700 4150 7750 4150
+Wire Wire Line
+	8700 3950 7750 3950
+Wire Wire Line
+	8700 3750 7750 3750
+Wire Wire Line
+	8700 3550 7750 3550
+Wire Wire Line
+	8700 3350 7750 3350
+Wire Wire Line
+	8700 2450 7750 2450
+Wire Wire Line
+	5750 6000 6900 6000
+Wire Wire Line
+	5750 5450 6900 5450
+Wire Wire Line
+	5750 5250 6900 5250
+Wire Wire Line
+	5750 5050 6900 5050
+Wire Wire Line
+	5750 3850 6900 3850
+Wire Wire Line
+	5750 3450 6900 3450
+Wire Wire Line
+	5750 2850 6900 2850
+Wire Wire Line
+	5750 2650 6900 2650
+Wire Wire Line
+	5750 2450 6900 2450
+Wire Wire Line
+	5750 1550 6900 1550
+Wire Bus Line
+	7000 5900 7000 1400
+Wire Bus Line
+	7000 1400 7650 1400
+Wire Bus Line
+	7650 1400 7650 4550
+Wire Wire Line
+	5750 1650 6900 1650
+Wire Wire Line
+	5750 2550 6900 2550
+Wire Wire Line
+	6900 2750 5750 2750
+Wire Wire Line
+	5750 3350 6900 3350
+Wire Wire Line
+	5750 3950 6900 3950
+Wire Wire Line
+	5750 5150 6900 5150
+Wire Wire Line
+	5750 5350 6900 5350
+Wire Wire Line
+	5750 5900 6900 5900
+Wire Wire Line
+	8700 3450 7750 3450
+Wire Wire Line
+	8700 3650 7750 3650
+Wire Wire Line
+	8700 3850 7750 3850
+Wire Wire Line
+	8700 4050 7750 4050
+Wire Wire Line
+	8700 4250 7750 4250
+Wire Wire Line
+	8700 4450 7750 4450
+Wire Wire Line
+	4350 1550 3700 1550
+Wire Wire Line
+	4350 2450 3700 2450
+Wire Wire Line
+	4350 2650 3700 2650
+Wire Wire Line
+	4350 2850 3700 2850
+Wire Wire Line
+	4350 3350 3700 3350
+Wire Wire Line
+	4350 3950 3700 3950
+Wire Wire Line
+	4350 4150 3700 4150
+Wire Wire Line
+	4350 5150 3700 5150
+Wire Wire Line
+	4350 5350 3700 5350
+Wire Wire Line
+	4350 5900 3700 5900
+Wire Bus Line
+	3600 1650 3600 6500
+Wire Wire Line
+	5750 2050 6900 2050
+Wire Wire Line
+	5750 4550 6900 4550
+Wire Wire Line
+	2600 2450 3050 2450
+Wire Wire Line
+	2600 2800 3050 2800
+Wire Wire Line
+	2600 3000 3050 3000
+Wire Wire Line
+	2600 3250 3050 3250
+Wire Wire Line
+	2600 3450 3050 3450
+Wire Wire Line
+	2600 3650 3050 3650
+Wire Wire Line
+	2600 3900 3050 3900
+Wire Wire Line
+	2600 4100 3050 4100
+Wire Wire Line
+	2600 4300 3050 4300
+Wire Wire Line
+	2600 4550 3050 4550
+Wire Wire Line
+	2600 4800 3050 4800
+Wire Wire Line
+	2600 5000 3050 5000
+Wire Wire Line
+	8700 3250 7750 3250
+Wire Wire Line
+	8700 3150 7750 3150
+Wire Wire Line
+	8700 3050 7750 3050
+Wire Wire Line
+	8700 2950 7750 2950
+Wire Wire Line
+	8700 2850 7750 2850
+Wire Wire Line
+	8700 2750 7750 2750
+Wire Wire Line
+	8700 2650 7750 2650
+Wire Wire Line
+	8700 2550 7750 2550
+Entry Wire Line
+	3050 5000 3150 4900
+Text Label 2750 4700 0    60   ~ 0
+PT4
+Entry Wire Line
+	3050 4700 3150 4600
+$Sheet
+S 1800 2350 800  2750
+U 4E9462BE
+F0 "U_Core Board" 60
+F1 "Core Board.sch" 60
+F2 "PA5" I R 2600 3350 60 
+F3 "RXD" I R 2600 2450 60 
+F4 "TXD" I R 2600 2550 60 
+F5 "PA7" I R 2600 3150 60 
+F6 "PP7" I R 2600 2700 60 
+F7 "PP6" I R 2600 2800 60 
+F8 "PP5" I R 2600 2900 60 
+F9 "PP3" I R 2600 3000 60 
+F10 "PT0" I R 2600 5000 60 
+F11 "PA4" I R 2600 3250 60 
+F12 "PA3" I R 2600 3450 60 
+F13 "PA2" I R 2600 3550 60 
+F14 "PA1" I R 2600 3650 60 
+F15 "PA0" I R 2600 3750 60 
+F16 "AN04" I R 2600 4000 60 
+F17 "AN03" I R 2600 4100 60 
+F18 "AN02" I R 2600 4200 60 
+F19 "AN01" I R 2600 4300 60 
+F20 "AN00" I R 2600 4400 60 
+F21 "PB0" I R 2600 4550 60 
+F22 "PT3" I R 2600 4800 60 
+F23 "PT2" I R 2600 4900 60 
+F24 "PT4" I R 2600 4700 60 
+F25 "AN06" I R 2600 3900 60 
+$EndSheet
+$Sheet
+S 8700 2400 960  2150
+U 4E951714
+F0 "Connector" 60
+F1 "U_Connector.sch" 60
+F2 "FUEL_PUMP_RELAY" I L 8700 2550 60 
+F3 "STEPPER_CLOSE" I L 8700 3150 60 
+F4 "STEPPER_OPEN" I L 8700 3050 60 
+F5 "AC_CLUTCH_RELAY" I L 8700 2950 60 
+F6 "GAS_VENTI_VALVE" I L 8700 2850 60 
+F7 "RPM0-" I L 8700 4250 60 
+F8 "RPM0+" I L 8700 4150 60 
+F9 "CHECK_ENGINE" I L 8700 2750 60 
+F10 "TACH_OUT" I L 8700 2650 60 
+F11 "AC_SIGNAL" I L 8700 3250 60 
+F12 "MAP" I L 8700 3850 60 
+F13 "EGO" I L 8700 3750 60 
+F14 "TPS" I L 8700 3650 60 
+F15 "CHT" I L 8700 3550 60 
+F16 "IAT" I L 8700 3450 60 
+F17 "INJECTOR1-4" I L 8700 2450 60 
+F18 "IGNITER_2_3" I L 8700 4450 60 
+F19 "IGNITER_1_4" I L 8700 4350 60 
+F20 "L_WIRE" I L 8700 4050 60 
+F21 "K_WIRE" I L 8700 3950 60 
+F22 "SPEED_SENSOR" I L 8700 3350 60 
+$EndSheet
+Text Label 2750 4900 0    60   ~ 0
+PT2
+Text Label 2750 4800 0    60   ~ 0
+PT3
+Text Label 2750 4550 0    60   ~ 0
+PB0
+Text Label 2750 4400 0    60   ~ 0
+AN00
+Text Label 2750 4300 0    60   ~ 0
+AN01
+Text Label 2750 4200 0    60   ~ 0
+AN02
+Text Label 2750 4100 0    60   ~ 0
+AN03
+Text Label 2750 4000 0    60   ~ 0
+AN04
+Text Label 2750 3900 0    60   ~ 0
+AN06
+Text Label 2750 3750 0    60   ~ 0
+PA0
+Text Label 2750 3650 0    60   ~ 0
+PA1
+Text Label 2750 3550 0    60   ~ 0
+PA2
+Text Label 2750 3450 0    60   ~ 0
+PA3
+Text Label 2750 3350 0    60   ~ 0
+PA4
+Text Label 2750 5000 0    60   ~ 0
+PT0
+Text Label 2750 3000 0    60   ~ 0
+PP3
+Text Label 2750 2900 0    60   ~ 0
+PP5
+Text Label 2750 2800 0    60   ~ 0
+PP6
+Text Label 2750 2700 0    60   ~ 0
+PP7
+Text Label 2750 3150 0    60   ~ 0
+PA7
+Text Label 2750 2550 0    60   ~ 0
+TXD
+Text Label 2750 2450 0    60   ~ 0
+RXD
+Text Label 2750 3250 0    60   ~ 0
+PA5
+Entry Wire Line
+	3050 3250 3150 3150
+Entry Wire Line
+	3050 2550 3150 2450
+Entry Wire Line
+	3050 2450 3150 2350
+Entry Wire Line
+	3050 3150 3150 3050
+Entry Wire Line
+	3050 2800 3150 2700
+Entry Wire Line
+	3050 2900 3150 2800
+Entry Wire Line
+	3050 3000 3150 2900
+Entry Wire Line
+	3050 2700 3150 2600
+Entry Wire Line
+	3050 3350 3150 3250
+Entry Wire Line
+	3050 3450 3150 3350
+Entry Wire Line
+	3050 3550 3150 3450
+Entry Wire Line
+	3050 3650 3150 3550
+Entry Wire Line
+	3050 3750 3150 3650
+Entry Wire Line
+	3050 4000 3150 3900
+Entry Wire Line
+	3050 3900 3150 3800
+Entry Wire Line
+	3050 4100 3150 4000
+Entry Wire Line
+	3050 4200 3150 4100
+Entry Wire Line
+	3050 4300 3150 4200
+Entry Wire Line
+	3050 4400 3150 4300
+Entry Wire Line
+	3050 4550 3150 4450
+Entry Wire Line
+	3050 4800 3150 4700
+Entry Wire Line
+	3050 4900 3150 4800
+Entry Wire Line
+	3600 6500 3700 6400
+Entry Wire Line
+	3600 6100 3700 6000
+Entry Wire Line
+	3600 6000 3700 5900
+Entry Wire Line
+	3600 5550 3700 5450
+Entry Wire Line
+	3600 5450 3700 5350
+Entry Wire Line
+	3600 5350 3700 5250
+Entry Wire Line
+	3600 5250 3700 5150
+Entry Wire Line
+	3600 5150 3700 5050
+Entry Wire Line
+	3600 4650 3700 4550
+Entry Wire Line
+	3600 4250 3700 4150
+Entry Wire Line
+	3600 4150 3700 4050
+Entry Wire Line
+	3600 4050 3700 3950
+Entry Wire Line
+	3600 3950 3700 3850
+Entry Wire Line
+	3600 3550 3700 3450
+Entry Wire Line
+	3600 3450 3700 3350
+Entry Wire Line
+	3600 3050 3700 2950
+Entry Wire Line
+	3600 2950 3700 2850
+Entry Wire Line
+	3600 2850 3700 2750
+Entry Wire Line
+	3600 2750 3700 2650
+Entry Wire Line
+	3600 2650 3700 2550
+Entry Wire Line
+	3600 2550 3700 2450
+Entry Wire Line
+	3600 2150 3700 2050
+Entry Wire Line
+	3600 1750 3700 1650
+Entry Wire Line
+	3600 1750 3700 1650
+Entry Wire Line
+	3600 1650 3700 1550
+Text Label 3900 6400 0    60   ~ 0
+PA5
+Text Label 3900 6000 0    60   ~ 0
+RXD
+Text Label 3900 5900 0    60   ~ 0
+TXD
+Text Label 3900 5450 0    60   ~ 0
+PA7
+Text Label 3900 5350 0    60   ~ 0
+PP7
+Text Label 3900 5250 0    60   ~ 0
+PP6
+Text Label 3900 5150 0    60   ~ 0
+PP5
+Text Label 3900 5050 0    60   ~ 0
+PP3
+Text Label 3900 4550 0    60   ~ 0
+PT0
+Text Label 3900 4150 0    60   ~ 0
+PA4
+Text Label 3900 4050 0    60   ~ 0
+PA3
+Text Label 3900 3950 0    60   ~ 0
+PA2
+Text Label 3900 3850 0    60   ~ 0
+PA1
+Text Label 3900 3450 0    60   ~ 0
+PT4
+Text Label 3900 3350 0    60   ~ 0
+PA0
+Text Label 3900 2950 0    60   ~ 0
+AN06
+Text Label 3900 2850 0    60   ~ 0
+AN04
+Text Label 3900 2750 0    60   ~ 0
+AN03
+Text Label 3900 2650 0    60   ~ 0
+AN02
+Text Label 3900 2550 0    60   ~ 0
+AN01
+Text Label 3900 2450 0    60   ~ 0
+AN00
+Text Label 3900 2050 0    60   ~ 0
+PB0
+Text Label 3900 1650 0    60   ~ 0
+PT3
+Text Label 3900 1550 0    60   ~ 0
+PT2
+Text Label 7800 4450 0    60   ~ 0
+IGNITER_2_3
+Text Label 7800 4350 0    60   ~ 0
+IGNITER_1_4
+Text Label 7800 4250 0    60   ~ 0
+RPM0-
+Text Label 7800 4150 0    60   ~ 0
+RPM0+
+Text Label 7800 4050 0    60   ~ 0
+L_WIRE
+Text Label 7800 3950 0    60   ~ 0
+K_WIRE
+Text Label 7800 3850 0    60   ~ 0
+MAP
+Text Label 7800 3750 0    60   ~ 0
+EGO
+Text Label 7800 3650 0    60   ~ 0
+TPS
+Text Label 7800 3550 0    60   ~ 0
+CHT
+Text Label 7800 3450 0    60   ~ 0
+IAT
+Text Label 7800 3350 0    60   ~ 0
+SPEED_SENSOR
+Text Label 7800 3250 0    60   ~ 0
+AC_SIGNAL
+Text Label 7800 3150 0    60   ~ 0
+STEPPER_CLOSE
+Text Label 7800 3050 0    60   ~ 0
+STEPPER_OPEN
+Text Label 7800 2950 0    60   ~ 0
+AC_CLUTCH_RELAY
+Text Label 7800 2850 0    60   ~ 0
+GAS_VENTI_VALVE
+Text Label 7800 2750 0    60   ~ 0
+CHECK_ENGINE
+Text Label 7800 2650 0    60   ~ 0
+TACH_OUT
+Text Label 7800 2550 0    60   ~ 0
+FUEL_PUMP_RELAY
+Text Label 7800 2450 0    60   ~ 0
+INJECTOR1-4
+Entry Wire Line
+	7650 4550 7750 4450
+Entry Wire Line
+	7650 4450 7750 4350
+Entry Wire Line
+	7650 4350 7750 4250
+Entry Wire Line
+	7650 4250 7750 4150
+Entry Wire Line
+	7650 4150 7750 4050
+Entry Wire Line
+	7650 4050 7750 3950
+Entry Wire Line
+	7650 3950 7750 3850
+Entry Wire Line
+	7650 3850 7750 3750
+Entry Wire Line
+	7650 3750 7750 3650
+Entry Wire Line
+	7650 3650 7750 3550
+Entry Wire Line
+	7650 3550 7750 3450
+Entry Wire Line
+	7650 3450 7750 3350
+Entry Wire Line
+	7650 3350 7750 3250
+Entry Wire Line
+	7650 3250 7750 3150
+Entry Wire Line
+	7650 3150 7750 3050
+Entry Wire Line
+	7650 3050 7750 2950
+Entry Wire Line
+	7650 2950 7750 2850
+Entry Wire Line
+	7650 2850 7750 2750
+Entry Wire Line
+	7650 2750 7750 2650
+Entry Wire Line
+	7650 2650 7750 2550
+Entry Wire Line
+	7650 2550 7750 2450
+Text Label 5950 5450 0    60   ~ 0
+FUEL_PUMP_RELAY
+Text Label 5950 5350 0    60   ~ 0
+STEPPER_CLOSE
+Text Label 5950 5250 0    60   ~ 0
+STEPPER_OPEN
+Text Label 5950 5150 0    60   ~ 0
+AC_CLUTCH_RELAY
+Text Label 5950 5050 0    60   ~ 0
+GAS_VENTI_VALVE
+Text Label 5950 6000 0    60   ~ 0
+L_WIRE
+Text Label 5950 5900 0    60   ~ 0
+K_WIRE
+$Sheet
+S 4350 3800 1400 450 
+U 4E939ACE
+F0 "Dashboard Analogue Outputs" 60
+F1 "U_Dashboard Analogue Outputs.sch" 60
+F2 "PA4" I L 4350 4150 60 
+F3 "PA2" I L 4350 3950 60 
+F4 "PA1" I L 4350 3850 60 
+F5 "PA3" I L 4350 4050 60 
+F6 "TACH_OUT" O R 5750 3850 60 
+F7 "CHECK_ENGINE" I R 5750 3950 60 
+$EndSheet
+Text Label 5950 4650 0    60   ~ 0
+RPM0-
+Text Label 5950 4550 0    60   ~ 0
+RPM0+
+Text Label 5950 3950 0    60   ~ 0
+CHECK_ENGINE
+Text Label 5950 3850 0    60   ~ 0
+TACH_OUT
+Text Label 6000 3450 0    60   ~ 0
+SPEED_SENSOR
+Text Label 6000 3350 0    60   ~ 0
+AC_SIGNAL
+Text Label 6000 2850 0    60   ~ 0
+MAP
+Text Label 6000 2750 0    60   ~ 0
+EGO
+Text Label 6000 2650 0    60   ~ 0
+TPS
+Text Label 6000 2550 0    60   ~ 0
+CHT
+Text Label 6000 2450 0    60   ~ 0
+IAT
+Text Label 6000 2050 0    60   ~ 0
+INJECTOR1-4
+Text Label 6000 1550 0    60   ~ 0
+IGNITER_1_4
+Text Label 6000 1650 0    60   ~ 0
+IGNITER_2_3
+Entry Wire Line
+	6900 2750 7000 2650
+Entry Wire Line
+	6900 6000 7000 5900
+Entry Wire Line
+	6900 5900 7000 5800
+Entry Wire Line
+	6900 5450 7000 5350
+Entry Wire Line
+	6900 5350 7000 5250
+Entry Wire Line
+	6900 5250 7000 5150
+Entry Wire Line
+	6900 5150 7000 5050
+Entry Wire Line
+	6900 1650 7000 1550
+Entry Wire Line
+	6900 1550 7000 1450
+Entry Wire Line
+	6900 2050 7000 1950
+Entry Wire Line
+	6900 2450 7000 2350
+Entry Wire Line
+	6900 2550 7000 2450
+Entry Wire Line
+	6900 2650 7000 2550
+Entry Wire Line
+	6900 2850 7000 2750
+Entry Wire Line
+	6900 3450 7000 3350
+Entry Wire Line
+	6900 3350 7000 3250
+Entry Wire Line
+	6900 5050 7000 4950
+Entry Wire Line
+	6900 4650 7000 4550
+Entry Wire Line
+	6900 4550 7000 4450
+Entry Wire Line
+	6900 3950 7000 3850
+Entry Wire Line
+	6900 3850 7000 3750
+$Sheet
+S 4350 1500 1400 250 
+U 4E939B76
+F0 "Igniter Outputs" 60
+F1 "U_Igniter Outputs.sch" 60
+F2 "PT2" I L 4350 1550 60 
+F3 "PT3" I L 4350 1650 60 
+F4 "IGNITER_2_3" I R 5750 1650 60 
+F5 "IGNITER_1_4" I R 5750 1550 60 
+$EndSheet
+$Sheet
+S 4350 5000 1400 550 
+U 4E919CB5
+F0 "U_Low Side Drivers" 60
+F1 "Low Side Drivers.sch" 60
+F2 "FUEL_PUMP_RELAY" I R 5750 5450 60 
+F3 "PA7" I L 4350 5450 60 
+F4 "PP6" I L 4350 5250 60 
+F5 "PP7" I L 4350 5350 60 
+F6 "PP5" I L 4350 5150 60 
+F7 "PP3" I L 4350 5050 60 
+F8 "STEPPER_OPEN" I R 5750 5250 60 
+F9 "STEPPER_CLOSE" I R 5750 5350 60 
+F10 "GAS_VENTI_VALVE" I R 5750 5050 60 
+F11 "AC_CLUTCH_RELAY" I R 5750 5150 60 
+$EndSheet
+$Sheet
+S 4350 5850 1400 250 
+U 4E9276D8
+F0 "U_RS232 Comms" 60
+F1 "RS232 Comms.sch" 60
+F2 "TXD" I L 4350 5900 60 
+F3 "RXD" I L 4350 6000 60 
+F4 "L_Wire" O R 5750 6000 60 
+F5 "K_Wire" O R 5750 5900 60 
+$EndSheet
+$Sheet
+S 4350 3300 1400 250 
+U 4E939A82
+F0 "U_Digital Inputs" 60
+F1 "Digital Inputs.sch" 60
+F2 "AC_SIGNAL" I R 5750 3350 60 
+F3 "PA0" O L 4350 3350 60 
+F4 "PT4" O L 4350 3450 60 
+F5 "SPEED_SENSOR" I R 5750 3450 60 
+$EndSheet
+$Sheet
+S 4350 4500 1400 250 
+U 4E930052
+F0 "U_VR Interfaces" 60
+F1 "VR Interfaces.sch" 60
+F2 "PT0" O L 4350 4550 60 
+F3 "RPM0-" I R 5750 4650 60 
+F4 "RPM0+" I R 5750 4550 60 
+$EndSheet
+$Sheet
+S 4350 2000 1400 150 
+U 4E919A91
+F0 "U_Injectors" 60
+F1 "Injectors.sch" 60
+F2 "PB0" I L 4350 2050 60 
+F3 "INJECTOR1-4" I R 5750 2050 60 
+$EndSheet
+$Sheet
+S 4350 6350 1400 150 
+U 4E918622
+F0 "U_Power Supplies" 60
+F1 "Power Supplies.sch" 60
+F2 "PA5" I L 4350 6400 60 
+$EndSheet
+$EndSCHEMATC

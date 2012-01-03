@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 13/10/2011 15:17:47
+EESchema Schematic File Version 2  date 03/01/2012 09:04:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,42 +29,75 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freeEMS_lib
-LIBS:catsquirt_ioboard-cache
+LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 12
-Title ""
-Date "13 oct 2011"
+Sheet 4 12
+Title "OEM harness interface"
+Date "3 jan 2012"
 Rev "0.01"
-Comp ""
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 3000 2800
-Text Notes 3900 2250 0    60   ~ 0
-RFU cam signal providing\nengine phase info
-Text Notes 2300 2250 0    60   ~ 0
-RFU injector interface\nfor sequencial injection
 $Comp
-L CONN_4 P?
-U 1 1 4E95B4F9
-P 3350 2650
-F 0 "P?" V 3300 2650 50  0000 C CNN
-F 1 "CONN_4" V 3400 2650 50  0000 C CNN
-	1    3350 2650
+L GND #PWR40
+U 1 1 4F014DC6
+P 3550 5200
+F 0 "#PWR40" H 3550 5200 30  0001 C CNN
+F 1 "GND" H 3550 5130 30  0001 C CNN
+	1    3550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P?
-U 1 1 4E95B4EB
-P 4750 2600
-F 0 "P?" V 4700 2600 40  0000 C CNN
-F 1 "CONN_2" V 4800 2600 40  0000 C CNN
-	1    4750 2600
+L LSGND #PWR39
+U 1 1 4F014D72
+P 3550 4650
+F 0 "#PWR39" H 3550 4650 40  0001 C CNN
+F 1 "LSGND" H 3550 4580 40  0000 C CNN
+	1    3550 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7400 2200
+$Comp
+L ADCGND #PWR41
+U 1 1 4EFDEA8C
+P 3550 5650
+F 0 "#PWR41" H 3550 5650 40  0001 C CNN
+F 1 "ADCGND" H 3550 5580 40  0000 C CNN
+	1    3550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4250 3550 4200
+$Comp
+L ADCGND #PWR37
+U 1 1 4EFDE89C
+P 3550 4250
+F 0 "#PWR37" H 3550 4250 40  0001 C CNN
+F 1 "ADCGND" H 3550 4180 40  0000 C CNN
+	1    3550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGNGND #PWR36
+U 1 1 4EFDE808
+P 3550 3700
+F 0 "#PWR36" H 3550 3700 40  0001 C CNN
+F 1 "IGNGND" H 3550 3630 40  0000 C CNN
+	1    3550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V_SWITCHED #PWR42
+U 1 1 4E9E2255
+P 3550 6250
+F 0 "#PWR42" H 3550 6200 20  0001 C CNN
+F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
+	1    3550 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -95,12 +128,6 @@ Wire Wire Line
 	7600 2200 7600 5200
 Wire Wire Line
 	7600 5200 4450 5200
-Wire Wire Line
-	7400 2200 7400 5000
-Wire Wire Line
-	7400 5000 3550 5000
-Wire Wire Line
-	3550 5000 3550 4950
 Wire Wire Line
 	5800 2200 5800 3600
 Wire Wire Line
@@ -156,11 +183,9 @@ Wire Wire Line
 Wire Wire Line
 	7200 4800 7200 2200
 Wire Wire Line
-	6600 4200 3550 4200
+	3550 4200 6600 4200
 Wire Wire Line
 	6600 4200 6600 2200
-Wire Wire Line
-	3550 4200 3550 4250
 Wire Wire Line
 	3550 4650 3550 4600
 Wire Wire Line
@@ -201,75 +226,12 @@ Wire Wire Line
 	3550 6300 9300 6300
 Wire Wire Line
 	9300 6300 9300 2200
-$Comp
-L HCURGND #PWR?
-U 1 1 4E95B431
-P 3550 3700
-F 0 "#PWR?" H 3550 3700 40  0001 C CNN
-F 1 "HCURGND" H 3550 3630 40  0000 C CNN
-	1    3550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V_SWITCHED #PWR?
-U 1 1 4E95B36C
-P 3550 6250
-F 0 "#PWR?" H 3550 6200 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 3550 6350 30  0000 C CNN
-	1    3550 6250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9100 2200
 $Comp
-L SENSORGND #PWR?
-U 1 1 4E95B2AF
-P 3550 5650
-F 0 "#PWR?" H 3550 5650 40  0001 C CNN
-F 1 "SENSORGND" H 3550 5580 40  0000 C CNN
-	1    3550 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SENSORGND #PWR?
-U 1 1 4E95B1D6
-P 3550 5200
-F 0 "#PWR?" H 3550 5200 40  0001 C CNN
-F 1 "SENSORGND" H 3550 5130 40  0000 C CNN
-	1    3550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V_SWITCHED #PWR?
-U 1 1 4E95B1B3
-P 3550 4950
-F 0 "#PWR?" H 3550 4900 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 3550 5050 30  0000 C CNN
-	1    3550 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4E95B11C
-P 3550 4650
-F 0 "#PWR?" H 3550 4650 30  0001 C CNN
-F 1 "GND" H 3550 4580 30  0001 C CNN
-	1    3550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SENSORGND #PWR?
-U 1 1 4E95B0BF
-P 3550 4250
-F 0 "#PWR?" H 3550 4250 40  0001 C CNN
-F 1 "SENSORGND" H 3550 4180 40  0000 C CNN
-	1    3550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V_SWITCHED #PWR?
+L +5V_SWITCHED #PWR38
 U 1 1 4E95B079
 P 3550 4550
-F 0 "#PWR?" H 3550 4500 20  0001 C CNN
+F 0 "#PWR38" H 3550 4500 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 3550 4650 30  0000 C CNN
 	1    3550 4550
 	1    0    0    -1  
@@ -282,10 +244,10 @@ NoConn ~ 7700 2200
 NoConn ~ 6400 2200
 NoConn ~ 6000 2200
 $Comp
-L BOSCH_MP5.2_37PIN P?
+L BOSCH_MP5.2_37PIN P3
 U 1 1 4E95964B
 P 6650 1850
-F 0 "P?" V 6800 1200 60  0000 C CNN
+F 0 "P3" V 6800 1200 60  0000 C CNN
 F 1 "BOSCH_MP5.2_37PIN" V 6700 1150 60  0000 C CNN
 	1    6650 1850
 	0    -1   -1   0   
@@ -306,10 +268,6 @@ Text HLabel 4450 5400 0    60   Input ~ 0
 AC_CLUTCH_RELAY
 Text HLabel 4500 3800 0    60   Input ~ 0
 GAS_VENTI_VALVE
-Text HLabel 4400 2700 0    60   Input ~ 0
-RPM1-
-Text HLabel 4400 2500 0    60   Input ~ 0
-RPM1+
 Text HLabel 4450 4300 0    60   Input ~ 0
 RPM0-
 Text HLabel 4450 6000 0    60   Input ~ 0
@@ -332,12 +290,6 @@ Text HLabel 4450 5500 0    60   Input ~ 0
 CHT
 Text HLabel 4450 5700 0    60   Input ~ 0
 IAT
-Text HLabel 3000 2700 0    60   Input ~ 0
-RFU_Injector_#3
-Text HLabel 3000 2600 0    60   Input ~ 0
-RFU_Injector_#2
-Text HLabel 3000 2500 0    60   Input ~ 0
-RFU_Injector_#1
 Text HLabel 4450 4900 0    60   Input ~ 0
 INJECTOR1-4
 Text HLabel 4450 5200 0    60   Input ~ 0
