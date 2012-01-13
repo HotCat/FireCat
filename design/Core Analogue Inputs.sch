@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+EESchema Schematic File Version 2  date 12/01/2012 20:05:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,10 +34,10 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 12
-Title ""
-Date "3 jan 2012"
-Rev ""
-Comp ""
+Title "Core Analogue Inputs"
+Date "12 jan 2012"
+Rev "0.01"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""

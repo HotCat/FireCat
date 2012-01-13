@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+EESchema Schematic File Version 2  date 12/01/2012 20:05:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,22 +34,32 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 7 12
-Title ""
-Date "3 jan 2012"
-Rev ""
-Comp ""
+Title "low side drivers"
+Date "12 jan 2012"
+Rev "0.01"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	4700 6400 4450 6400
+Wire Wire Line
+	8000 4200 7750 4200
+Wire Wire Line
+	4700 4200 4450 4200
+Wire Wire Line
+	8000 1950 7750 1950
+Wire Wire Line
+	4700 1950 4450 1950
+Wire Wire Line
 	2600 6650 2600 6750
 Wire Wire Line
-	4450 6700 4450 6400
+	4450 6400 4450 6700
 Connection ~ 4450 5750
 Wire Wire Line
-	4450 6000 4450 5750
+	4450 5750 4450 6000
 Wire Wire Line
 	3650 5750 3800 5750
 Connection ~ 3300 6200
@@ -65,7 +75,7 @@ Wire Wire Line
 	2800 5750 2800 5550
 Connection ~ 4450 3550
 Wire Wire Line
-	4450 3800 4450 3550
+	4450 3550 4450 3800
 Wire Wire Line
 	3650 3550 3800 3550
 Connection ~ 3300 4000
@@ -76,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4000 3450 4000
 Wire Wire Line
-	4450 4500 4450 4200
+	4450 4200 4450 4500
 Wire Wire Line
 	4750 3550 4200 3550
 Wire Wire Line
@@ -90,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3550 8050 3550
 Wire Wire Line
-	7750 4500 7750 4200
+	7750 4200 7750 4500
 Wire Wire Line
 	6750 4000 6350 4000
 Wire Wire Line
@@ -101,11 +111,11 @@ Connection ~ 6600 4000
 Wire Wire Line
 	6950 3550 7100 3550
 Wire Wire Line
-	7750 3800 7750 3550
+	7750 3550 7750 3800
 Connection ~ 7750 3550
 Connection ~ 7750 1300
 Wire Wire Line
-	7750 1550 7750 1300
+	7750 1300 7750 1550
 Wire Wire Line
 	6950 1300 7100 1300
 Connection ~ 6600 1750
@@ -116,7 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1750 6750 1750
 Wire Wire Line
-	7750 2250 7750 1950
+	7750 1950 7750 2250
 Wire Wire Line
 	8050 1300 7500 1300
 Wire Wire Line
@@ -130,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 1300 4750 1300
 Wire Wire Line
-	4450 2250 4450 1950
+	4450 1950 4450 2250
 Wire Wire Line
 	3450 1750 3050 1750
 Wire Wire Line
@@ -141,7 +151,7 @@ Connection ~ 3300 1750
 Wire Wire Line
 	3650 1300 3800 1300
 Wire Wire Line
-	4450 1550 4450 1300
+	4450 1300 4450 1550
 Connection ~ 4450 1300
 Wire Wire Line
 	2600 6250 2600 6000
@@ -149,6 +159,61 @@ Wire Wire Line
 	2600 6000 3300 6000
 Wire Wire Line
 	3300 6000 3300 6250
+Wire Wire Line
+	4450 1550 4700 1550
+Wire Wire Line
+	7750 1550 8000 1550
+Wire Wire Line
+	4450 3800 4700 3800
+Wire Wire Line
+	7750 3800 8000 3800
+Wire Wire Line
+	4450 6000 4700 6000
+$Comp
+L DIODE D26
+U 1 1 4F0ECBC1
+P 4700 6200
+F 0 "D26" H 4700 6300 40  0000 C CNN
+F 1 "DIODE" H 4700 6100 40  0000 C CNN
+	1    4700 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D24
+U 1 1 4F0ECBB4
+P 8000 4000
+F 0 "D24" H 8000 4100 40  0000 C CNN
+F 1 "DIODE" H 8000 3900 40  0000 C CNN
+	1    8000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D23
+U 1 1 4F0ECBA9
+P 4700 4000
+F 0 "D23" H 4700 4100 40  0000 C CNN
+F 1 "DIODE" H 4700 3900 40  0000 C CNN
+	1    4700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D20
+U 1 1 4F0ECB9C
+P 8000 1750
+F 0 "D20" H 8000 1850 40  0000 C CNN
+F 1 "DIODE" H 8000 1650 40  0000 C CNN
+	1    8000 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D19
+U 1 1 4F0ECB85
+P 4700 1750
+F 0 "D19" H 4700 1850 40  0000 C CNN
+F 1 "DIODE" H 4700 1650 40  0000 C CNN
+	1    4700 1750
+	0    -1   -1   0   
+$EndComp
 $Comp
 L GND #PWR89
 U 1 1 4F025108
@@ -231,10 +296,10 @@ F 1 "2K4" V 3400 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D20
+L LED D25
 U 1 1 4E927231
 P 4000 5750
-F 0 "D20" H 4000 5850 50  0000 C CNN
+F 0 "D25" H 4000 5850 50  0000 C CNN
 F 1 "LED" H 4000 5650 50  0000 C CNN
 	1    4000 5750
 	1    0    0    -1  
@@ -300,10 +365,10 @@ F 1 "2K4" V 3400 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D18
+L LED D21
 U 1 1 4E924B59
 P 4000 3550
-F 0 "D18" H 4000 3650 50  0000 C CNN
+F 0 "D21" H 4000 3650 50  0000 C CNN
 F 1 "LED" H 4000 3450 50  0000 C CNN
 	1    4000 3550
 	1    0    0    -1  
@@ -393,10 +458,10 @@ F 1 "GND" H 6600 4480 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D19
+L LED D22
 U 1 1 4E924B21
 P 7300 3550
-F 0 "D19" H 7300 3650 50  0000 C CNN
+F 0 "D22" H 7300 3650 50  0000 C CNN
 F 1 "LED" H 7300 3450 50  0000 C CNN
 	1    7300 3550
 	1    0    0    -1  
@@ -447,10 +512,10 @@ F 1 "2K4" V 6700 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D17
+L LED D18
 U 1 1 4E924A82
 P 7300 1300
-F 0 "D17" H 7300 1400 50  0000 C CNN
+F 0 "D18" H 7300 1400 50  0000 C CNN
 F 1 "LED" H 7300 1200 50  0000 C CNN
 	1    7300 1300
 	1    0    0    -1  
@@ -540,10 +605,10 @@ F 1 "GND" H 3300 2230 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D16
+L LED D17
 U 1 1 4E919D91
 P 4000 1300
-F 0 "D16" H 4000 1400 50  0000 C CNN
+F 0 "D17" H 4000 1400 50  0000 C CNN
 F 1 "LED" H 4000 1200 50  0000 C CNN
 	1    4000 1300
 	1    0    0    -1  

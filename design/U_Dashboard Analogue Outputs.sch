@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+EESchema Schematic File Version 2  date 12/01/2012 20:05:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 12
 Title "Analogue output"
-Date "3 jan 2012"
+Date "12 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,6 +43,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8050 2900 7800 2900
 Wire Wire Line
 	4900 3550 4900 3350
 Connection ~ 4550 2800
@@ -59,9 +61,7 @@ Wire Wire Line
 	2550 3550 2550 3450
 Connection ~ 2550 2800
 Wire Wire Line
-	3100 5850 3000 5850
-Wire Wire Line
-	3000 5850 2750 5850
+	3100 5850 2750 5850
 Wire Wire Line
 	3550 4750 3450 4750
 Wire Wire Line
@@ -76,9 +76,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5850 3800 5850
 Wire Wire Line
-	4100 5650 4100 5550
-Wire Wire Line
-	4100 5550 4100 5450
+	4100 5650 4100 5450
 Wire Wire Line
 	4550 4900 4550 4800
 Wire Wire Line
@@ -86,24 +84,16 @@ Wire Wire Line
 Wire Wire Line
 	4100 4750 4100 5050
 Wire Wire Line
-	6450 2700 6700 2700
+	6450 2700 6800 2700
 Wire Wire Line
-	6700 2700 6800 2700
-Wire Wire Line
-	4000 1400 3750 1400
-Wire Wire Line
-	3750 1400 3400 1400
-Wire Wire Line
-	3400 1400 3100 1400
+	4000 1400 3100 1400
 Connection ~ 3750 1400
 Connection ~ 3400 1400
 Wire Wire Line
 	7400 2050 7250 2050
 Connection ~ 7800 2250
 Wire Wire Line
-	7800 2500 7800 2250
-Wire Wire Line
-	7800 2250 7800 2050
+	7800 2050 7800 2500
 Wire Wire Line
 	8000 2250 7800 2250
 Wire Wire Line
@@ -134,9 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1800 3400 2000
 Wire Wire Line
-	3400 2000 3550 2000
-Wire Wire Line
-	3550 2000 3750 2000
+	3400 2000 3750 2000
 Wire Wire Line
 	3750 2000 3750 1800
 Wire Wire Line
@@ -144,13 +132,9 @@ Wire Wire Line
 Wire Wire Line
 	2850 2900 2850 3400
 Wire Wire Line
-	4200 2800 4550 2800
+	4200 2800 4900 2800
 Wire Wire Line
-	4550 2800 4900 2800
-Wire Wire Line
-	6700 5350 6900 5350
-Wire Wire Line
-	6900 5350 7000 5350
+	6700 5350 7000 5350
 Wire Wire Line
 	7950 5550 7950 5750
 Wire Wire Line
@@ -160,13 +144,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 5950 7950 6300
 Wire Wire Line
-	2550 2950 2550 2800
+	2550 2950 2550 2600
 Wire Wire Line
-	2550 2800 2550 2600
-Wire Wire Line
-	3000 2800 2550 2800
-Wire Wire Line
-	2550 2800 2300 2800
+	3000 2800 2300 2800
 Wire Wire Line
 	3000 6050 3000 5850
 Connection ~ 3000 5850
@@ -179,6 +159,17 @@ Wire Wire Line
 	4550 3550 4550 3350
 Wire Wire Line
 	4900 2800 4900 2950
+Wire Wire Line
+	7800 2500 8050 2500
+$Comp
+L DIODE D13
+U 1 1 4F0EC9C3
+P 8050 2700
+F 0 "D13" H 8050 2800 40  0000 C CNN
+F 1 "DIODE" H 8050 2600 40  0000 C CNN
+	1    8050 2700
+	0    -1   -1   0   
+$EndComp
 $Comp
 L GND #PWR52
 U 1 1 4F0253FB
@@ -351,10 +342,10 @@ F 1 "330-1/4W" V 3900 4750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D13
+L LED D14
 U 1 1 4E941A01
 P 4100 5250
-F 0 "D13" H 4100 5350 50  0000 C CNN
+F 0 "D14" H 4100 5350 50  0000 C CNN
 F 1 "LED" H 4100 5150 50  0000 C CNN
 	1    4100 5250
 	0    1    1    0   
@@ -547,7 +538,7 @@ L MOS_N Q1
 U 1 1 4E939C38
 P 7700 2700
 F 0 "Q1" H 7710 2870 60  0000 R CNN
-F 1 "MOS_N" H 7710 2550 60  0000 R CNN
+F 1 "vnp10n07" H 7710 2550 60  0000 R CNN
 	1    7700 2700
 	1    0    0    -1  
 $EndComp

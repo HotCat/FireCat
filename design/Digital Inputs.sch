@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+EESchema Schematic File Version 2  date 12/01/2012 20:05:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,10 +34,10 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 9 12
-Title ""
-Date "3 jan 2012"
-Rev ""
-Comp ""
+Title "Digital Inputs"
+Date "12 jan 2012"
+Rev "0.01"
+Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -134,19 +134,19 @@ F 1 "+5V_SWITCHED" H 7300 2850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER D22
+L ZENER D28
 U 1 1 4F01437A
 P 7300 3050
-F 0 "D22" H 7300 3150 50  0000 C CNN
+F 0 "D28" H 7300 3150 50  0000 C CNN
 F 1 "ZENER" H 7300 2950 40  0000 C CNN
 	1    7300 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER D25
+L ZENER D31
 U 1 1 4F014379
 P 7300 3750
-F 0 "D25" H 7300 3850 50  0000 C CNN
+F 0 "D31" H 7300 3850 50  0000 C CNN
 F 1 "ZENER" H 7300 3650 40  0000 C CNN
 	1    7300 3750
 	0    -1   -1   0   
@@ -161,10 +161,10 @@ F 1 "470R" V 7800 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ZENER D26
+L ZENER D32
 U 1 1 4F014377
 P 8250 3750
-F 0 "D26" H 8250 3850 50  0000 C CNN
+F 0 "D32" H 8250 3850 50  0000 C CNN
 F 1 "5.6V" H 8250 3650 40  0000 C CNN
 	1    8250 3750
 	0    -1   -1   0   
@@ -225,10 +225,10 @@ F 1 "1K" V 2550 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ZENER D24
+L ZENER D30
 U 1 1 4E94175B
 P 4000 3750
-F 0 "D24" H 4000 3850 50  0000 C CNN
+F 0 "D30" H 4000 3850 50  0000 C CNN
 F 1 "5.6V" H 4000 3650 40  0000 C CNN
 	1    4000 3750
 	0    -1   -1   0   
@@ -245,19 +245,19 @@ F 1 "470R" V 3550 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ZENER D23
+L ZENER D29
 U 1 1 4E941736
 P 3050 3750
-F 0 "D23" H 3050 3850 50  0000 C CNN
+F 0 "D29" H 3050 3850 50  0000 C CNN
 F 1 "ZENER" H 3050 3650 40  0000 C CNN
 	1    3050 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER D21
+L ZENER D27
 U 1 1 4E941735
 P 3050 3050
-F 0 "D21" H 3050 3150 50  0000 C CNN
+F 0 "D27" H 3050 3150 50  0000 C CNN
 F 1 "ZENER" H 3050 2950 40  0000 C CNN
 	1    3050 3050
 	0    -1   -1   0   

@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  30/10/2011 09:46:06
+PCBNEW-LibDoc----V1  13/01/2012 12:41:37
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -71,12 +71,6 @@ Cd Connecteur DB9 femelle couche
 Kw CONN DB9
 $EndMODULE
 #
-$MODULE SO8NB
-Li SO8NB
-Cd Module CMS SOJ 8 pins large
-Kw CMS SOJ
-$EndMODULE
-#
 $MODULE DB9RA/F_TF
 Li DB9RA/F_TF
 Cd Connecteur DB9 femelle couche
@@ -99,6 +93,34 @@ $MODULE PIN_ARRAY_2X1_TF
 Li PIN_ARRAY_2X1_TF
 Cd Connecteurs 2 pins
 Kw CONN DEV
+$EndMODULE
+#
+$MODULE SO8NB
+Li SO8NB
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE PowerSO-10
+Li PowerSO-10
+Kw PowerSO-10
+$EndMODULE
+#
+$MODULE SO14_MW
+Li SO14_MW
+Cd module CMS SOJ 14 pins etroit
+Kw CMS SOJ
+$EndMODULE
+#
+$MODULE TO263
+Li TO263
+Kw TO263
+$EndMODULE
+#
+$MODULE SOT23_MW
+Li SOT23_MW
+Cd Module CMS SOT23 Transistore EBC
+Kw CMS SOT
 $EndMODULE
 #
 $EndLIBDOC

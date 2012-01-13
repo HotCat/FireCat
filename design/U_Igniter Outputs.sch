@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/01/2012 09:04:48
+EESchema Schematic File Version 2  date 12/01/2012 20:05:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 12
 Title "ignition module"
-Date "3 jan 2012"
+Date "12 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,6 +43,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 74LS86_MW U5
+U 1 1 4F07A6A8
+P 4050 3700
+F 0 "U5" H 4050 3450 60  0000 C CNN
+F 1 "74LS86_MW" H 4050 3950 60  0000 C CNN
+	1    4050 3700
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR68
 U 1 1 4F01C2F1
@@ -312,10 +321,10 @@ F 1 "2K4" V 6850 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D15
+L LED D16
 U 1 1 4E95AA73
 P 7450 4100
-F 0 "D15" H 7450 4200 50  0000 C CNN
+F 0 "D16" H 7450 4200 50  0000 C CNN
 F 1 "LED" H 7450 4000 50  0000 C CNN
 	1    7450 4100
 	1    0    0    -1  
@@ -339,10 +348,10 @@ F 1 "2K4" V 6950 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D14
+L LED D15
 U 1 1 4E95AA36
 P 7550 1700
-F 0 "D14" H 7550 1800 50  0000 C CNN
+F 0 "D15" H 7550 1800 50  0000 C CNN
 F 1 "LED" H 7550 1600 50  0000 C CNN
 	1    7550 1700
 	1    0    0    -1  
@@ -478,15 +487,6 @@ F 0 "R35" V 2730 3650 50  0000 C CNN
 F 1 "1K" V 2650 3650 50  0000 C CNN
 	1    2650 3650
 	0    1    1    0   
-$EndComp
-$Comp
-L NC7WZ86K8X U5
-U 1 1 4E940421
-P 4050 3700
-F 0 "U5" H 4050 3450 60  0000 C CNN
-F 1 "NC7WZ86K8X" H 4050 3950 60  0000 C CNN
-	1    4050 3700
-	1    0    0    -1  
 $EndComp
 Text HLabel 8200 4100 2    60   Input ~ 0
 IGNITER_2_3
