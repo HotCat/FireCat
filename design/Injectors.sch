@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/01/2012 20:05:35
+EESchema Schematic File Version 2  date 14/01/2012 13:46:11
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 11 12
 Title "batch injection"
-Date "12 jan 2012"
+Date "14 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""

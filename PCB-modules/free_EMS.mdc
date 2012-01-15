@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  13/01/2012 12:41:37
+PCBNEW-LibDoc----V1  15/01/2012 09:59:46
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -112,15 +112,45 @@ Cd module CMS SOJ 14 pins etroit
 Kw CMS SOJ
 $EndMODULE
 #
+$MODULE SOT23_MW
+Li SOT23_MW
+Cd Module CMS SOT23 Transistore EBC
+Kw CMS SOT
+$EndMODULE
+#
+$MODULE TO220_VERT_MW
+Li TO220_VERT_MW
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
 $MODULE TO263
 Li TO263
 Kw TO263
 $EndMODULE
 #
-$MODULE SOT23_MW
-Li SOT23_MW
-Cd Module CMS SOT23 Transistore EBC
-Kw CMS SOT
+$MODULE H1_MW
+Li H1_MW
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE H2_MW
+Li H2_MW
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE H3_MW
+Li H3_MW
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE H4_MW
+Li H4_MW
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
 $EndMODULE
 #
 $EndLIBDOC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/01/2012 20:05:35
+EESchema Schematic File Version 2  date 14/01/2012 13:46:11
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 12 12
 Title "Power supplies"
-Date "12 jan 2012"
+Date "14 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,6 +43,87 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5350 4900
+Wire Wire Line
+	5350 4400 5350 4900
+Connection ~ 7100 4900
+Wire Wire Line
+	7100 5000 7100 4900
+Wire Wire Line
+	6600 4400 6600 5000
+Connection ~ 6850 4900
+Wire Wire Line
+	7600 4500 7600 4900
+Wire Wire Line
+	7600 4900 4450 4900
+Wire Wire Line
+	7100 4400 6850 4400
+Wire Wire Line
+	7100 4400 7100 4750
+Wire Wire Line
+	7100 4750 7300 4750
+Wire Wire Line
+	7300 4250 7300 4100
+Wire Wire Line
+	4450 4900 4450 4700
+Wire Wire Line
+	4250 5200 4800 5200
+Wire Wire Line
+	4800 5200 4800 4750
+Connection ~ 4800 4100
+Wire Wire Line
+	4800 4100 4800 4250
+Wire Wire Line
+	5900 2700 5900 2900
+Wire Wire Line
+	7200 2800 4700 2800
+Connection ~ 5100 2400
+Connection ~ 5100 2800
+Connection ~ 7200 2400
+Connection ~ 6750 2800
+Connection ~ 4700 2400
+Connection ~ 4700 2800
+Connection ~ 6750 2400
+Wire Wire Line
+	4300 2400 5500 2400
+Connection ~ 5900 2800
+Wire Wire Line
+	7600 2400 6300 2400
+Connection ~ 5900 2800
+Connection ~ 6750 2400
+Connection ~ 4700 2800
+Connection ~ 4700 2400
+Connection ~ 6750 2800
+Connection ~ 7200 2400
+Connection ~ 5100 2800
+Connection ~ 5100 2400
+Connection ~ 7200 2800
+Wire Wire Line
+	5350 4100 4050 4100
+Wire Wire Line
+	4450 4100 4450 4300
+Connection ~ 4450 4100
+Wire Wire Line
+	4800 4750 5150 4750
+Connection ~ 4800 4750
+Wire Wire Line
+	5150 4750 5150 4250
+Wire Wire Line
+	5150 4250 5350 4250
+Connection ~ 6600 4900
+Wire Wire Line
+	6600 4250 6850 4250
+Wire Wire Line
+	6850 4250 6850 4400
+Connection ~ 7300 4100
+Wire Wire Line
+	8000 4100 6600 4100
+Connection ~ 7600 4100
+Wire Wire Line
+	6850 5000 6850 4900
+Wire Wire Line
+	7350 5000 7350 4900
+Connection ~ 7350 4900
 $Comp
 L PWR_FLAG #FLG3
 U 1 1 4F014821
@@ -52,84 +133,6 @@ F 1 "PWR_FLAG" H 7600 4330 30  0000 C CNN
 	1    7600 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 7350 4900
-Wire Wire Line
-	7350 5000 7350 4900
-Wire Wire Line
-	6850 5000 6850 4900
-Connection ~ 7600 4100
-Wire Wire Line
-	8000 4100 6600 4100
-Connection ~ 7300 4100
-Wire Wire Line
-	6850 4250 6850 4400
-Wire Wire Line
-	6850 4250 6600 4250
-Connection ~ 6600 4900
-Wire Wire Line
-	5350 4250 5150 4250
-Wire Wire Line
-	5150 4250 5150 4750
-Connection ~ 4800 4750
-Wire Wire Line
-	5150 4750 4800 4750
-Connection ~ 4450 4100
-Wire Wire Line
-	4450 4100 4450 4300
-Wire Wire Line
-	5350 4100 4050 4100
-Connection ~ 7200 2800
-Connection ~ 5100 2400
-Connection ~ 5100 2800
-Connection ~ 7200 2400
-Connection ~ 6750 2800
-Connection ~ 4700 2400
-Connection ~ 4700 2800
-Connection ~ 6750 2400
-Connection ~ 5900 2800
-Wire Wire Line
-	7600 2400 6300 2400
-Connection ~ 5900 2800
-Wire Wire Line
-	4300 2400 5500 2400
-Connection ~ 6750 2400
-Connection ~ 4700 2800
-Connection ~ 4700 2400
-Connection ~ 6750 2800
-Connection ~ 7200 2400
-Connection ~ 5100 2800
-Connection ~ 5100 2400
-Wire Wire Line
-	7200 2800 4700 2800
-Wire Wire Line
-	5900 2700 5900 2900
-Wire Wire Line
-	4800 4100 4800 4250
-Connection ~ 4800 4100
-Wire Wire Line
-	4800 4750 4800 5200
-Wire Wire Line
-	4800 5200 4250 5200
-Wire Wire Line
-	4450 4700 4450 4900
-Wire Wire Line
-	7300 4250 7300 4100
-Wire Wire Line
-	7300 4750 7100 4750
-Wire Wire Line
-	7100 4750 7100 4400
-Wire Wire Line
-	7100 4400 6850 4400
-Wire Wire Line
-	4450 4900 7600 4900
-Wire Wire Line
-	7600 4900 7600 4500
-Connection ~ 6850 4900
-Wire Wire Line
-	6600 4400 6600 5000
-Wire Wire Line
-	7100 5000 7100 4900
-Connection ~ 7100 4900
 $Comp
 L GND #PWR111
 U 1 1 4F0198A6
@@ -168,7 +171,6 @@ F 1 "10K" V 6850 4650 50  0000 C CNN
 $EndComp
 Text HLabel 4250 5200 0    60   Input ~ 0
 PA5
-NoConn ~ 5350 4400
 $Comp
 L R R69
 U 1 1 4F019343
