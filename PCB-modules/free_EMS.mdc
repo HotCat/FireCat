@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  15/01/2012 09:59:46
+PCBNEW-LibDoc----V1  18/01/2012 00:21:35
 #
 $MODULE SOP_case_482
 Li SOP_case_482
@@ -118,21 +118,9 @@ Cd Module CMS SOT23 Transistore EBC
 Kw CMS SOT
 $EndMODULE
 #
-$MODULE TO220_VERT_MW
-Li TO220_VERT_MW
-Cd Regulateur TO220 serie LM78xx
-Kw TR TO220
-$EndMODULE
-#
 $MODULE TO263
 Li TO263
 Kw TO263
-$EndMODULE
-#
-$MODULE H1_MW
-Li H1_MW
-Cd module 1 pin (ou trou mecanique de percage)
-Kw DEV
 $EndMODULE
 #
 $MODULE H2_MW
@@ -141,14 +129,26 @@ Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 $EndMODULE
 #
-$MODULE H3_MW
-Li H3_MW
+$MODULE TO220_VERT_MW
+Li TO220_VERT_MW
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+$EndMODULE
+#
+$MODULE H1_MW
+Li H1_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 $EndMODULE
 #
 $MODULE H4_MW
 Li H4_MW
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$MODULE H3_MW
+Li H3_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 $EndMODULE
