@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 14/01/2012 13:46:11
+EESchema Schematic File Version 2  date 21/01/2012 01:12:26
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:freeEMS_lib
 LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 11 12
 Title "batch injection"
-Date "14 jan 2012"
+Date "20 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -83,10 +84,10 @@ F 1 "DIODE" H 6300 3600 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR104
+L GND #PWR111
 U 1 1 4F01C391
 P 4250 4250
-F 0 "#PWR104" H 4250 4250 30  0001 C CNN
+F 0 "#PWR111" H 4250 4250 30  0001 C CNN
 F 1 "GND" H 4250 4180 30  0001 C CNN
 	1    4250 4250
 	1    0    0    -1  
@@ -101,19 +102,19 @@ F 1 "TEST" H 4250 3830 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LSGND #PWR103
+L LSGND #PWR110
 U 1 1 4EFDEB71
 P 6050 4200
-F 0 "#PWR103" H 6050 4200 40  0001 C CNN
+F 0 "#PWR110" H 6050 4200 40  0001 C CNN
 F 1 "LSGND" H 6050 4130 40  0000 C CNN
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V_SWITCHED #PWR102
+L +12V_SWITCHED #PWR109
 U 1 1 4E924AFA
 P 4400 3050
-F 0 "#PWR102" H 4400 3000 20  0001 C CNN
+F 0 "#PWR109" H 4400 3000 20  0001 C CNN
 F 1 "+12V_SWITCHED" H 4400 3150 30  0000 C CNN
 	1    4400 3050
 	1    0    0    -1  
@@ -152,10 +153,10 @@ F 1 "100K" V 4900 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR105
+L GND #PWR112
 U 1 1 4E919ABB
 P 4900 4250
-F 0 "#PWR105" H 4900 4250 30  0001 C CNN
+F 0 "#PWR112" H 4900 4250 30  0001 C CNN
 F 1 "GND" H 4900 4180 30  0001 C CNN
 	1    4900 4250
 	1    0    0    -1  

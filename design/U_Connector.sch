@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 14/01/2012 13:46:11
+EESchema Schematic File Version 2  date 21/01/2012 01:12:26
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:freeEMS_lib
 LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 4 12
+Sheet 6 12
 Title "OEM harness interface"
-Date "14 jan 2012"
+Date "20 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,65 +44,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR40
-U 1 1 4F014DC6
-P 3550 5200
-F 0 "#PWR40" H 3550 5200 30  0001 C CNN
-F 1 "GND" H 3550 5130 30  0001 C CNN
-	1    3550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L LSGND #PWR39
-U 1 1 4F014D72
-P 3550 4650
-F 0 "#PWR39" H 3550 4650 40  0001 C CNN
-F 1 "LSGND" H 3550 4580 40  0000 C CNN
-	1    3550 4650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7400 2200
-$Comp
-L ADCGND #PWR41
-U 1 1 4EFDEA8C
-P 3550 5650
-F 0 "#PWR41" H 3550 5650 40  0001 C CNN
-F 1 "ADCGND" H 3550 5580 40  0000 C CNN
-	1    3550 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3550 4250 3550 4200
-$Comp
-L ADCGND #PWR37
-U 1 1 4EFDE89C
-P 3550 4250
-F 0 "#PWR37" H 3550 4250 40  0001 C CNN
-F 1 "ADCGND" H 3550 4180 40  0000 C CNN
-	1    3550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L IGNGND #PWR36
-U 1 1 4EFDE808
-P 3550 3700
-F 0 "#PWR36" H 3550 3700 40  0001 C CNN
-F 1 "IGNGND" H 3550 3630 40  0000 C CNN
-	1    3550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V_SWITCHED #PWR42
-U 1 1 4E9E2255
-P 3550 6250
-F 0 "#PWR42" H 3550 6200 20  0001 C CNN
-F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
-	1    3550 6250
-	1    0    0    -1  
-$EndComp
+	3550 4350 3550 4400
 Wire Wire Line
-	3550 3700 3550 3600
+	3550 4400 6800 4400
+Wire Wire Line
+	3550 3650 3550 3600
 Wire Wire Line
 	8900 2200 8900 6200
 Wire Wire Line
@@ -119,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 5600 3550 5600
 Wire Wire Line
-	3550 5600 3550 5650
+	3550 5600 3550 5700
 Wire Wire Line
 	7900 2200 7900 5400
 Wire Wire Line
@@ -135,13 +83,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2200 7000 4600
 Wire Wire Line
-	6800 2200 6800 4400
-Wire Wire Line
-	6800 4400 4000 4400
-Wire Wire Line
-	4000 4400 4000 4550
-Wire Wire Line
-	4000 4550 3550 4550
+	6800 4400 6800 2200
 Wire Wire Line
 	7300 2200 7300 4900
 Wire Wire Line
@@ -183,11 +125,11 @@ Wire Wire Line
 Wire Wire Line
 	7200 4800 7200 2200
 Wire Wire Line
-	3550 4200 6600 4200
+	4500 4200 6600 4200
 Wire Wire Line
 	6600 4200 6600 2200
 Wire Wire Line
-	3550 4650 3550 4600
+	3550 4700 3550 4600
 Wire Wire Line
 	3550 4600 7000 4600
 Wire Wire Line
@@ -226,14 +168,62 @@ Wire Wire Line
 	3550 6300 9300 6300
 Wire Wire Line
 	9300 6300 9300 2200
+Text HLabel 4500 4200 0    60   Input ~ 0
+NBO2-
+$Comp
+L GND #PWR69
+U 1 1 4F014DC6
+P 3550 5200
+F 0 "#PWR69" H 3550 5200 30  0001 C CNN
+F 1 "GND" H 3550 5130 30  0001 C CNN
+	1    3550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LSGND #PWR68
+U 1 1 4F014D72
+P 3550 4700
+F 0 "#PWR68" H 3550 4700 40  0001 C CNN
+F 1 "LSGND" H 3550 4630 40  0000 C CNN
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7400 2200
+$Comp
+L ADCGND #PWR70
+U 1 1 4EFDEA8C
+P 3550 5700
+F 0 "#PWR70" H 3550 5700 40  0001 C CNN
+F 1 "ADCGND" H 3550 5630 40  0000 C CNN
+	1    3550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGNGND #PWR66
+U 1 1 4EFDE808
+P 3550 3650
+F 0 "#PWR66" H 3550 3650 40  0001 C CNN
+F 1 "IGNGND" H 3550 3580 40  0000 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V_SWITCHED #PWR71
+U 1 1 4E9E2255
+P 3550 6250
+F 0 "#PWR71" H 3550 6200 20  0001 C CNN
+F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
+	1    3550 6250
+	1    0    0    -1  
+$EndComp
 NoConn ~ 9100 2200
 $Comp
-L +5V_SWITCHED #PWR38
+L +5V_SWITCHED #PWR67
 U 1 1 4E95B079
-P 3550 4550
-F 0 "#PWR38" H 3550 4500 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 3550 4650 30  0000 C CNN
-	1    3550 4550
+P 3550 4350
+F 0 "#PWR67" H 3550 4300 20  0001 C CNN
+F 1 "+5V_SWITCHED" H 3550 4450 30  0000 C CNN
+	1    3550 4350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9200 2200
@@ -283,7 +273,7 @@ AC_SIGNAL
 Text HLabel 4500 4000 0    60   Input ~ 0
 MAP
 Text HLabel 4450 5800 0    60   Input ~ 0
-EGO
+NBO2+
 Text HLabel 4450 5900 0    60   Input ~ 0
 TPS
 Text HLabel 4450 5500 0    60   Input ~ 0

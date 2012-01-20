@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 14/01/2012 13:46:11
+EESchema Schematic File Version 2  date 21/01/2012 01:12:26
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:freeEMS_lib
 LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 10 12
 Title "VR interface"
-Date "14 jan 2012"
+Date "20 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -43,144 +44,161 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 4200 3750
+Connection ~ 4200 3350
+Wire Wire Line
+	4100 3350 4550 3350
+Wire Wire Line
+	6600 4250 6600 3550
+Wire Wire Line
+	6600 4150 4550 4150
+Connection ~ 7300 3900
+Wire Wire Line
+	7300 3750 7300 3900
+Wire Wire Line
+	4550 4150 4550 3900
+Wire Wire Line
+	3450 3750 3600 3750
+Wire Wire Line
+	4550 3350 4550 3600
+Wire Wire Line
+	4550 3600 4700 3600
+Wire Wire Line
+	4550 3700 4550 3750
+Wire Wire Line
+	4550 3700 4700 3700
+Connection ~ 7050 3900
+Wire Wire Line
+	7050 3800 7050 3900
+Connection ~ 6600 4000
+Wire Wire Line
+	6200 3700 6600 3700
+Wire Wire Line
+	4700 4000 4550 4000
+Wire Wire Line
+	6200 3600 6300 3600
+Wire Wire Line
+	6300 3600 6300 3150
+Wire Wire Line
+	4550 3900 4700 3900
+Connection ~ 4550 4000
+Wire Wire Line
+	6600 4000 6200 4000
+Connection ~ 6600 3700
+Wire Wire Line
+	7450 3900 6200 3900
+Wire Wire Line
+	6300 3150 7050 3150
+Wire Wire Line
+	7050 3150 7050 3300
+Connection ~ 6600 3150
+Wire Wire Line
+	4550 3750 4100 3750
+Wire Wire Line
+	3600 3350 3450 3350
+Connection ~ 6600 4150
+Wire Wire Line
+	7300 3350 7300 3250
+Wire Wire Line
+	7300 3250 7500 3250
+Wire Wire Line
+	7500 3250 7500 3400
 $Comp
-L GND #PWR99
-U 1 1 4F01BE3E
-P 7050 2700
-F 0 "#PWR99" H 7050 2700 30  0001 C CNN
-F 1 "GND" H 7050 2630 30  0001 C CNN
-	1    7050 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 2700 7050 2550
-Wire Wire Line
-	7050 2550 6850 2550
-Wire Wire Line
-	6850 2550 6850 2600
-Connection ~ 4850 3900
-Wire Wire Line
-	4550 3900 5400 3900
-Wire Wire Line
-	4550 3900 4550 3400
-Wire Wire Line
-	4550 3400 4100 3400
-Connection ~ 5250 3900
-Wire Wire Line
-	5250 3900 5250 2950
-Wire Wire Line
-	4850 3900 4850 3750
-Connection ~ 5050 3150
-Wire Wire Line
-	5550 3150 4750 3150
-Wire Wire Line
-	6650 2950 6650 2800
-Wire Wire Line
-	6650 2800 4850 2800
-Wire Wire Line
-	4850 2800 4850 3250
-Wire Wire Line
-	5250 2950 5550 2950
-Wire Wire Line
-	5550 3250 5400 3250
-Wire Wire Line
-	5050 3300 5050 3150
-Connection ~ 5050 3900
-Wire Wire Line
-	5400 3900 5400 3750
-Wire Wire Line
-	4250 3150 4100 3150
-Wire Wire Line
-	5050 3700 5050 4050
-Wire Wire Line
-	6650 3250 6800 3250
-Wire Wire Line
-	6800 3250 6800 3450
-Wire Wire Line
-	6800 3450 7000 3450
-Wire Wire Line
-	6650 3150 6950 3150
-Wire Wire Line
-	6850 3150 6850 3000
-Connection ~ 6850 3150
-$Comp
-L TEST W6
-U 1 1 4F01BDF8
-P 6850 2800
-F 0 "W6" H 6850 2860 40  0000 C CNN
-F 1 "TEST" H 6850 2730 40  0000 C CNN
-	1    6850 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR101
-U 1 1 4EFDED08
-P 5050 4050
-F 0 "#PWR101" H 5050 4050 30  0001 C CNN
-F 1 "GND" H 5050 3980 30  0001 C CNN
-	1    5050 4050
-	1    0    0    -1  
-$EndComp
-Text HLabel 4100 3400 0    60   Input ~ 0
-RPM0-
-Text HLabel 4100 3150 0    60   Input ~ 0
-RPM0+
-Text HLabel 6950 3150 2    60   Output ~ 0
-PT0
-$Comp
-L +5V_SWITCHED #PWR100
-U 1 1 4E94109E
-P 7000 3450
-F 0 "#PWR100" H 7000 3400 20  0001 C CNN
-F 1 "+5V_SWITCHED" H 7000 3550 30  0000 C CNN
-	1    7000 3450
+L GND #PWR108
+U 1 1 4F193950
+P 6600 4250
+F 0 "#PWR108" H 6600 4250 30  0001 C CNN
+F 1 "GND" H 6600 4180 30  0001 C CNN
+	1    6600 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L NCV1124 U8
-U 1 1 4E940DA8
-P 6100 3100
-F 0 "U8" H 6100 2850 60  0000 C CNN
-F 1 "NCV1124" H 6100 3350 60  0000 C CNN
-	1    6100 3100
-	1    0    0    1   
-$EndComp
-$Comp
-L R R64
-U 1 1 4E940DA7
-P 4850 3500
-F 0 "R64" V 4850 3500 50  0000 C CNN
-F 1 "100R" V 4750 3500 50  0000 C CNN
-	1    4850 3500
-	1    0    0    1   
-$EndComp
-$Comp
-L R R65
-U 1 1 4E940DA6
-P 5400 3500
-F 0 "R65" V 5400 3500 50  0000 C CNN
-F 1 "17K" V 5500 3500 50  0000 C CNN
-	1    5400 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L R R63
-U 1 1 4E940DA5
-P 4500 3150
-F 0 "R63" V 4400 3150 50  0000 C CNN
-F 1 "15K 1/2W" V 4600 3150 50  0000 C CNN
-	1    4500 3150
-	0    -1   1    0   
+L MAX9924 U8
+U 1 1 4F19371C
+P 5450 4000
+F 0 "U8" H 5450 3900 60  0000 C CNN
+F 1 "MAX9924" H 5450 4500 60  0000 C CNN
+	1    5450 4000
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C38
-U 1 1 4E940DA4
-P 5050 3500
-F 0 "C38" V 4900 3500 50  0000 L CNN
-F 1 "0.047uF" V 5100 3500 50  0000 L CNN
-	1    5050 3500
-	-1   0    0    -1  
+U 1 1 4F19371B
+P 6600 3350
+F 0 "C38" H 6650 3450 50  0000 L CNN
+F 1 "0.1uF" H 6650 3250 50  0000 L CNN
+	1    6600 3350
+	1    0    0    -1  
 $EndComp
-NoConn ~ 6650 3050
-NoConn ~ 5550 3050
+NoConn ~ 4700 3800
+NoConn ~ 6200 3800
+$Comp
+L R R64
+U 1 1 4F19371A
+P 7050 3550
+F 0 "R64" V 7130 3550 50  0000 C CNN
+F 1 "10k" V 7050 3550 50  0000 C CNN
+	1    7050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C45
+U 1 1 4F193719
+P 4200 3550
+F 0 "C45" H 4250 3650 50  0000 L CNN
+F 1 "1nF" H 4250 3450 50  0000 L CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R65
+U 1 1 4F193718
+P 3850 3750
+F 0 "R65" V 3930 3750 50  0000 C CNN
+F 1 "10k" V 3850 3750 50  0000 C CNN
+	1    3850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R63
+U 1 1 4F193717
+P 3850 3350
+F 0 "R63" V 3930 3350 50  0000 C CNN
+F 1 "10k" V 3850 3350 50  0000 C CNN
+	1    3850 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR107
+U 1 1 4F01BE3E
+P 7500 3400
+F 0 "#PWR107" H 7500 3400 30  0001 C CNN
+F 1 "GND" H 7500 3330 30  0001 C CNN
+	1    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST W6
+U 1 1 4F01BDF8
+P 7300 3550
+F 0 "W6" H 7300 3610 40  0000 C CNN
+F 1 "TEST" H 7300 3480 40  0000 C CNN
+	1    7300 3550
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3450 3750 0    60   Input ~ 0
+RPM0-
+Text HLabel 3450 3350 0    60   Input ~ 0
+RPM0+
+Text HLabel 7450 3900 2    60   Output ~ 0
+PT0
+$Comp
+L +5V_SWITCHED #PWR106
+U 1 1 4E94109E
+P 6300 3150
+F 0 "#PWR106" H 6300 3100 20  0001 C CNN
+F 1 "+5V_SWITCHED" H 6300 3250 30  0000 C CNN
+	1    6300 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
