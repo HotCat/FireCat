@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/01/2012 01:12:26
+EESchema Schematic File Version 2  date 24/01/2012 16:34:51
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 10 12
 Title "VR interface"
-Date "20 jan 2012"
+Date "24 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -104,10 +104,10 @@ Wire Wire Line
 Wire Wire Line
 	7500 3250 7500 3400
 $Comp
-L GND #PWR108
+L GND #PWR0107
 U 1 1 4F193950
 P 6600 4250
-F 0 "#PWR108" H 6600 4250 30  0001 C CNN
+F 0 "#PWR0107" H 6600 4250 30  0001 C CNN
 F 1 "GND" H 6600 4180 30  0001 C CNN
 	1    6600 4250
 	1    0    0    -1  
@@ -169,10 +169,10 @@ F 1 "10k" V 3850 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR107
+L GND #PWR0108
 U 1 1 4F01BE3E
 P 7500 3400
-F 0 "#PWR107" H 7500 3400 30  0001 C CNN
+F 0 "#PWR0108" H 7500 3400 30  0001 C CNN
 F 1 "GND" H 7500 3330 30  0001 C CNN
 	1    7500 3400
 	1    0    0    -1  
@@ -193,10 +193,10 @@ RPM0+
 Text HLabel 7450 3900 2    60   Output ~ 0
 PT0
 $Comp
-L +5V_SWITCHED #PWR106
+L +5V_SWITCHED #PWR0109
 U 1 1 4E94109E
 P 6300 3150
-F 0 "#PWR106" H 6300 3100 20  0001 C CNN
+F 0 "#PWR0109" H 6300 3100 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 6300 3250 30  0000 C CNN
 	1    6300 3150
 	1    0    0    -1  

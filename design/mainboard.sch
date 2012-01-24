@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/01/2012 01:12:26
+EESchema Schematic File Version 2  date 24/01/2012 16:34:51
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 12
 Title "CatSquirt main board(code migrant worker)"
-Date "20 jan 2012"
+Date "24 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 "for PSA TU5JP/K engine"
@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2750 4500 0    60   ~ 0
+Text Label 2750 3900 0    60   ~ 0
 AN11
 Entry Wire Line
 	3050 4500 3150 4400
@@ -283,7 +283,7 @@ F6 "PA4" I L 4350 4150 60
 F7 "PP1" I L 4350 3850 60 
 $EndSheet
 $Sheet
-S 4350 2350 1400 700 
+S 4350 2350 1400 750 
 U 4E918900
 F0 "U_Core Analogue Inputs" 60
 F1 "Core Analogue Inputs.sch" 60
@@ -325,18 +325,18 @@ F11 "PA4" I R 2600 3250 60
 F12 "PA3" I R 2600 3450 60 
 F13 "PA2" I R 2600 3550 60 
 F14 "PA0" I R 2600 3750 60 
-F15 "AN04" I R 2600 4000 60 
-F16 "AN03" I R 2600 4100 60 
-F17 "AN02" I R 2600 4200 60 
-F18 "AN01" I R 2600 4300 60 
-F19 "AN00" I R 2600 4400 60 
+F15 "AN04" I R 2600 4100 60 
+F16 "AN03" I R 2600 4200 60 
+F17 "AN02" I R 2600 4300 60 
+F18 "AN01" I R 2600 4400 60 
+F19 "AN00" I R 2600 4500 60 
 F20 "PB0" I R 2600 4600 60 
 F21 "PT3" I R 2600 4800 60 
 F22 "PT2" I R 2600 4900 60 
-F23 "AN06" I R 2600 3900 60 
+F23 "AN06" I R 2600 4000 60 
 F24 "PT6" I R 2600 4700 60 
 F25 "PP1" I R 2600 3650 60 
-F26 "AN11" I R 2600 4500 60 
+F26 "AN11" I R 2600 3900 60 
 $EndSheet
 $Sheet
 S 8700 2400 960  2250
@@ -372,17 +372,17 @@ Text Label 2750 4800 0    60   ~ 0
 PT3
 Text Label 2750 4600 0    60   ~ 0
 PB0
-Text Label 2750 4400 0    60   ~ 0
+Text Label 2750 4500 0    60   ~ 0
 AN00
-Text Label 2750 4300 0    60   ~ 0
+Text Label 2750 4400 0    60   ~ 0
 AN01
-Text Label 2750 4200 0    60   ~ 0
+Text Label 2750 4300 0    60   ~ 0
 AN02
-Text Label 2750 4100 0    60   ~ 0
+Text Label 2750 4200 0    60   ~ 0
 AN03
-Text Label 2750 4000 0    60   ~ 0
+Text Label 2750 4100 0    60   ~ 0
 AN04
-Text Label 2750 3900 0    60   ~ 0
+Text Label 2750 4000 0    60   ~ 0
 AN06
 Text Label 2750 3750 0    60   ~ 0
 PA0

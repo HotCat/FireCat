@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/01/2012 01:12:26
+EESchema Schematic File Version 2  date 24/01/2012 16:34:51
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 12
 Title "Digital Inputs"
-Date "20 jan 2012"
+Date "24 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -99,10 +99,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 3450 8700 3550
 $Comp
-L GND #PWR5
+L GND #PWR01
 U 1 1 4F014611
 P 8700 4150
-F 0 "#PWR5" H 8700 4150 30  0001 C CNN
+F 0 "#PWR01" H 8700 4150 30  0001 C CNN
 F 1 "GND" H 8700 4080 30  0001 C CNN
 	1    8700 4150
 	1    0    0    -1  
@@ -126,10 +126,10 @@ F 1 "R" V 8250 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR2
+L +5V_SWITCHED #PWR02
 U 1 1 4F01437B
 P 7300 2750
-F 0 "#PWR2" H 7300 2700 20  0001 C CNN
+F 0 "#PWR02" H 7300 2700 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 7300 2850 30  0000 C CNN
 	1    7300 2750
 	1    0    0    -1  
@@ -182,10 +182,10 @@ $EndComp
 Text Notes 7100 4750 0    60   ~ 0
 Vehicle speed senor input
 $Comp
-L GND #PWR4
+L GND #PWR03
 U 1 1 4F014374
 P 7300 4150
-F 0 "#PWR4" H 7300 4150 30  0001 C CNN
+F 0 "#PWR03" H 7300 4150 30  0001 C CNN
 F 1 "GND" H 7300 4080 30  0001 C CNN
 	1    7300 4150
 	1    0    0    -1  
@@ -193,10 +193,10 @@ $EndComp
 Text HLabel 6350 3450 0    60   Output ~ 0
 PT6
 $Comp
-L GND #PWR3
+L GND #PWR04
 U 1 1 4F008CAA
 P 3050 4150
-F 0 "#PWR3" H 3050 4150 30  0001 C CNN
+F 0 "#PWR04" H 3050 4150 30  0001 C CNN
 F 1 "GND" H 3050 4080 30  0001 C CNN
 	1    3050 4150
 	1    0    0    -1  
@@ -264,10 +264,10 @@ F 1 "ZENER" H 3050 2950 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR1
+L +5V_SWITCHED #PWR05
 U 1 1 4E941734
 P 3050 2750
-F 0 "#PWR1" H 3050 2700 20  0001 C CNN
+F 0 "#PWR05" H 3050 2700 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 3050 2850 30  0000 C CNN
 	1    3050 2750
 	1    0    0    -1  

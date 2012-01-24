@@ -1,27 +1,27 @@
-# EESchema Netlist Version 1.1 created  14/01/2012 13:50:57
+# EESchema Netlist Version 1.1 created  24/01/2012 16:57:56
 (
  ( /4E918900/4E9189EC SM0805 C1 0.22uF
   ( 1 /U_Core_Analogue_Inputs/AN00 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E9189EE SM0805 C2 0.1uF
-  ( 1 /Connector/IAT )
+  ( 1 /U_Core_Analogue_Inputs/IAT )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918C9F SM0805 C3 0.22uF
-  ( 1 /U_Core_Board/AN03 )
+  ( 1 /U_Core_Analogue_Inputs/AN03 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918C9E SM0805 C4 0.1uF
-  ( 1 /Connector/EGO )
+  ( 1 N-000064 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918D25 SM0805 C5 0.22uF
-  ( 1 /U_Core_Board/AN06 )
+  ( 1 /U_Core_Analogue_Inputs/AN06 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918D24 SM0805 C6 0.1uF
-  ( 1 N-000050 )
+  ( 1 N-000065 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918D43 SM0805 C7 0.22uF
@@ -29,7 +29,7 @@
   ( 2 ADCGND )
  )
  ( /4E918900/4E918D42 SM0805 C8 0.1uF
-  ( 1 /U_Core_Analogue_Inputs/CHT )
+  ( 1 /Connector/CHT )
   ( 2 ADCGND )
  )
  ( /4E918900/4E91975F SM0805 C9 0.1
@@ -41,11 +41,11 @@
   ( 2 ADCGND )
  )
  ( /4E918900/4E919627 SM0805 C11 47pF
-  ( 1 N-000051 )
+  ( 1 N-000060 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E91927F SM0805 C12 0.22uF
-  ( 1 /U_Core_Board/AN02 )
+  ( 1 /U_Core_Analogue_Inputs/AN02 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E919280 SM0805 C13 0.1uF
@@ -54,7 +54,7 @@
  )
  ( /4E9462BE/4EF89418 SM0805 C14 .1uF
   ( 1 ADCGND )
-  ( 2 N-000120 )
+  ( 2 N-000141 )
  )
  ( /4E9462BE/4EF89416 SM0805 C15 .1uF
   ( 1 ADCGND )
@@ -65,24 +65,24 @@
   ( 2 +5V_MICRO )
  )
  ( /4E9462BE/4EF89408 SM0805 C17 22pF
-  ( 1 N-000193 )
+  ( 1 N-000146 )
   ( 2 ADCGND )
  )
  ( /4E9462BE/4EF89419 SM0805 C18 .1uF
   ( 1 ADCGND )
-  ( 2 N-000121 )
+  ( 2 N-000140 )
  )
  ( /4E9462BE/4EF8940A SM0805 C19 3.3nF
-  ( 1 N-000189 )
-  ( 2 N-000173 )
+  ( 1 N-000167 )
+  ( 2 N-000212 )
  )
  ( /4E9462BE/4EF8940C SM0805 C20 330pF
-  ( 1 N-000174 )
-  ( 2 N-000173 )
+  ( 1 N-000213 )
+  ( 2 N-000212 )
  )
  ( /4E9462BE/4EF89409 SM0805 C21 22pF
   ( 1 ADCGND )
-  ( 2 N-000175 )
+  ( 2 N-000147 )
  )
  ( /4E9462BE/4EF8941C SM0805 C22 .1uF
   ( 1 ADCGND )
@@ -90,22 +90,22 @@
  )
  ( /4E9462BE/4EF8940B SM0805 C23 100nF
   ( 1 ADCGND )
-  ( 2 N-000173 )
+  ( 2 N-000212 )
  )
  ( /4E9462BE/4EF89426 SM0805 C24 104
   ( 1 /U_Core_Board/RESET )
   ( 2 ADCGND )
  )
  ( /4E939ACE/4E939C43 SM0805 C25 0.1
-  ( 1 N-000102 )
+  ( 1 N-000114 )
   ( 2 ADCGND )
  )
  ( /4E939ACE/4E939C42 SM0805 C26 4.7
-  ( 1 N-000102 )
+  ( 1 N-000114 )
   ( 2 ADCGND )
  )
  ( /4E939ACE/4F014102 SM0805 C27 ??
-  ( 1 /Connector/TACH_OUT )
+  ( 1 /Dashboard_Analogue_Outputs/TACH_OUT )
   ( 2 ADCGND )
  )
  ( /4E939B76/4E939C1F SM0805 C28 1uF
@@ -129,27 +129,27 @@
   ( 2 ADCGND )
  )
  ( /4E9276D8/4E927719 SM0805 C33 0.1
-  ( 1 N-000073 )
-  ( 2 N-000072 )
+  ( 1 N-000083 )
+  ( 2 N-000082 )
  )
  ( /4E9276D8/4E92771B SM0805 C34 0.1
   ( 1 +5V_SWITCHED )
-  ( 2 N-000075 )
+  ( 2 N-000085 )
  )
  ( /4E9276D8/4F011FB1 SM0805 C35 0.1
   ( 1 +5V_SWITCHED )
   ( 2 ADCGND )
  )
  ( /4E9276D8/4E92771C SM0805 C36 0.1
-  ( 1 N-000077 )
-  ( 2 N-000076 )
+  ( 1 N-000081 )
+  ( 2 N-000084 )
  )
  ( /4E9276D8/4E92771A SM0805 C37 0.1
   ( 1 ADCGND )
-  ( 2 N-000074 )
+  ( 2 N-000086 )
  )
- ( /4E930052/4E940DA4 SM0805 C38 0.047uF
-  ( 1 N-000084 )
+ ( /4E930052/4F19371B SM0805 C38 0.1uF
+  ( 1 +5V_SWITCHED )
   ( 2 ADCGND )
  )
  ( /4E918622/4E9186C4 C1V7 C39 10uF
@@ -176,17 +176,45 @@
   ( 1 +12V_SWITCHED )
   ( 2 ADCGND )
  )
+ ( /4E930052/4F193719 SM0805 C45 1nF
+  ( 1 N-000098 )
+  ( 2 N-000097 )
+ )
+ ( /4E918900/4F196F7B SM0805 C46 0.1u
+  ( 1 ADCGND )
+  ( 2 +5V_SWITCHED )
+ )
+ ( /4E918900/4F196F78 SM0805 C47 4.7u
+  ( 1 +5V_SWITCHED )
+  ( 2 ADCGND )
+ )
+ ( /4E918900/4F196E20 SM0805 C48 100P
+  ( 1 N-000057 )
+  ( 2 N-000061 )
+ )
+ ( /4E918900/4F196E1A SM0805 C49 0.01u
+  ( 1 N-000056 )
+  ( 2 N-000068 )
+ )
+ ( /4E918900/4F196E2F SM0805 C50 0.01u
+  ( 1 N-000058 )
+  ( 2 ADCGND )
+ )
+ ( /4E918900/4F1984E2 SM0805 C51 0.01u
+  ( 1 N-000068 )
+  ( 2 ADCGND )
+ )
  ( /4E918900/4E9189DA SOD-123 D1 ZENER
   ( 1 /U_Core_Analogue_Inputs/AN00 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E918900/4E918CA3 SOD-123 D2 ZENER
-  ( 1 /U_Core_Board/AN03 )
+  ( 1 /U_Core_Analogue_Inputs/AN03 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E918900/4E918D29 SOD-123 D3 ZENER
   ( 1 +5V_SWITCHED )
-  ( 2 /U_Core_Board/AN06 )
+  ( 2 /U_Core_Analogue_Inputs/AN06 )
  )
  ( /4E918900/4E9189DC SOD-123 D4 ZENER
   ( 1 ADCGND )
@@ -194,11 +222,11 @@
  )
  ( /4E918900/4E918CA2 SOD-123 D5 ZENER
   ( 1 ADCGND )
-  ( 2 /U_Core_Board/AN03 )
+  ( 2 /U_Core_Analogue_Inputs/AN03 )
  )
  ( /4E918900/4E918D28 SOD-123 D6 ZENER
   ( 1 ADCGND )
-  ( 2 /U_Core_Board/AN06 )
+  ( 2 /U_Core_Analogue_Inputs/AN06 )
  )
  ( /4E918900/4E918D47 SOD-123 D7 ZENER
   ( 1 /U_Core_Analogue_Inputs/AN01 )
@@ -209,19 +237,19 @@
   ( 2 /U_Core_Analogue_Inputs/AN01 )
  )
  ( /4E918900/4E91927B SOD-123 D9 ZENER
-  ( 1 /U_Core_Board/AN02 )
+  ( 1 /U_Core_Analogue_Inputs/AN02 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E918900/4E91927C SOD-123 D10 ZENER
   ( 1 ADCGND )
-  ( 2 /U_Core_Board/AN02 )
+  ( 2 /U_Core_Analogue_Inputs/AN02 )
  )
- ( /4E939ACE/4E939C40 SOD-123 D11 1N4001
+ ( /4E939ACE/4E939C40 D3 D11 1N4001
   ( 1 +12V_SWITCHED )
-  ( 2 N-000102 )
+  ( 2 N-000114 )
  )
  ( /4E939ACE/4E939C39 LED-0805 D12 LED
-  ( 1 N-000097 )
+  ( 1 N-000111 )
   ( 2 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
  )
  ( /4E939ACE/4F0EC9C3 SOD-123 D13 DIODE
@@ -229,51 +257,51 @@
   ( 2 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
  )
  ( /4E939ACE/4E941A01 LED-0805 D14 LED
-  ( 1 N-000092 )
-  ( 2 N-000094 )
+  ( 1 N-000107 )
+  ( 2 N-000106 )
  )
  ( /4E939B76/4E95AA36 LED-0805 D15 LED
-  ( 1 N-000103 )
-  ( 2 /Igniter_Outputs/IGNITER_1_4 )
+  ( 1 N-000127 )
+  ( 2 /Connector/IGNITER_1_4 )
  )
  ( /4E939B76/4E95AA73 LED-0805 D16 LED
-  ( 1 N-000104 )
-  ( 2 /Igniter_Outputs/IGNITER_2_3 )
+  ( 1 N-000115 )
+  ( 2 /Connector/IGNITER_2_3 )
  )
  ( /4E919CB5/4E919D91 LED-0805 D17 LED
-  ( 1 N-000065 )
-  ( 2 /Connector/GAS_VENTI_VALVE )
+  ( 1 N-000072 )
+  ( 2 /U_Low_Side_Drivers/GAS_VENTI_VALVE )
  )
  ( /4E919CB5/4E924A82 LED-0805 D18 LED
-  ( 1 N-000067 )
+  ( 1 N-000071 )
   ( 2 /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
  )
  ( /4E919CB5/4F0ECB85 SOD-123 D19 DIODE
   ( 1 ADCGND )
-  ( 2 /Connector/GAS_VENTI_VALVE )
+  ( 2 /U_Low_Side_Drivers/GAS_VENTI_VALVE )
  )
  ( /4E919CB5/4F0ECB9C SOD-123 D20 DIODE
   ( 1 ADCGND )
   ( 2 /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
  )
  ( /4E919CB5/4E924B59 LED-0805 D21 LED
-  ( 1 N-000058 )
-  ( 2 /Connector/STEPPER_OPEN )
+  ( 1 N-000075 )
+  ( 2 /U_Low_Side_Drivers/STEPPER_OPEN )
  )
  ( /4E919CB5/4E924B21 LED-0805 D22 LED
-  ( 1 N-000066 )
-  ( 2 /U_Low_Side_Drivers/STEPPER_CLOSE )
+  ( 1 N-000077 )
+  ( 2 /Connector/STEPPER_CLOSE )
  )
  ( /4E919CB5/4F0ECBA9 SOD-123 D23 DIODE
   ( 1 ADCGND )
-  ( 2 /Connector/STEPPER_OPEN )
+  ( 2 /U_Low_Side_Drivers/STEPPER_OPEN )
  )
  ( /4E919CB5/4F0ECBB4 SOD-123 D24 DIODE
   ( 1 ADCGND )
-  ( 2 /U_Low_Side_Drivers/STEPPER_CLOSE )
+  ( 2 /Connector/STEPPER_CLOSE )
  )
  ( /4E919CB5/4E927231 LED-0805 D25 LED
-  ( 1 N-000061 )
+  ( 1 N-000080 )
   ( 2 /U_Low_Side_Drivers/FUEL_PUMP_RELAY )
  )
  ( /4E919CB5/4F0ECBC1 SOD-123 D26 DIODE
@@ -281,60 +309,60 @@
   ( 2 /U_Low_Side_Drivers/FUEL_PUMP_RELAY )
  )
  ( /4E939A82/4E941735 SOD-123 D27 ZENER
-  ( 1 N-000087 )
+  ( 1 N-000102 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E939A82/4F01437A SOD-123 D28 ZENER
-  ( 1 N-000090 )
+  ( 1 N-000101 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E939A82/4E941736 SOD-123 D29 ZENER
   ( 1 ADCGND )
-  ( 2 N-000087 )
+  ( 2 N-000102 )
  )
  ( /4E939A82/4E94175B SOD-123 D30 5.6V
   ( 1 ADCGND )
-  ( 2 N-000089 )
+  ( 2 N-000100 )
  )
  ( /4E939A82/4F014379 SOD-123 D31 ZENER
   ( 1 ADCGND )
-  ( 2 N-000090 )
+  ( 2 N-000101 )
  )
  ( /4E939A82/4F014377 SOD-123 D32 5.6V
   ( 1 ADCGND )
-  ( 2 N-000088 )
+  ( 2 N-000099 )
  )
  ( /4E919A91/4E919ABA LED-0805 D33 LED
-  ( 1 N-000056 )
-  ( 2 /U_Injectors/INJECTOR1-4 )
+  ( 1 N-000069 )
+  ( 2 /Connector/INJECTOR1-4 )
  )
  ( /4E919A91/4F0EC8E1 SOD-123 D34 DIODE
   ( 1 ADCGND )
-  ( 2 /U_Injectors/INJECTOR1-4 )
+  ( 2 /Connector/INJECTOR1-4 )
  )
  ( /4E9276D8/4E927849 SIL-3 J1 JACK_2P
   ( 1 ADCGND )
-  ( 2 N-000081 )
-  ( 3 N-000080 )
+  ( 2 N-000094 )
+  ( 3 N-000089 )
  )
  ( /4E918900/4E9197EB SIL-3 K1 jumper
   ( 1 /U_Core_Analogue_Inputs/MAP )
-  ( 2 N-000051 )
-  ( 3 N-000052 )
+  ( 2 N-000060 )
+  ( 3 N-000067 )
  )
  ( /4E939B76/4E940542 SIL-3 K2 jumper
   ( 1 ADCGND )
-  ( 2 N-000105 )
+  ( 2 N-000128 )
   ( 3 +5V_SWITCHED )
  )
  ( /4E9276D8/4E927716 SIL-3 K3 jumper
-  ( 1 N-000080 )
-  ( 2 N-000078 )
+  ( 1 N-000089 )
+  ( 2 N-000087 )
   ( 3 /U_RS232_Comms/K_WIRE )
  )
  ( /4E9276D8/4E927715 SIL-3 K4 jumper
-  ( 1 N-000081 )
-  ( 2 N-000079 )
+  ( 1 N-000094 )
+  ( 2 N-000088 )
   ( 3 /U_RS232_Comms/L_WIRE )
  )
  ( /4E9462BE/4EF89422 pin_array_3x2 P1 BDM
@@ -346,151 +374,163 @@
   ( 6 +5V_MICRO )
  )
  ( /4E9462BE/4EFA4A93 SIL-2 P2 jumper
-  ( 1 N-000196 )
+  ( 1 N-000137 )
   ( 2 ADCGND )
  )
  ( /4E951714/4E95964B MP52 P3 BOSCH_MP5.2_37PIN
-  ( 1 /Igniter_Outputs/IGNITER_1_4 )
+  ( 1 /Connector/IGNITER_1_4 )
   ( 2 ADCGND )
   ( 3 /U_Low_Side_Drivers/FUEL_PUMP_RELAY )
   ( 4 ? )
-  ( 5 /Connector/GAS_VENTI_VALVE )
-  ( 6 /Connector/TACH_OUT )
+  ( 5 /U_Low_Side_Drivers/GAS_VENTI_VALVE )
+  ( 6 /Dashboard_Analogue_Outputs/TACH_OUT )
   ( 7 /U_Core_Analogue_Inputs/MAP )
   ( 8 ? )
-  ( 9 /U_Digital_Inputs/SPEED_SENSOR )
-  ( 10 ADCGND )
-  ( 11 ADCGND )
+  ( 9 /Connector/SPEED_SENSOR )
+  ( 10 /U_Core_Analogue_Inputs/NBO2- )
+  ( 11 /U_VR_Interfaces/RPM0- )
   ( 12 +5V_SWITCHED )
   ( 13 /U_RS232_Comms/L_WIRE )
   ( 14 ADCGND )
-  ( 15 /Connector/STEPPER_OPEN )
+  ( 15 /U_Low_Side_Drivers/STEPPER_OPEN )
   ( 16 /U_RS232_Comms/K_WIRE )
-  ( 17 /U_Injectors/INJECTOR1-4 )
+  ( 17 /Connector/INJECTOR1-4 )
   ( 18 ? )
   ( 19 ADCGND )
-  ( 20 /Igniter_Outputs/IGNITER_2_3 )
+  ( 20 /Connector/IGNITER_2_3 )
   ( 21 ? )
   ( 22 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
   ( 23 /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
   ( 24 ? )
-  ( 25 /U_Core_Analogue_Inputs/CHT )
+  ( 25 /Connector/CHT )
   ( 26 ADCGND )
-  ( 27 /Connector/IAT )
-  ( 28 /Connector/EGO )
+  ( 27 /U_Core_Analogue_Inputs/IAT )
+  ( 28 /U_Core_Analogue_Inputs/NBO2+ )
   ( 29 /U_Core_Analogue_Inputs/TPS )
-  ( 30 /U_VR_Interfaces/RPM0+ )
+  ( 30 /Connector/RPM0+ )
   ( 31 ? )
   ( 32 /U_Digital_Inputs/AC_SIGNAL )
-  ( 33 /U_Low_Side_Drivers/STEPPER_CLOSE )
+  ( 33 /Connector/STEPPER_CLOSE )
   ( 34 ? )
   ( 35 ? )
   ( 36 ? )
   ( 37 +12V_SWITCHED )
  )
+ ( /4E918900/4F199F3E SIL-2 P4 WBO2
+  ( 1 N-000064 )
+  ( 2 ADCGND )
+ )
+ ( /4E9462BE/4F1E6A56 SIL-6 P5 CONN_6
+  ( 1 N-000130 )
+  ( 2 N-000145 )
+  ( 3 N-000131 )
+  ( 4 N-000133 )
+  ( 5 N-000132 )
+  ( 6 ADCGND )
+ )
  ( /4E939ACE/4E939C38 TO220_VERT_MW Q1 vnp10n07
   ( D /Dashboard_Analogue_Outputs/CHECK_ENGINE )
-  ( G N-000098 )
+  ( G N-000110 )
   ( S ADCGND )
  )
  ( /4E939ACE/4E939DDA SOT23_MW Q2 8050
-  ( 1 N-000101 )
-  ( 2 N-000100 )
+  ( 1 N-000103 )
+  ( 2 N-000104 )
   ( 3 +5V_SWITCHED )
  )
  ( /4E939ACE/4E9419FE SOT23_MW Q3 MMBT3904LT1
   ( 1 ADCGND )
-  ( 2 N-000093 )
-  ( 3 N-000094 )
+  ( 2 N-000105 )
+  ( 3 N-000106 )
  )
  ( /4E919CB5/4E919D96 TO220_VERT_MW Q4 vnp10n07
-  ( D /Connector/GAS_VENTI_VALVE )
-  ( G N-000064 )
+  ( D /U_Low_Side_Drivers/GAS_VENTI_VALVE )
+  ( G N-000073 )
   ( S ADCGND )
  )
  ( /4E919CB5/4E924A7D TO220_VERT_MW Q5 vnp10n07
   ( D /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
-  ( G N-000063 )
+  ( G N-000074 )
   ( S ADCGND )
  )
  ( /4E919CB5/4E924B54 TO220_VERT_MW Q6 vnp10n07
-  ( D /Connector/STEPPER_OPEN )
-  ( G N-000059 )
+  ( D /U_Low_Side_Drivers/STEPPER_OPEN )
+  ( G N-000079 )
   ( S ADCGND )
  )
  ( /4E919CB5/4E924B26 TO220_VERT_MW Q7 vnp10n07
-  ( D /U_Low_Side_Drivers/STEPPER_CLOSE )
-  ( G N-000060 )
+  ( D /Connector/STEPPER_CLOSE )
+  ( G N-000078 )
   ( S ADCGND )
  )
  ( /4E919CB5/4E92722C TO220_VERT_MW Q8 vnp10n07
   ( D /U_Low_Side_Drivers/FUEL_PUMP_RELAY )
-  ( G N-000062 )
+  ( G N-000076 )
   ( S ADCGND )
  )
  ( /4E919A91/4E919ABF TO220_VERT_MW Q9 vnp10n07
-  ( D /U_Injectors/INJECTOR1-4 )
-  ( G N-000057 )
+  ( D /Connector/INJECTOR1-4 )
+  ( G N-000070 )
   ( S ADCGND )
  )
  ( /4E918900/4E9189EA SM0805 R1 2K4
   ( 1 +5V_SWITCHED )
-  ( 2 /Connector/IAT )
+  ( 2 /U_Core_Analogue_Inputs/IAT )
  )
  ( /4E918900/4E918DDE SM0805 R2 3K9
   ( 1 +12V_SWITCHED )
-  ( 2 N-000050 )
+  ( 2 N-000065 )
  )
  ( /4E918900/4E9189E2 SM0805 R3 470R
-  ( 1 /Connector/IAT )
+  ( 1 /U_Core_Analogue_Inputs/IAT )
   ( 2 /U_Core_Analogue_Inputs/AN00 )
  )
  ( /4E918900/4E918CA1 SM0805 R4 470R
-  ( 1 /Connector/EGO )
-  ( 2 /U_Core_Board/AN03 )
+  ( 1 N-000064 )
+  ( 2 /U_Core_Analogue_Inputs/AN03 )
  )
  ( /4E918900/4E918D27 SM0805 R5 470R
-  ( 1 N-000050 )
-  ( 2 /U_Core_Board/AN06 )
+  ( 1 N-000065 )
+  ( 2 /U_Core_Analogue_Inputs/AN06 )
  )
  ( /4E918900/4E918DBD SM0805 R6 1K
-  ( 1 N-000050 )
+  ( 1 N-000065 )
   ( 2 ADCGND )
  )
  ( /4E918900/4E918D44 SM0805 R7 2K4
   ( 1 +5V_SWITCHED )
-  ( 2 /U_Core_Analogue_Inputs/CHT )
+  ( 2 /Connector/CHT )
  )
  ( /4E918900/4E918D45 SM0805 R8 470R
-  ( 1 /U_Core_Analogue_Inputs/CHT )
+  ( 1 /Connector/CHT )
   ( 2 /U_Core_Analogue_Inputs/AN01 )
  )
  ( /4E918900/4E919633 SM0805 R9 470R
-  ( 1 N-000051 )
+  ( 1 N-000060 )
   ( 2 /U_Core_Board/AN04 )
  )
  ( /4E918900/4E91927D SM0805 R10 470R
   ( 1 /U_Core_Analogue_Inputs/TPS )
-  ( 2 /U_Core_Board/AN02 )
+  ( 2 /U_Core_Analogue_Inputs/AN02 )
  )
  ( /4E9462BE/4EF8940E SM0805 R11 3.9K
-  ( 1 N-000174 )
-  ( 2 N-000189 )
+  ( 1 N-000213 )
+  ( 2 N-000167 )
  )
  ( /4E9462BE/4EF8940D SM0805 R12 10M
-  ( 1 N-000193 )
-  ( 2 N-000175 )
+  ( 1 N-000146 )
+  ( 2 N-000147 )
  )
  ( /4E9462BE/4EF89412 SM0805 R13 10k
-  ( 1 N-000176 )
+  ( 1 N-000168 )
   ( 2 ADCGND )
  )
  ( /4E9462BE/4EF89413 SM0805 R14 10k
-  ( 1 N-000177 )
+  ( 1 N-000171 )
   ( 2 ADCGND )
  )
  ( /4E9462BE/4EF89414 SM0805 R15 10k
-  ( 1 N-000190 )
+  ( 1 N-000170 )
   ( 2 +5V_MICRO )
  )
  ( /4E9462BE/4EF8941B SM0805 R16 4.7K
@@ -503,22 +543,22 @@
  )
  ( /4E9462BE/4EF89425 SM0805 R18 100R
   ( 1 /U_Core_Board/RESET )
-  ( 2 N-000138 )
+  ( 2 N-000139 )
  )
  ( /4E9462BE/4EF8A148 SM0805 R19 1K
-  ( 1 N-000196 )
-  ( 2 N-000191 )
+  ( 1 N-000137 )
+  ( 2 N-000152 )
  )
  ( /4E939ACE/4E939C3A SM0805 R20 3K
-  ( 1 N-000097 )
+  ( 1 N-000111 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E939ACE/4E939C44 SM0805 R21 10K
-  ( 1 /U_Core_Board/PA1 )
+  ( 1 /U_Core_Board/PP1 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E939ACE/4E939C36 SM0805 R22 1K
-  ( 1 N-000098 )
+  ( 1 N-000110 )
   ( 2 /Dashboard_Analogue_Outputs/PA2 )
  )
  ( /4E939ACE/4E9469DC SM0805 R23 100K
@@ -526,19 +566,19 @@
   ( 2 ADCGND )
  )
  ( /4E939ACE/4E94676F SM0805 R24 100K
-  ( 1 /U_Core_Board/PA1 )
+  ( 1 /U_Core_Board/PP1 )
   ( 2 ADCGND )
  )
- ( /4E939ACE/4E941A02 SM1210 R25 330-1/4W
-  ( 1 N-000092 )
-  ( 2 +12V_SWITCHED )
+ ( /4E939ACE/4E941A02 SM0805 R25 330
+  ( 1 N-000107 )
+  ( 2 +5V_SWITCHED )
  )
- ( /4E939ACE/4E9419FD SM1210 R26 1K-1/4W
-  ( 1 +12V_SWITCHED )
-  ( 2 N-000094 )
+ ( /4E9462BE/4F1E6A18 SM0805 R26 1.6k
+  ( 1 N-000130 )
+  ( 2 /U_Core_Board/TXCAN3 )
  )
  ( /4E939ACE/4E939DD9 SM0805 R27 220R
-  ( 1 N-000100 )
+  ( 1 N-000104 )
   ( 2 /Dashboard_Analogue_Outputs/PA4 )
  )
  ( /4E939ACE/4E9469D8 SM0805 R28 100K
@@ -546,31 +586,31 @@
   ( 2 ADCGND )
  )
  ( /4E939ACE/4E9419FF SM0805 R29 1K
-  ( 1 N-000093 )
-  ( 2 /U_Core_Board/PA3 )
+  ( 1 N-000105 )
+  ( 2 /Dashboard_Analogue_Outputs/PA3 )
  )
  ( /4E939ACE/4E9469E5 SM0805 R30 100K
-  ( 1 /U_Core_Board/PA3 )
+  ( 1 /Dashboard_Analogue_Outputs/PA3 )
   ( 2 ADCGND )
  )
  ( /4E939B76/4E95AA37 SM0805 R31 2K4
-  ( 1 N-000103 )
+  ( 1 N-000127 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E939B76/4E939C21 SM0805 R32 1k
   ( 1 ADCGND )
-  ( 2 N-000109 )
+  ( 2 N-000118 )
  )
  ( /4E939B76/4E939C22 SM0805 R33 1k
-  ( 1 N-000116 )
-  ( 2 N-000110 )
+  ( 1 N-000126 )
+  ( 2 N-000117 )
  )
  ( /4E939B76/4E940487 SM0805 R34 1K
-  ( 1 N-000117 )
+  ( 1 N-000119 )
   ( 2 /Igniter_Outputs/PT3 )
  )
  ( /4E939B76/4E940485 SM0805 R35 1K
-  ( 1 N-000115 )
+  ( 1 N-000129 )
   ( 2 /Igniter_Outputs/PT2 )
  )
  ( /4E939B76/4E94048B SM0805 R36 100K
@@ -582,32 +622,32 @@
   ( 2 ADCGND )
  )
  ( /4E939B76/4E95AA74 SM0805 R38 2K4
-  ( 1 N-000104 )
+  ( 1 N-000115 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E939B76/4E93D671 SM0805 R39 1k
   ( 1 ADCGND )
-  ( 2 N-000114 )
+  ( 2 N-000120 )
  )
  ( /4E939B76/4E93D670 SM0805 R40 1k
-  ( 1 N-000106 )
-  ( 2 N-000112 )
+  ( 1 N-000116 )
+  ( 2 N-000121 )
  )
  ( /4E919CB5/4E919D90 SM0805 R41 2K4
-  ( 1 N-000065 )
+  ( 1 N-000072 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924A83 SM0805 R42 2K4
-  ( 1 N-000067 )
+  ( 1 N-000071 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E919D95 SM0805 R43 1K
   ( 1 /U_Core_Board/PP3 )
-  ( 2 N-000064 )
+  ( 2 N-000073 )
  )
  ( /4E919CB5/4E924A7E SM0805 R44 1K
   ( 1 /U_Low_Side_Drivers/PP5 )
-  ( 2 N-000063 )
+  ( 2 N-000074 )
  )
  ( /4E919CB5/4E919D93 SM0805 R45 100K
   ( 1 /U_Core_Board/PP3 )
@@ -618,88 +658,88 @@
   ( 2 ADCGND )
  )
  ( /4E919CB5/4E924B5A SM0805 R47 2K4
-  ( 1 N-000058 )
+  ( 1 N-000075 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924B20 SM0805 R48 2K4
-  ( 1 N-000066 )
+  ( 1 N-000077 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924B55 SM0805 R49 1K
-  ( 1 /U_Low_Side_Drivers/PP6 )
-  ( 2 N-000059 )
+  ( 1 /U_Core_Board/PP6 )
+  ( 2 N-000079 )
  )
  ( /4E919CB5/4E924B25 SM0805 R50 1K
-  ( 1 /U_Core_Board/PP7 )
-  ( 2 N-000060 )
+  ( 1 /U_Low_Side_Drivers/PP7 )
+  ( 2 N-000078 )
  )
  ( /4E919CB5/4E924B57 SM0805 R51 100K
-  ( 1 /U_Low_Side_Drivers/PP6 )
+  ( 1 /U_Core_Board/PP6 )
   ( 2 ADCGND )
  )
  ( /4E919CB5/4E924B23 SM0805 R52 100K
-  ( 1 /U_Core_Board/PP7 )
+  ( 1 /U_Low_Side_Drivers/PP7 )
   ( 2 ADCGND )
  )
  ( /4E919CB5/4E927232 SM0805 R53 2K4
-  ( 1 N-000061 )
+  ( 1 N-000080 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E92722D SM0805 R54 1K
-  ( 1 /U_Low_Side_Drivers/PA7 )
-  ( 2 N-000062 )
+  ( 1 /U_Core_Board/PA7 )
+  ( 2 N-000076 )
  )
  ( /4E919CB5/4E92722F SM0805 R55 100K
-  ( 1 /U_Low_Side_Drivers/PA7 )
+  ( 1 /U_Core_Board/PA7 )
   ( 2 ADCGND )
  )
  ( /4E939A82/4E941878 SM0805 R56 R
-  ( 1 N-000089 )
+  ( 1 N-000100 )
   ( 2 /U_Digital_Inputs/AC_SIGNAL )
  )
  ( /4E939A82/4F014375 SM0805 R57 R
-  ( 1 N-000088 )
-  ( 2 /U_Digital_Inputs/SPEED_SENSOR )
+  ( 1 N-000099 )
+  ( 2 /Connector/SPEED_SENSOR )
  )
  ( /4E939A82/4E94180F SM0805 R58 1K
-  ( 1 N-000087 )
-  ( 2 /U_Digital_Inputs/PA0 )
+  ( 1 N-000102 )
+  ( 2 /U_Core_Board/PA0 )
  )
  ( /4E939A82/4E941737 SM0805 R59 470R
-  ( 1 N-000089 )
-  ( 2 N-000087 )
+  ( 1 N-000100 )
+  ( 2 N-000102 )
  )
  ( /4E939A82/4F014376 SM0805 R60 1K
-  ( 1 N-000090 )
-  ( 2 /U_Core_Board/PT4 )
+  ( 1 N-000101 )
+  ( 2 /U_Digital_Inputs/PT6 )
  )
  ( /4E939A82/4F014378 SM0805 R61 470R
-  ( 1 N-000088 )
-  ( 2 N-000090 )
+  ( 1 N-000099 )
+  ( 2 N-000101 )
  )
  ( /4E939A82/4F014602 SM0805 R62 R
   ( 1 ADCGND )
-  ( 2 N-000088 )
+  ( 2 N-000099 )
  )
- ( /4E930052/4E940DA5 R3 R63 15K_1/2W
-  ( 1 /U_VR_Interfaces/RPM0+ )
-  ( 2 N-000084 )
+ ( /4E930052/4F193717 SM0805 R63 10k
+  ( 1 N-000098 )
+  ( 2 /Connector/RPM0+ )
  )
- ( /4E930052/4E940DA7 SM0805 R64 100R
-  ( 1 ADCGND )
-  ( 2 N-000082 )
+ ( /4E930052/4F19371A SM0805 R64 10k
+  ( 1 +5V_SWITCHED )
+  ( 2 /U_VR_Interfaces/PT0 )
  )
- ( /4E930052/4E940DA6 SM0805 R65 17K
-  ( 1 N-000083 )
-  ( 2 ADCGND )
+ ( /4E930052/4F193718 SM0805 R65 10k
+  ( 1 N-000097 )
+  ( 2 /U_VR_Interfaces/RPM0- )
  )
  ( /4E919A91/4E919AB9 SM0805 R66 2K4
-  ( 1 N-000056 )
+  ( 1 N-000069 )
   ( 2 +12V_SWITCHED )
  )
  ( /4E919A91/4E919ABE SM0805 R67 1K
   ( 1 /U_Core_Board/PB0 )
-  ( 2 N-000057 )
+  ( 2 N-000070 )
  )
  ( /4E919A91/4E919ABC SM0805 R68 100K
   ( 1 /U_Core_Board/PB0 )
@@ -710,23 +750,59 @@
   ( 2 /U_Core_Board/PA4 )
  )
  ( /4E918622/4F019462 SM0805 R70 29K4
-  ( 1 N-000046 )
+  ( 1 N-000048 )
   ( 2 +5V_SWITCHED )
  )
  ( /4E918622/4F01945B SM0805 R71 10K
-  ( 1 N-000046 )
+  ( 1 N-000048 )
   ( 2 ADCGND )
  )
+ ( /4E918900/4F196DFF SM0805 R72 51.1K
+  ( 1 +5V_SWITCHED )
+  ( 2 /U_Core_Analogue_Inputs/NBO2- )
+ )
+ ( /4E918900/4F196F70 SM0805 R73 178K
+  ( 1 +5V_SWITCHED )
+  ( 2 N-000055 )
+ )
+ ( /4E918900/4F196E3A SM0805 R74 1K
+  ( 1 /U_Core_Analogue_Inputs/AN11 )
+  ( 2 N-000058 )
+ )
+ ( /4E918900/4F196DED SM0805 R75 4.22K
+  ( 1 /U_Core_Analogue_Inputs/NBO2+ )
+  ( 2 N-000056 )
+ )
+ ( /4E918900/4F196DF1 SM0805 R76 4.22K
+  ( 1 /U_Core_Analogue_Inputs/NBO2- )
+  ( 2 N-000068 )
+ )
+ ( /4E9462BE/4F1E6A25 SM0805 R77 1.6k
+  ( 1 N-000145 )
+  ( 2 /U_Core_Board/RXCAN3 )
+ )
+ ( /4E9462BE/4F1E6A2D SM0805 R78 1.6k
+  ( 1 N-000131 )
+  ( 2 N-000169 )
+ )
+ ( /4E9462BE/4F1E6A33 SM0805 R79 1.6k
+  ( 1 N-000133 )
+  ( 2 N-000142 )
+ )
+ ( /4E9462BE/4F1E6A3C SM0805 R80 1.6k
+  ( 1 N-000132 )
+  ( 2 N-000138 )
+ )
  ( /4E939ACE/4E939DD8 C3v48 SP1 SPEAKER
-  ( 1 N-000101 )
+  ( 1 N-000103 )
   ( 2 ADCGND )
  )
  ( /4E9462BE/4EF89427 SW_PUSH_SMALL SW1 SW_PUSH
   ( 1 ADCGND )
-  ( 2 N-000138 )
+  ( 2 N-000139 )
  )
  ( /4E918900/4E919229 MPX4250A U1 MPX4250A
-  ( 1 N-000052 )
+  ( 1 N-000067 )
   ( 2 ADCGND )
   ( 3 +5V_SWITCHED )
   ( 4 ? )
@@ -736,7 +812,7 @@
  ( /4E9462BE/4EF89400 PQFP112 U2 MC9S12XDP512
   ( 1 /U_Core_Board/PP3 )
   ( 2 ? )
-  ( 3 ? )
+  ( 3 /U_Core_Board/PP1 )
   ( 4 ? )
   ( 5 ? )
   ( 6 ? )
@@ -746,11 +822,11 @@
   ( 10 ? )
   ( 11 /Igniter_Outputs/PT2 )
   ( 12 /Igniter_Outputs/PT3 )
-  ( 13 N-000120 )
+  ( 13 N-000141 )
   ( 14 ADCGND )
-  ( 15 /U_Core_Board/PT4 )
+  ( 15 ? )
   ( 16 ? )
-  ( 17 ? )
+  ( 17 /U_Digital_Inputs/PT6 )
   ( 18 ? )
   ( 19 ? )
   ( 20 ? )
@@ -769,18 +845,18 @@
   ( 33 ? )
   ( 34 ? )
   ( 35 ? )
-  ( 36 N-000190 )
-  ( 37 N-000177 )
-  ( 38 N-000176 )
+  ( 36 N-000170 )
+  ( 37 N-000171 )
+  ( 38 N-000168 )
   ( 39 ? )
   ( 40 ADCGND )
   ( 41 +5V_MICRO )
   ( 42 /U_Core_Board/RESET )
-  ( 43 N-000173 )
-  ( 44 N-000174 )
+  ( 43 N-000212 )
+  ( 44 N-000213 )
   ( 45 ADCGND )
-  ( 46 N-000193 )
-  ( 47 N-000175 )
+  ( 46 N-000146 )
+  ( 47 N-000147 )
   ( 48 ADCGND )
   ( 49 ? )
   ( 50 ? )
@@ -790,29 +866,29 @@
   ( 54 ? )
   ( 55 ? )
   ( 56 ? )
-  ( 57 /U_Digital_Inputs/PA0 )
-  ( 58 /U_Core_Board/PA1 )
+  ( 57 /U_Core_Board/PA0 )
+  ( 58 ? )
   ( 59 /Dashboard_Analogue_Outputs/PA2 )
-  ( 60 /U_Core_Board/PA3 )
+  ( 60 /Dashboard_Analogue_Outputs/PA3 )
   ( 61 /U_Core_Board/PA4 )
   ( 62 /Dashboard_Analogue_Outputs/PA4 )
-  ( 63 N-000191 )
-  ( 64 /U_Low_Side_Drivers/PA7 )
-  ( 65 N-000121 )
+  ( 63 N-000152 )
+  ( 64 /U_Core_Board/PA7 )
+  ( 65 N-000140 )
   ( 66 ADCGND )
   ( 67 /U_Core_Analogue_Inputs/AN00 )
   ( 68 ? )
   ( 69 /U_Core_Analogue_Inputs/AN01 )
   ( 70 ? )
-  ( 71 /U_Core_Board/AN02 )
+  ( 71 /U_Core_Analogue_Inputs/AN02 )
   ( 72 ? )
-  ( 73 /U_Core_Board/AN03 )
-  ( 74 ? )
+  ( 73 /U_Core_Analogue_Inputs/AN03 )
+  ( 74 /U_Core_Analogue_Inputs/AN11 )
   ( 75 /U_Core_Board/AN04 )
   ( 76 ? )
   ( 77 ? )
   ( 78 ? )
-  ( 79 /U_Core_Board/AN06 )
+  ( 79 /U_Core_Analogue_Inputs/AN06 )
   ( 80 ? )
   ( 81 ? )
   ( 82 ? )
@@ -820,15 +896,15 @@
   ( 84 +5V_SWITCHED )
   ( 85 ADCGND )
   ( 86 ADCGND )
-  ( 87 ? )
-  ( 88 ? )
-  ( 89 /U_RS232_Comms/RXD )
+  ( 87 /U_Core_Board/TXCAN3 )
+  ( 88 /U_Core_Board/RXCAN3 )
+  ( 89 /U_Core_Board/RXD )
   ( 90 /U_RS232_Comms/TXD )
   ( 91 ? )
   ( 92 ? )
-  ( 93 ? )
-  ( 94 ? )
-  ( 95 ? )
+  ( 93 N-000169 )
+  ( 94 N-000142 )
+  ( 95 N-000138 )
   ( 96 ? )
   ( 97 +5V_MICRO )
   ( 98 ? )
@@ -842,19 +918,19 @@
   ( 106 ADCGND )
   ( 107 +5V_MICRO )
   ( 108 ? )
-  ( 109 /U_Core_Board/PP7 )
-  ( 110 /U_Low_Side_Drivers/PP6 )
+  ( 109 /U_Low_Side_Drivers/PP7 )
+  ( 110 /U_Core_Board/PP6 )
   ( 111 /U_Low_Side_Drivers/PP5 )
   ( 112 ? )
  )
  ( /4E939ACE/4E939C45 SO8E U3 MC34151P
   ( 1 ? )
-  ( 2 /U_Core_Board/PA1 )
+  ( 2 /U_Core_Board/PP1 )
   ( 3 ADCGND )
   ( 4 ? )
   ( 5 ? )
-  ( 6 N-000102 )
-  ( 7 /Connector/TACH_OUT )
+  ( 6 N-000114 )
+  ( 7 /Dashboard_Analogue_Outputs/TACH_OUT )
   ( 8 ? )
  )
  ( /4E939B76/4E939C23 PowerSO-10 U4 VB325SP
@@ -863,20 +939,20 @@
   ( 3 ADCGND )
   ( 4 ADCGND )
   ( 5 ADCGND )
-  ( 6 N-000109 )
+  ( 6 N-000118 )
   ( 7 +5V_SWITCHED )
   ( 8 ? )
-  ( 9 N-000110 )
+  ( 9 N-000117 )
   ( 10 ? )
-  ( TAB /Igniter_Outputs/IGNITER_1_4 )
+  ( TAB /Connector/IGNITER_1_4 )
  )
  ( /4E939B76/4F07A6A8 SO14_MW U5 74LS86_MW
-  ( 1 N-000115 )
-  ( 2 N-000105 )
-  ( 3 N-000116 )
-  ( 4 N-000117 )
-  ( 5 N-000105 )
-  ( 6 N-000106 )
+  ( 1 N-000129 )
+  ( 2 N-000128 )
+  ( 3 N-000126 )
+  ( 4 N-000119 )
+  ( 5 N-000128 )
+  ( 6 N-000116 )
   ( 7 ADCGND )
   ( 14 +5V_SWITCHED )
  )
@@ -886,40 +962,42 @@
   ( 3 ADCGND )
   ( 4 ADCGND )
   ( 5 ADCGND )
-  ( 6 N-000114 )
+  ( 6 N-000120 )
   ( 7 +5V_SWITCHED )
   ( 8 ? )
-  ( 9 N-000112 )
+  ( 9 N-000121 )
   ( 10 ? )
-  ( TAB /Igniter_Outputs/IGNITER_2_3 )
+  ( TAB /Connector/IGNITER_2_3 )
  )
  ( /4E9276D8/4E92771D SOIC16 U7 MAX232
-  ( 1 N-000073 )
-  ( 2 N-000075 )
-  ( 3 N-000072 )
-  ( 4 N-000077 )
-  ( 5 N-000076 )
-  ( 6 N-000074 )
+  ( 1 N-000083 )
+  ( 2 N-000085 )
+  ( 3 N-000082 )
+  ( 4 N-000081 )
+  ( 5 N-000084 )
+  ( 6 N-000086 )
   ( 7 ? )
   ( 8 ? )
   ( 9 ? )
   ( 10 ? )
   ( 11 /U_RS232_Comms/TXD )
-  ( 12 /U_RS232_Comms/RXD )
-  ( 13 N-000078 )
-  ( 14 N-000079 )
+  ( 12 /U_Core_Board/RXD )
+  ( 13 N-000087 )
+  ( 14 N-000088 )
   ( 15 ADCGND )
   ( 16 +5V_SWITCHED )
  )
- ( /4E930052/4E940DA8 SO8NB U8 NCV1124
-  ( 1 N-000083 )
-  ( 2 N-000084 )
+ ( /4E930052/4F19371C uSOP U8 MAX9924
+  ( 1 N-000098 )
+  ( 2 N-000097 )
   ( 3 ? )
   ( 4 ADCGND )
-  ( 5 N-000082 )
-  ( 6 ? )
+  ( 5 ADCGND )
+  ( 6 ADCGND )
   ( 7 /U_VR_Interfaces/PT0 )
-  ( 8 +5V_SWITCHED )
+  ( 8 ? )
+  ( 9 ADCGND )
+  ( 10 +5V_SWITCHED )
  )
  ( /4E918622/4F018DA4 P-TO263-5-1 U9 TLE4275
   ( 1 +12V_SWITCHED )
@@ -927,44 +1005,58 @@
   ( 5 +5V_MICRO )
  )
  ( /4E918622/4F019269 TO263 U10 LM2941S
-  ( 1 N-000046 )
+  ( 1 N-000048 )
   ( 2 /U_Core_Board/PA4 )
   ( 3 ADCGND )
   ( 4 +12V_SWITCHED )
   ( 5 +5V_SWITCHED )
   ( 6 ADCGND )
  )
+ ( /4E918900/4F1997E7 M14B U11 LM9040
+  ( 1 ? )
+  ( 2 N-000061 )
+  ( 3 N-000057 )
+  ( 4 ADCGND )
+  ( 5 N-000055 )
+  ( 6 N-000058 )
+  ( 8 +5V_SWITCHED )
+  ( 9 N-000056 )
+  ( 10 N-000068 )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ADCGND )
+ )
  ( /4E918900/4F01C42F SIL-2 W1 TEST
   ( 1 ADCGND )
-  ( 2 N-000052 )
+  ( 2 N-000067 )
  )
  ( /4E939ACE/4F0253AC SIL-2 W2 TEST
-  ( 1 /Connector/TACH_OUT )
+  ( 1 /Dashboard_Analogue_Outputs/TACH_OUT )
   ( 2 ADCGND )
  )
  ( /4E939B76/4F01C234 SIL-2 W3 TEST
-  ( 1 N-000116 )
+  ( 1 N-000126 )
   ( 2 ADCGND )
  )
  ( /4E939B76/4F01C2DB SIL-2 W4 TEST
-  ( 1 N-000106 )
+  ( 1 N-000116 )
   ( 2 ADCGND )
  )
  ( /4E919CB5/4F0250C8 SIL-2 W5 TEST
-  ( 1 /U_Low_Side_Drivers/PA7 )
+  ( 1 /U_Core_Board/PA7 )
   ( 2 ADCGND )
  )
  ( /4E930052/4F01BDF8 SIL-2 W6 TEST
-  ( 1 ADCGND )
-  ( 2 /U_VR_Interfaces/PT0 )
+  ( 1 /U_VR_Interfaces/PT0 )
+  ( 2 ADCGND )
  )
  ( /4E919A91/4F01C365 SIL-2 W7 TEST
   ( 1 /U_Core_Board/PB0 )
   ( 2 ADCGND )
  )
  ( /4E9462BE/4EF89424 TH_XTAL_02 X1 CRYSTAL
-  ( 1 N-000193 )
-  ( 2 N-000175 )
+  ( 1 N-000146 )
+  ( 2 N-000147 )
  )
 )
 *
@@ -1181,6 +1273,41 @@ $component C43
  C1-1
 $endlist
 $component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component C51
  SM*
  C?
  C1-1
@@ -1884,6 +2011,69 @@ $component R71
  R?-*
  SM1206
 $endlist
+$component R72
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R73
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R74
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R75
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R76
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R77
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R78
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R79
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R80
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component U3
  tach
 $endlist
@@ -1895,9 +2085,6 @@ $component U5
 $endlist
 $component U6
  CatSquirt
-$endlist
-$component U8
- tach
 $endlist
 $component U10
  tach

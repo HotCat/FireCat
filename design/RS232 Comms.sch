@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 21/01/2012 01:12:26
+EESchema Schematic File Version 2  date 24/01/2012 16:34:51
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 9 12
 Title "RS232"
-Date "20 jan 2012"
+Date "24 jan 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -137,10 +137,10 @@ F 1 "jumper" V 7050 4550 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR105
+L GND #PWR0104
 U 1 1 4E92FFAF
 P 6900 3500
-F 0 "#PWR105" H 6900 3500 30  0001 C CNN
+F 0 "#PWR0104" H 6900 3500 30  0001 C CNN
 F 1 "GND" H 6900 3430 30  0001 C CNN
 	1    6900 3500
 	1    0    0    -1  
@@ -155,10 +155,10 @@ F 1 "JACK_2P" H 7500 3750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR103
+L +5V_SWITCHED #PWR0105
 U 1 1 4E9277BA
 P 6350 2650
-F 0 "#PWR103" H 6350 2600 20  0001 C CNN
+F 0 "#PWR0105" H 6350 2600 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 6350 2750 30  0000 C CNN
 	1    6350 2650
 	1    0    0    -1  
@@ -219,10 +219,10 @@ NoConn ~ 4450 3850
 Text Notes 4850 5550 0    60   ~ 0
 Serial port communication
 $Comp
-L GND #PWR104
+L GND #PWR0106
 U 1 1 4E927717
 P 6700 3250
-F 0 "#PWR104" H 6700 3250 30  0001 C CNN
+F 0 "#PWR0106" H 6700 3250 30  0001 C CNN
 F 1 "GND" H 6700 3180 30  0001 C CNN
 	1    6700 3250
 	1    0    0    -1  

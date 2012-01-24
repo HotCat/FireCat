@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 19/01/2012 23:18:09
+PCBNEW-BOARD Version 1 date 24/01/2012 12:09:14
 
 # Created by Pcbnew(2011-01-22 BZR 2754)-stable
 
@@ -6,21 +6,21 @@ $GENERAL
 LayerCount 2
 Ly 1FFF8001
 EnabledLayers 1FFF8001
-Links 391
-NoConn 391
-Di 27365 16611 90753 65544
+Links 418
+NoConn 418
+Di 27365 16611 105292 73477
 Ndraw 28
 Ntrack 0
 Nzone 0
 BoardThickness 630
-Nmodule 196
-Nnets 116
+Nmodule 209
+Nnets 125
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "CatSquirt"
-Date "19 jan 2012"
+Date "24 jan 2012"
 Rev "0.1"
 Comp "FreeEMS.org"
 Comment1 ""
@@ -55,8 +55,8 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 1800 1800
-PadDrill 1472
+PadSize 200 600
+PadDrill 0
 Pad2MaskClearance 100
 GridOrigin -27299 90562
 AuxiliaryAxisOrg 0 0
@@ -79,7 +79,7 @@ Na 3 "+5V_SWITCHED"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 4 "/Connector/EGO"
+Na 4 "/Connector/FUEL_PUMP_RELAY"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -91,211 +91,211 @@ Na 6 "/Connector/IAT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 7 "/Connector/STEPPER_OPEN"
+Na 7 "/Connector/IGNITER_1_4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 8 "/Connector/TACH_OUT"
+Na 8 "/Connector/IGNITER_2_3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 9 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
+Na 9 "/Connector/MAP"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 10 "/Dashboard_Analogue_Outputs/PA2"
+Na 10 "/Connector/NBO2+"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 11 "/Dashboard_Analogue_Outputs/PA4"
+Na 11 "/Connector/RPM0-"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 12 "/Igniter_Outputs/IGNITER_1_4"
+Na 12 "/Connector/STEPPER_OPEN"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 13 "/Igniter_Outputs/IGNITER_2_3"
+Na 13 "/Connector/TACH_OUT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 14 "/Igniter_Outputs/PT2"
+Na 14 "/Connector/TPS"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 15 "/Igniter_Outputs/PT3"
+Na 15 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 16 "/U_Core_Analogue_Inputs/AN00"
+Na 16 "/Dashboard_Analogue_Outputs/PA4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 17 "/U_Core_Analogue_Inputs/AN01"
+Na 17 "/Dashboard_Analogue_Outputs/PP1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 18 "/U_Core_Analogue_Inputs/CHT"
+Na 18 "/Igniter_Outputs/PT2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 19 "/U_Core_Analogue_Inputs/MAP"
+Na 19 "/U_Core_Analogue_Inputs/AN02"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 20 "/U_Core_Analogue_Inputs/TPS"
+Na 20 "/U_Core_Analogue_Inputs/AN11"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 21 "/U_Core_Board/AN02"
+Na 21 "/U_Core_Analogue_Inputs/CHT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 22 "/U_Core_Board/AN03"
+Na 22 "/U_Core_Analogue_Inputs/NBO2-"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 23 "/U_Core_Board/AN04"
+Na 23 "/U_Core_Board/AN00"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 24 "/U_Core_Board/AN06"
+Na 24 "/U_Core_Board/AN01"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 25 "/U_Core_Board/BKGD"
+Na 25 "/U_Core_Board/AN03"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 26 "/U_Core_Board/PA1"
+Na 26 "/U_Core_Board/AN04"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 27 "/U_Core_Board/PA3"
+Na 27 "/U_Core_Board/AN06"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 28 "/U_Core_Board/PA4"
+Na 28 "/U_Core_Board/BKGD"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 29 "/U_Core_Board/PB0"
+Na 29 "/U_Core_Board/PA0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 30 "/U_Core_Board/PP3"
+Na 30 "/U_Core_Board/PA2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 31 "/U_Core_Board/PP7"
+Na 31 "/U_Core_Board/PA3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 32 "/U_Core_Board/PT4"
+Na 32 "/U_Core_Board/PA4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 33 "/U_Core_Board/RESET"
+Na 33 "/U_Core_Board/PA7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 34 "/U_Digital_Inputs/AC_SIGNAL"
+Na 34 "/U_Core_Board/PB0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 35 "/U_Digital_Inputs/PA0"
+Na 35 "/U_Core_Board/PP3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 36 "/U_Digital_Inputs/SPEED_SENSOR"
+Na 36 "/U_Core_Board/PP7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 37 "/U_Injectors/INJECTOR1-4"
+Na 37 "/U_Core_Board/PT0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 38 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
+Na 38 "/U_Core_Board/PT3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 39 "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
+Na 39 "/U_Core_Board/RESET"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 40 "/U_Low_Side_Drivers/PA7"
+Na 40 "/U_Core_Board/RXD"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 41 "/U_Low_Side_Drivers/PP5"
+Na 41 "/U_Core_Board/TXD"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 42 "/U_Low_Side_Drivers/PP6"
+Na 42 "/U_Digital_Inputs/AC_SIGNAL"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 43 "/U_Low_Side_Drivers/STEPPER_CLOSE"
+Na 43 "/U_Digital_Inputs/PT6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 44 "/U_RS232_Comms/K_WIRE"
+Na 44 "/U_Digital_Inputs/SPEED_SENSOR"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 45 "/U_RS232_Comms/L_WIRE"
+Na 45 "/U_Injectors/INJECTOR1-4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 46 "/U_RS232_Comms/RXD"
+Na 46 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 47 "/U_RS232_Comms/TXD"
+Na 47 "/U_Low_Side_Drivers/PP5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 48 "/U_VR_Interfaces/PT0"
+Na 48 "/U_Low_Side_Drivers/PP6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 49 "/U_VR_Interfaces/RPM0+"
+Na 49 "/U_Low_Side_Drivers/STEPPER_CLOSE"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 50 "ADCGND"
+Na 50 "/U_RS232_Comms/K_WIRE"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 51 "N-000046"
+Na 51 "/U_RS232_Comms/L_WIRE"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 52 "N-000050"
+Na 52 "/U_VR_Interfaces/RPM0+"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 53 "N-000051"
+Na 53 "ADCGND"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 54 "N-000052"
+Na 54 "N-000048"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 55 "N-000056"
+Na 55 "N-000055"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 56 "N-000057"
+Na 56 "N-000056"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 57 "N-000058"
+Na 57 "N-000057"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 58 "N-000059"
+Na 58 "N-000058"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -307,103 +307,103 @@ Na 60 "N-000061"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 61 "N-000062"
+Na 61 "N-000064"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 62 "N-000063"
+Na 62 "N-000065"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 63 "N-000064"
+Na 63 "N-000067"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 64 "N-000065"
+Na 64 "N-000068"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 65 "N-000066"
+Na 65 "N-000069"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 66 "N-000067"
+Na 66 "N-000070"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 67 "N-000072"
+Na 67 "N-000071"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 68 "N-000073"
+Na 68 "N-000072"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 69 "N-000074"
+Na 69 "N-000073"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 70 "N-000075"
+Na 70 "N-000074"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 71 "N-000076"
+Na 71 "N-000075"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 72 "N-000077"
+Na 72 "N-000076"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 73 "N-000078"
+Na 73 "N-000077"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 74 "N-000079"
+Na 74 "N-000078"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 75 "N-000080"
+Na 75 "N-000079"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 76 "N-000081"
+Na 76 "N-000080"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 77 "N-000082"
+Na 77 "N-000081"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 78 "N-000083"
+Na 78 "N-000082"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 79 "N-000084"
+Na 79 "N-000083"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 80 "N-000087"
+Na 80 "N-000084"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 81 "N-000088"
+Na 81 "N-000085"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 82 "N-000089"
+Na 82 "N-000086"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 83 "N-000090"
+Na 83 "N-000087"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 84 "N-000092"
+Na 84 "N-000088"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 85 "N-000093"
+Na 85 "N-000089"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -419,111 +419,147 @@ Na 88 "N-000098"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 89 "N-000100"
+Na 89 "N-000099"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 90 "N-000101"
+Na 90 "N-000100"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 91 "N-000102"
+Na 91 "N-000101"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 92 "N-000103"
+Na 92 "N-000102"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 93 "N-000104"
+Na 93 "N-000103"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 94 "N-000105"
+Na 94 "N-000104"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 95 "N-000106"
+Na 95 "N-000105"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 96 "N-000109"
+Na 96 "N-000106"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 97 "N-000110"
+Na 97 "N-000107"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 98 "N-000112"
+Na 98 "N-000110"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 99 "N-000114"
+Na 99 "N-000111"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 100 "N-000115"
+Na 100 "N-000114"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 101 "N-000116"
+Na 101 "N-000115"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 102 "N-000117"
+Na 102 "N-000116"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 103 "N-000120"
+Na 103 "N-000117"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 104 "N-000121"
+Na 104 "N-000118"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 105 "N-000138"
+Na 105 "N-000119"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 106 "N-000173"
+Na 106 "N-000120"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 107 "N-000174"
+Na 107 "N-000121"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 108 "N-000175"
+Na 108 "N-000126"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 109 "N-000176"
+Na 109 "N-000127"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 110 "N-000177"
+Na 110 "N-000128"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 111 "N-000189"
+Na 111 "N-000129"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 112 "N-000190"
+Na 112 "N-000139"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 113 "N-000191"
+Na 113 "N-000140"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 114 "N-000193"
+Na 114 "N-000147"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 115 "N-000196"
+Na 115 "N-000148"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 116 "N-000149"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 117 "N-000150"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 118 "N-000151"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 119 "N-000152"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 120 "N-000157"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 121 "N-000158"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 122 "N-000161"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 123 "N-000199"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 124 "N-000200"
 St ~
 $EndEQUIPOT
 $NCLASS
@@ -539,69 +575,70 @@ AddNet ""
 AddNet "+12V_SWITCHED"
 AddNet "+5V_MICRO"
 AddNet "+5V_SWITCHED"
-AddNet "/Connector/EGO"
+AddNet "/Connector/FUEL_PUMP_RELAY"
 AddNet "/Connector/GAS_VENTI_VALVE"
 AddNet "/Connector/IAT"
+AddNet "/Connector/IGNITER_1_4"
+AddNet "/Connector/IGNITER_2_3"
+AddNet "/Connector/MAP"
+AddNet "/Connector/NBO2+"
+AddNet "/Connector/RPM0-"
 AddNet "/Connector/STEPPER_OPEN"
 AddNet "/Connector/TACH_OUT"
+AddNet "/Connector/TPS"
 AddNet "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
-AddNet "/Dashboard_Analogue_Outputs/PA2"
 AddNet "/Dashboard_Analogue_Outputs/PA4"
-AddNet "/Igniter_Outputs/IGNITER_1_4"
-AddNet "/Igniter_Outputs/IGNITER_2_3"
+AddNet "/Dashboard_Analogue_Outputs/PP1"
 AddNet "/Igniter_Outputs/PT2"
-AddNet "/Igniter_Outputs/PT3"
-AddNet "/U_Core_Analogue_Inputs/AN00"
-AddNet "/U_Core_Analogue_Inputs/AN01"
+AddNet "/U_Core_Analogue_Inputs/AN02"
+AddNet "/U_Core_Analogue_Inputs/AN11"
 AddNet "/U_Core_Analogue_Inputs/CHT"
-AddNet "/U_Core_Analogue_Inputs/MAP"
-AddNet "/U_Core_Analogue_Inputs/TPS"
-AddNet "/U_Core_Board/AN02"
+AddNet "/U_Core_Analogue_Inputs/NBO2-"
+AddNet "/U_Core_Board/AN00"
+AddNet "/U_Core_Board/AN01"
 AddNet "/U_Core_Board/AN03"
 AddNet "/U_Core_Board/AN04"
 AddNet "/U_Core_Board/AN06"
 AddNet "/U_Core_Board/BKGD"
-AddNet "/U_Core_Board/PA1"
+AddNet "/U_Core_Board/PA0"
+AddNet "/U_Core_Board/PA2"
 AddNet "/U_Core_Board/PA3"
 AddNet "/U_Core_Board/PA4"
+AddNet "/U_Core_Board/PA7"
 AddNet "/U_Core_Board/PB0"
 AddNet "/U_Core_Board/PP3"
 AddNet "/U_Core_Board/PP7"
-AddNet "/U_Core_Board/PT4"
+AddNet "/U_Core_Board/PT0"
+AddNet "/U_Core_Board/PT3"
 AddNet "/U_Core_Board/RESET"
+AddNet "/U_Core_Board/RXD"
+AddNet "/U_Core_Board/TXD"
 AddNet "/U_Digital_Inputs/AC_SIGNAL"
-AddNet "/U_Digital_Inputs/PA0"
+AddNet "/U_Digital_Inputs/PT6"
 AddNet "/U_Digital_Inputs/SPEED_SENSOR"
 AddNet "/U_Injectors/INJECTOR1-4"
 AddNet "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
-AddNet "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
-AddNet "/U_Low_Side_Drivers/PA7"
 AddNet "/U_Low_Side_Drivers/PP5"
 AddNet "/U_Low_Side_Drivers/PP6"
 AddNet "/U_Low_Side_Drivers/STEPPER_CLOSE"
 AddNet "/U_RS232_Comms/K_WIRE"
 AddNet "/U_RS232_Comms/L_WIRE"
-AddNet "/U_RS232_Comms/RXD"
-AddNet "/U_RS232_Comms/TXD"
-AddNet "/U_VR_Interfaces/PT0"
 AddNet "/U_VR_Interfaces/RPM0+"
 AddNet "ADCGND"
-AddNet "N-000046"
-AddNet "N-000050"
-AddNet "N-000051"
-AddNet "N-000052"
+AddNet "N-000048"
+AddNet "N-000055"
 AddNet "N-000056"
 AddNet "N-000057"
 AddNet "N-000058"
-AddNet "N-000059"
 AddNet "N-000060"
 AddNet "N-000061"
-AddNet "N-000062"
-AddNet "N-000063"
 AddNet "N-000064"
 AddNet "N-000065"
-AddNet "N-000066"
 AddNet "N-000067"
+AddNet "N-000068"
+AddNet "N-000069"
+AddNet "N-000070"
+AddNet "N-000071"
 AddNet "N-000072"
 AddNet "N-000073"
 AddNet "N-000074"
@@ -615,15 +652,15 @@ AddNet "N-000081"
 AddNet "N-000082"
 AddNet "N-000083"
 AddNet "N-000084"
+AddNet "N-000085"
+AddNet "N-000086"
 AddNet "N-000087"
 AddNet "N-000088"
 AddNet "N-000089"
-AddNet "N-000090"
-AddNet "N-000092"
-AddNet "N-000093"
 AddNet "N-000094"
 AddNet "N-000097"
 AddNet "N-000098"
+AddNet "N-000099"
 AddNet "N-000100"
 AddNet "N-000101"
 AddNet "N-000102"
@@ -631,26 +668,34 @@ AddNet "N-000103"
 AddNet "N-000104"
 AddNet "N-000105"
 AddNet "N-000106"
-AddNet "N-000109"
+AddNet "N-000107"
 AddNet "N-000110"
-AddNet "N-000112"
+AddNet "N-000111"
 AddNet "N-000114"
 AddNet "N-000115"
 AddNet "N-000116"
 AddNet "N-000117"
+AddNet "N-000118"
+AddNet "N-000119"
 AddNet "N-000120"
 AddNet "N-000121"
-AddNet "N-000138"
-AddNet "N-000173"
-AddNet "N-000174"
-AddNet "N-000175"
-AddNet "N-000176"
-AddNet "N-000177"
-AddNet "N-000189"
-AddNet "N-000190"
-AddNet "N-000191"
-AddNet "N-000193"
-AddNet "N-000196"
+AddNet "N-000126"
+AddNet "N-000127"
+AddNet "N-000128"
+AddNet "N-000129"
+AddNet "N-000139"
+AddNet "N-000140"
+AddNet "N-000147"
+AddNet "N-000148"
+AddNet "N-000149"
+AddNet "N-000150"
+AddNet "N-000151"
+AddNet "N-000152"
+AddNet "N-000157"
+AddNet "N-000158"
+AddNet "N-000161"
+AddNet "N-000199"
+AddNet "N-000200"
 $EndNCLASS
 $MODULE C1V7
 Po 40402 38641 0 15 00200000 4F1119A1 ~~
@@ -673,7 +718,7 @@ $PAD
 Sh "2" C 600 600 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $SHAPE3D
@@ -696,14 +741,14 @@ $PAD
 Sh "1" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 90 "N-000101"
+Ne 93 "N-000103"
 Po -1500 0
 $EndPAD
 $PAD
 Sh "2" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1500 0
 $EndPAD
 $EndMODULE  C3v48
@@ -775,14 +820,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 92 "N-000103"
+Ne 103 "N-000117"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 12 "/Igniter_Outputs/IGNITER_1_4"
+Ne 7 "/Connector/IGNITER_1_4"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -854,14 +899,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 93 "N-000104"
+Ne 102 "N-000116"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 13 "/Igniter_Outputs/IGNITER_2_3"
+Ne 8 "/Connector/IGNITER_2_3"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -933,7 +978,7 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 64 "N-000065"
+Ne 68 "N-000072"
 Po -413 0
 $EndPAD
 $PAD
@@ -1012,14 +1057,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 66 "N-000067"
+Ne 67 "N-000071"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 38 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
+Ne 46 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1091,14 +1136,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 84 "N-000092"
+Ne 97 "N-000107"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 86 "N-000094"
+Ne 96 "N-000106"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1170,14 +1215,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 65 "N-000066"
+Ne 73 "N-000077"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 43 "/U_Low_Side_Drivers/STEPPER_CLOSE"
+Ne 49 "/U_Low_Side_Drivers/STEPPER_CLOSE"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1249,14 +1294,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 60 "N-000061"
+Ne 76 "N-000080"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 39 "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
+Ne 4 "/Connector/FUEL_PUMP_RELAY"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1328,14 +1373,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 55 "N-000056"
+Ne 65 "N-000069"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 37 "/U_Injectors/INJECTOR1-4"
+Ne 45 "/U_Injectors/INJECTOR1-4"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1407,14 +1452,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 87 "N-000097"
+Ne 99 "N-000111"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 9 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
+Ne 15 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1486,14 +1531,14 @@ $PAD
 Sh "1" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 57 "N-000058"
+Ne 71 "N-000075"
 Po -413 0
 $EndPAD
 $PAD
 Sh "2" R 472 472 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 7 "/Connector/STEPPER_OPEN"
+Ne 12 "/Connector/STEPPER_OPEN"
 Po 413 0
 $EndPAD
 $EndMODULE  LED-0805
@@ -1518,14 +1563,14 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 54 "N-000052"
+Ne 63 "N-000067"
 Po -2500 4800
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1500 4800
 $EndPAD
 $PAD
@@ -1588,7 +1633,7 @@ $PAD
 Sh "3" R 1260 315 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 22 1368
 $EndPAD
 $PAD
@@ -1609,7 +1654,7 @@ $PAD
 Sh "3" R 3346 2972 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 2 -2426
 $EndPAD
 $EndMODULE  P-TO263-5-1
@@ -1638,21 +1683,21 @@ $PAD
 Sh "2" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1000 -500
 $EndPAD
 $PAD
 Sh "3" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 25 "/U_Core_Board/BKGD"
+Ne 28 "/U_Core_Board/BKGD"
 Po 0 500
 $EndPAD
 $PAD
 Sh "4" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 33 "/U_Core_Board/RESET"
+Ne 39 "/U_Core_Board/RESET"
 Po 0 -500
 $EndPAD
 $PAD
@@ -1698,7 +1743,7 @@ $PAD
 Sh "6" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 96 "N-000109"
+Ne 108 "N-000126"
 Po 1000 -2530
 $EndPAD
 $PAD
@@ -1719,42 +1764,42 @@ $PAD
 Sh "4" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 2530
 $EndPAD
 $PAD
 Sh "3" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 2530
 $EndPAD
 $PAD
 Sh "5" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1000 2530
 $EndPAD
 $PAD
 Sh "2" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -500 2530
 $EndPAD
 $PAD
 Sh "1" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1000 2530
 $EndPAD
 $PAD
 Sh "9" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 97 "N-000110"
+Ne 109 "N-000127"
 Po -500 -2530
 $EndPAD
 $PAD
@@ -1768,7 +1813,7 @@ $PAD
 Sh "TAB" R 3740 2480 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 12 "/Igniter_Outputs/IGNITER_1_4"
+Ne 7 "/Connector/IGNITER_1_4"
 Po 0 0
 $EndPAD
 $SHAPE3D
@@ -1800,7 +1845,7 @@ $PAD
 Sh "6" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 99 "N-000114"
+Ne 104 "N-000118"
 Po 1000 -2530
 $EndPAD
 $PAD
@@ -1821,42 +1866,42 @@ $PAD
 Sh "4" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 2530
 $EndPAD
 $PAD
 Sh "3" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 2530
 $EndPAD
 $PAD
 Sh "5" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1000 2530
 $EndPAD
 $PAD
 Sh "2" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -500 2530
 $EndPAD
 $PAD
 Sh "1" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1000 2530
 $EndPAD
 $PAD
 Sh "9" R 236 807 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 98 "N-000112"
+Ne 105 "N-000119"
 Po -500 -2530
 $EndPAD
 $PAD
@@ -1870,7 +1915,7 @@ $PAD
 Sh "TAB" R 3740 2480 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 13 "/Igniter_Outputs/IGNITER_2_3"
+Ne 8 "/Connector/IGNITER_2_3"
 Po 0 0
 $EndPAD
 $SHAPE3D
@@ -1904,7 +1949,7 @@ $PAD
 Sh "1" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 30 "/U_Core_Board/PP3"
+Ne 35 "/U_Core_Board/PP3"
 Po 3455 -4325
 $EndPAD
 $PAD
@@ -1918,7 +1963,7 @@ $PAD
 Sh "3" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 17 "/Dashboard_Analogue_Outputs/PP1"
 Po 2945 -4325
 $EndPAD
 $PAD
@@ -1960,7 +2005,7 @@ $PAD
 Sh "9" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 48 "/U_VR_Interfaces/PT0"
+Ne 37 "/U_Core_Board/PT0"
 Po 1410 -4325
 $EndPAD
 $PAD
@@ -1974,35 +2019,35 @@ $PAD
 Sh "11" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 14 "/Igniter_Outputs/PT2"
+Ne 18 "/Igniter_Outputs/PT2"
 Po 895 -4325
 $EndPAD
 $PAD
 Sh "12" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 15 "/Igniter_Outputs/PT3"
+Ne 38 "/U_Core_Board/PT3"
 Po 640 -4325
 $EndPAD
 $PAD
 Sh "13" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 103 "N-000120"
+Ne 117 "N-000150"
 Po 385 -4325
 $EndPAD
 $PAD
 Sh "14" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 130 -4325
 $EndPAD
 $PAD
 Sh "15" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/U_Core_Board/PT4"
+Ne 0 ""
 Po -130 -4325
 $EndPAD
 $PAD
@@ -2016,7 +2061,7 @@ $PAD
 Sh "17" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 43 "/U_Digital_Inputs/PT6"
 Po -640 -4325
 $EndPAD
 $PAD
@@ -2058,14 +2103,14 @@ $PAD
 Sh "23" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 25 "/U_Core_Board/BKGD"
+Ne 28 "/U_Core_Board/BKGD"
 Po -2175 -4325
 $EndPAD
 $PAD
 Sh "24" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 29 "/U_Core_Board/PB0"
+Ne 34 "/U_Core_Board/PB0"
 Po -2435 -4325
 $EndPAD
 $PAD
@@ -2149,21 +2194,21 @@ $PAD
 Sh "36" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 112 "N-000190"
+Ne 120 "N-000157"
 Po -4325 -1665
 $EndPAD
 $PAD
 Sh "37" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 110 "N-000177"
+Ne 118 "N-000151"
 Po -4325 -1410
 $EndPAD
 $PAD
 Sh "38" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 109 "N-000176"
+Ne 122 "N-000161"
 Po -4325 -1155
 $EndPAD
 $PAD
@@ -2177,7 +2222,7 @@ $PAD
 Sh "40" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -4325 -640
 $EndPAD
 $PAD
@@ -2191,49 +2236,49 @@ $PAD
 Sh "42" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 33 "/U_Core_Board/RESET"
+Ne 39 "/U_Core_Board/RESET"
 Po -4325 -130
 $EndPAD
 $PAD
 Sh "43" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 106 "N-000173"
+Ne 124 "N-000200"
 Po -4325 130
 $EndPAD
 $PAD
 Sh "44" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 107 "N-000174"
+Ne 123 "N-000199"
 Po -4325 385
 $EndPAD
 $PAD
 Sh "45" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -4325 640
 $EndPAD
 $PAD
 Sh "46" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 114 "N-000193"
+Ne 115 "N-000148"
 Po -4325 895
 $EndPAD
 $PAD
 Sh "47" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 108 "N-000175"
+Ne 119 "N-000152"
 Po -4325 1155
 $EndPAD
 $PAD
 Sh "48" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -4325 1410
 $EndPAD
 $PAD
@@ -2296,77 +2341,77 @@ $PAD
 Sh "57" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 35 "/U_Digital_Inputs/PA0"
+Ne 29 "/U_Core_Board/PA0"
 Po -3455 4325
 $EndPAD
 $PAD
 Sh "58" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/U_Core_Board/PA1"
+Ne 0 ""
 Po -3200 4325
 $EndPAD
 $PAD
 Sh "59" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 10 "/Dashboard_Analogue_Outputs/PA2"
+Ne 30 "/U_Core_Board/PA2"
 Po -2945 4325
 $EndPAD
 $PAD
 Sh "60" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 27 "/U_Core_Board/PA3"
+Ne 31 "/U_Core_Board/PA3"
 Po -2690 4325
 $EndPAD
 $PAD
 Sh "61" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 28 "/U_Core_Board/PA4"
+Ne 32 "/U_Core_Board/PA4"
 Po -2435 4325
 $EndPAD
 $PAD
 Sh "62" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 11 "/Dashboard_Analogue_Outputs/PA4"
+Ne 16 "/Dashboard_Analogue_Outputs/PA4"
 Po -2175 4325
 $EndPAD
 $PAD
 Sh "63" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 113 "N-000191"
+Ne 112 "N-000139"
 Po -1920 4325
 $EndPAD
 $PAD
 Sh "64" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 40 "/U_Low_Side_Drivers/PA7"
+Ne 33 "/U_Core_Board/PA7"
 Po -1665 4325
 $EndPAD
 $PAD
 Sh "65" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 104 "N-000121"
+Ne 116 "N-000149"
 Po -1410 4325
 $EndPAD
 $PAD
 Sh "66" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1155 4325
 $EndPAD
 $PAD
 Sh "67" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/U_Core_Analogue_Inputs/AN00"
+Ne 23 "/U_Core_Board/AN00"
 Po -895 4325
 $EndPAD
 $PAD
@@ -2380,7 +2425,7 @@ $PAD
 Sh "69" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/U_Core_Analogue_Inputs/AN01"
+Ne 24 "/U_Core_Board/AN01"
 Po -385 4325
 $EndPAD
 $PAD
@@ -2394,7 +2439,7 @@ $PAD
 Sh "71" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/U_Core_Board/AN02"
+Ne 19 "/U_Core_Analogue_Inputs/AN02"
 Po 130 4325
 $EndPAD
 $PAD
@@ -2408,21 +2453,21 @@ $PAD
 Sh "73" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/U_Core_Board/AN03"
+Ne 25 "/U_Core_Board/AN03"
 Po 640 4325
 $EndPAD
 $PAD
 Sh "74" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 20 "/U_Core_Analogue_Inputs/AN11"
 Po 895 4325
 $EndPAD
 $PAD
 Sh "75" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 23 "/U_Core_Board/AN04"
+Ne 26 "/U_Core_Board/AN04"
 Po 1155 4325
 $EndPAD
 $PAD
@@ -2450,7 +2495,7 @@ $PAD
 Sh "79" R 800 150 0 0 1800
 Dr 0 0 0
 At SMD N 00A88000
-Ne 24 "/U_Core_Board/AN06"
+Ne 27 "/U_Core_Board/AN06"
 Po 2175 4325
 $EndPAD
 $PAD
@@ -2492,14 +2537,14 @@ $PAD
 Sh "85" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 4325 3455
 $EndPAD
 $PAD
 Sh "86" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 4325 3200
 $EndPAD
 $PAD
@@ -2520,14 +2565,14 @@ $PAD
 Sh "89" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 46 "/U_RS232_Comms/RXD"
+Ne 40 "/U_Core_Board/RXD"
 Po 4325 2435
 $EndPAD
 $PAD
 Sh "90" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 47 "/U_RS232_Comms/TXD"
+Ne 41 "/U_Core_Board/TXD"
 Po 4325 2175
 $EndPAD
 $PAD
@@ -2639,7 +2684,7 @@ $PAD
 Sh "106" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 4325 -1920
 $EndPAD
 $PAD
@@ -2660,21 +2705,21 @@ $PAD
 Sh "109" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 31 "/U_Core_Board/PP7"
+Ne 36 "/U_Core_Board/PP7"
 Po 4325 -2690
 $EndPAD
 $PAD
 Sh "110" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 42 "/U_Low_Side_Drivers/PP6"
+Ne 48 "/U_Low_Side_Drivers/PP6"
 Po 4325 -2945
 $EndPAD
 $PAD
 Sh "111" R 800 150 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 41 "/U_Low_Side_Drivers/PP5"
+Ne 47 "/U_Low_Side_Drivers/PP5"
 Po 4325 -3200
 $EndPAD
 $PAD
@@ -2691,10 +2736,10 @@ Li R3
 Cd Resitance 3 pas
 Kw R
 Sc 4F1119BE
-AR /4E930052/4E940DA5
+AR /4E930052/4F193717
 Op 0 A 0
 T0 0 0 550 500 0 80 N V 21 N"R63"
-T1 0 0 550 500 0 80 N I 21 N"15K_1/2W"
+T1 0 0 550 500 0 80 N I 21 N"10k"
 DS -1500 0 -1300 0 120 21
 DS 1500 0 1300 0 120 21
 DS 1300 0 1300 -400 120 21
@@ -2707,14 +2752,14 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 49 "/U_VR_Interfaces/RPM0+"
+Ne 88 "N-000098"
 Po -1500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 79 "N-000084"
+Ne 52 "/U_VR_Interfaces/RPM0+"
 Po 1500 0
 $EndPAD
 $SHAPE3D
@@ -2742,14 +2787,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 54 "N-000052"
+Ne 63 "N-000067"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2771,14 +2816,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 95 "N-000106"
+Ne 101 "N-000115"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2800,14 +2845,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 40 "/U_Low_Side_Drivers/PA7"
+Ne 33 "/U_Core_Board/PA7"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2829,14 +2874,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 115 "N-000196"
+Ne 113 "N-000140"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2858,14 +2903,14 @@ $PAD
 Sh "1" R 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 37 "/U_Core_Board/PT0"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 48 "/U_VR_Interfaces/PT0"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2887,14 +2932,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 29 "/U_Core_Board/PB0"
+Ne 34 "/U_Core_Board/PB0"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2916,14 +2961,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 8 "/Connector/TACH_OUT"
+Ne 13 "/Connector/TACH_OUT"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2945,14 +2990,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 101 "N-000116"
+Ne 110 "N-000128"
 Po -500 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 500 0
 $EndPAD
 $EndMODULE  SIL-2
@@ -2975,21 +3020,21 @@ $PAD
 Sh "1" R 550 550 0 0 900
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 900
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 76 "N-000081"
+Ne 86 "N-000094"
 Po 0 0
 $EndPAD
 $PAD
 Sh "3" C 550 550 0 0 900
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 75 "N-000080"
+Ne 85 "N-000089"
 Po 1000 0
 $EndPAD
 $EndMODULE  SIL-3
@@ -3012,14 +3057,14 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 94 "N-000105"
+Ne 106 "N-000120"
 Po 0 0
 $EndPAD
 $PAD
@@ -3049,21 +3094,21 @@ $PAD
 Sh "1" R 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 75 "N-000080"
+Ne 85 "N-000089"
 Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 73 "N-000078"
+Ne 83 "N-000087"
 Po 0 0
 $EndPAD
 $PAD
 Sh "3" C 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 44 "/U_RS232_Comms/K_WIRE"
+Ne 50 "/U_RS232_Comms/K_WIRE"
 Po 1000 0
 $EndPAD
 $EndMODULE  SIL-3
@@ -3086,21 +3131,21 @@ $PAD
 Sh "1" R 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 76 "N-000081"
+Ne 86 "N-000094"
 Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 74 "N-000079"
+Ne 84 "N-000088"
 Po 0 0
 $EndPAD
 $PAD
 Sh "3" C 550 550 0 0 2700
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 45 "/U_RS232_Comms/L_WIRE"
+Ne 51 "/U_RS232_Comms/L_WIRE"
 Po 1000 0
 $EndPAD
 $EndMODULE  SIL-3
@@ -3123,21 +3168,21 @@ $PAD
 Sh "1" R 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 19 "/U_Core_Analogue_Inputs/MAP"
+Ne 9 "/Connector/MAP"
 Po -1000 0
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 53 "N-000051"
+Ne 59 "N-000060"
 Po 0 0
 $EndPAD
 $PAD
 Sh "3" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 54 "N-000052"
+Ne 63 "N-000067"
 Po 1000 0
 $EndPAD
 $EndMODULE  SIL-3
@@ -3161,14 +3206,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 80 "N-000087"
+Ne 92 "N-000102"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 35 "/U_Digital_Inputs/PA0"
+Ne 29 "/U_Core_Board/PA0"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3198,14 +3243,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 81 "N-000088"
+Ne 89 "N-000099"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 36 "/U_Digital_Inputs/SPEED_SENSOR"
+Ne 44 "/U_Digital_Inputs/SPEED_SENSOR"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3235,14 +3280,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 82 "N-000089"
+Ne 90 "N-000100"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 34 "/U_Digital_Inputs/AC_SIGNAL"
+Ne 42 "/U_Digital_Inputs/AC_SIGNAL"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3272,14 +3317,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 40 "/U_Low_Side_Drivers/PA7"
+Ne 33 "/U_Core_Board/PA7"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3309,14 +3354,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 40 "/U_Low_Side_Drivers/PA7"
+Ne 33 "/U_Core_Board/PA7"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 61 "N-000062"
+Ne 72 "N-000076"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3346,7 +3391,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 60 "N-000061"
+Ne 76 "N-000080"
 Po -375 0
 $EndPAD
 $PAD
@@ -3383,14 +3428,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 31 "/U_Core_Board/PP7"
+Ne 36 "/U_Core_Board/PP7"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3420,14 +3465,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 42 "/U_Low_Side_Drivers/PP6"
+Ne 48 "/U_Low_Side_Drivers/PP6"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3457,14 +3502,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 31 "/U_Core_Board/PP7"
+Ne 36 "/U_Core_Board/PP7"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 59 "N-000060"
+Ne 74 "N-000078"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3494,14 +3539,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 42 "/U_Low_Side_Drivers/PP6"
+Ne 48 "/U_Low_Side_Drivers/PP6"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 58 "N-000059"
+Ne 75 "N-000079"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3531,7 +3576,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 65 "N-000066"
+Ne 73 "N-000077"
 Po -375 0
 $EndPAD
 $PAD
@@ -3568,7 +3613,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 57 "N-000058"
+Ne 71 "N-000075"
 Po -375 0
 $EndPAD
 $PAD
@@ -3605,14 +3650,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 41 "/U_Low_Side_Drivers/PP5"
+Ne 47 "/U_Low_Side_Drivers/PP5"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3642,14 +3687,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 30 "/U_Core_Board/PP3"
+Ne 35 "/U_Core_Board/PP3"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3679,14 +3724,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 41 "/U_Low_Side_Drivers/PP5"
+Ne 47 "/U_Low_Side_Drivers/PP5"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 62 "N-000063"
+Ne 70 "N-000074"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3716,14 +3761,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 30 "/U_Core_Board/PP3"
+Ne 35 "/U_Core_Board/PP3"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 63 "N-000064"
+Ne 69 "N-000073"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3753,7 +3798,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 66 "N-000067"
+Ne 67 "N-000071"
 Po -375 0
 $EndPAD
 $PAD
@@ -3790,7 +3835,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 64 "N-000065"
+Ne 68 "N-000072"
 Po -375 0
 $EndPAD
 $PAD
@@ -3827,14 +3872,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 95 "N-000106"
+Ne 101 "N-000115"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 98 "N-000112"
+Ne 105 "N-000119"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3864,14 +3909,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 99 "N-000114"
+Ne 104 "N-000118"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3901,7 +3946,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 93 "N-000104"
+Ne 102 "N-000116"
 Po -375 0
 $EndPAD
 $PAD
@@ -3938,14 +3983,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 15 "/Igniter_Outputs/PT3"
+Ne 38 "/U_Core_Board/PT3"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -3956,14 +4001,14 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
 $MODULE SM0805
-Po 74347 29302 900 15 42806E04 4F111A03 ~~
+Po 74201 28853 1800 15 42806E04 4F111A03 ~~
 Li SM0805
 Sc 4F111A03
 AR /4E939B76/4E94048B
 Op 0 0 0
 At SMD 
-T0 0 0 250 250 900 50 N V 21 N"R36"
-T1 0 0 250 250 900 50 N I 21 N"100K"
+T0 0 0 250 250 1800 50 N V 21 N"R36"
+T1 0 0 250 250 1800 50 N I 21 N"100K"
 DC -650 300 -650 250 50 21
 DS -200 300 -600 300 50 21
 DS -600 300 -600 -300 50 21
@@ -3972,17 +4017,17 @@ DS 200 -300 600 -300 50 21
 DS 600 -300 600 300 50 21
 DS 600 300 200 300 50 21
 $PAD
-Sh "1" R 350 550 0 0 900
+Sh "1" R 350 550 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 14 "/Igniter_Outputs/PT2"
+Ne 18 "/Igniter_Outputs/PT2"
 Po -375 0
 $EndPAD
 $PAD
-Sh "2" R 350 550 0 0 900
+Sh "2" R 350 550 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4012,14 +4057,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 100 "N-000115"
+Ne 111 "N-000129"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 14 "/Igniter_Outputs/PT2"
+Ne 18 "/Igniter_Outputs/PT2"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4030,7 +4075,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
 $MODULE SM0805
-Po 75807 29601 900 15 42806E04 4F111A07 ~~
+Po 74319 30192 900 15 42806E04 4F111A07 ~~
 Li SM0805
 Sc 4F111A07
 AR /4E939B76/4E940487
@@ -4049,14 +4094,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 102 "N-000117"
+Ne 107 "N-000121"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 15 "/Igniter_Outputs/PT3"
+Ne 38 "/U_Core_Board/PT3"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4086,14 +4131,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 101 "N-000116"
+Ne 110 "N-000128"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 97 "N-000110"
+Ne 109 "N-000127"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4123,14 +4168,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 96 "N-000109"
+Ne 108 "N-000126"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4160,7 +4205,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 92 "N-000103"
+Ne 103 "N-000117"
 Po -375 0
 $EndPAD
 $PAD
@@ -4197,14 +4242,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 27 "/U_Core_Board/PA3"
+Ne 31 "/U_Core_Board/PA3"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4234,14 +4279,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 85 "N-000093"
+Ne 95 "N-000105"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 27 "/U_Core_Board/PA3"
+Ne 31 "/U_Core_Board/PA3"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4271,14 +4316,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 11 "/Dashboard_Analogue_Outputs/PA4"
+Ne 16 "/Dashboard_Analogue_Outputs/PA4"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4308,14 +4353,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 89 "N-000100"
+Ne 94 "N-000104"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 11 "/Dashboard_Analogue_Outputs/PA4"
+Ne 16 "/Dashboard_Analogue_Outputs/PA4"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4345,14 +4390,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 23 "/U_Core_Board/AN04"
+Ne 26 "/U_Core_Board/AN04"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4382,7 +4427,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
@@ -4419,14 +4464,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 82 "N-000089"
+Ne 90 "N-000100"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 80 "N-000087"
+Ne 92 "N-000102"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4456,14 +4501,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 10 "/Dashboard_Analogue_Outputs/PA2"
+Ne 30 "/U_Core_Board/PA2"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4493,14 +4538,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 88 "N-000098"
+Ne 98 "N-000110"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 10 "/Dashboard_Analogue_Outputs/PA2"
+Ne 30 "/U_Core_Board/PA2"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4514,11 +4559,11 @@ $MODULE SM0805
 Po 63961 47920 0 15 42806E04 4F111A21 ~~
 Li SM0805
 Sc 4F111A21
-AR /4E930052/4E940DA6
+AR /4E930052/4F193718
 Op 0 0 0
 At SMD 
 T0 0 0 250 250 0 50 N V 21 N"R65"
-T1 0 0 250 250 0 50 N I 21 N"17K"
+T1 0 0 250 250 0 50 N I 21 N"10k"
 DC -650 300 -650 250 50 21
 DS -200 300 -600 300 50 21
 DS -600 300 -600 -300 50 21
@@ -4530,14 +4575,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 78 "N-000083"
+Ne 87 "N-000097"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 11 "/Connector/RPM0-"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4567,7 +4612,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 87 "N-000097"
+Ne 99 "N-000111"
 Po -375 0
 $EndPAD
 $PAD
@@ -4604,14 +4649,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 115 "N-000196"
+Ne 113 "N-000140"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 113 "N-000191"
+Ne 112 "N-000139"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4641,14 +4686,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 33 "/U_Core_Board/RESET"
+Ne 39 "/U_Core_Board/RESET"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 105 "N-000138"
+Ne 114 "N-000147"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4678,7 +4723,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 33 "/U_Core_Board/RESET"
+Ne 39 "/U_Core_Board/RESET"
 Po -375 0
 $EndPAD
 $PAD
@@ -4715,7 +4760,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 25 "/U_Core_Board/BKGD"
+Ne 28 "/U_Core_Board/BKGD"
 Po -375 0
 $EndPAD
 $PAD
@@ -4752,7 +4797,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 112 "N-000190"
+Ne 120 "N-000157"
 Po -375 0
 $EndPAD
 $PAD
@@ -4789,14 +4834,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 110 "N-000177"
+Ne 118 "N-000151"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4826,14 +4871,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 109 "N-000176"
+Ne 122 "N-000161"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4863,14 +4908,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 114 "N-000193"
+Ne 115 "N-000148"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 108 "N-000175"
+Ne 119 "N-000152"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4900,14 +4945,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 107 "N-000174"
+Ne 123 "N-000199"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 111 "N-000189"
+Ne 121 "N-000158"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4937,14 +4982,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 20 "/U_Core_Analogue_Inputs/TPS"
+Ne 14 "/Connector/TPS"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/U_Core_Board/AN02"
+Ne 19 "/U_Core_Analogue_Inputs/AN02"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -4974,14 +5019,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 53 "N-000051"
+Ne 59 "N-000060"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 23 "/U_Core_Board/AN04"
+Ne 26 "/U_Core_Board/AN04"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5011,14 +5056,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 18 "/U_Core_Analogue_Inputs/CHT"
+Ne 21 "/U_Core_Analogue_Inputs/CHT"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/U_Core_Analogue_Inputs/AN01"
+Ne 24 "/U_Core_Board/AN01"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5055,7 +5100,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 18 "/U_Core_Analogue_Inputs/CHT"
+Ne 21 "/U_Core_Analogue_Inputs/CHT"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5085,14 +5130,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "N-000050"
+Ne 62 "N-000065"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5122,14 +5167,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "N-000050"
+Ne 62 "N-000065"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 24 "/U_Core_Board/AN06"
+Ne 27 "/U_Core_Board/AN06"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5159,14 +5204,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 4 "/Connector/EGO"
+Ne 61 "N-000064"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/U_Core_Board/AN03"
+Ne 25 "/U_Core_Board/AN03"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5203,7 +5248,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/U_Core_Analogue_Inputs/AN00"
+Ne 23 "/U_Core_Board/AN00"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5240,7 +5285,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "N-000050"
+Ne 62 "N-000065"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5307,14 +5352,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/U_Core_Board/AN03"
+Ne 25 "/U_Core_Board/AN03"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5344,14 +5389,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 4 "/Connector/EGO"
+Ne 61 "N-000064"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5381,14 +5426,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 114 "N-000193"
+Ne 115 "N-000148"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5418,14 +5463,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 24 "/U_Core_Board/AN06"
+Ne 27 "/U_Core_Board/AN06"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5455,14 +5500,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 52 "N-000050"
+Ne 62 "N-000065"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5492,14 +5537,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/U_Core_Analogue_Inputs/AN01"
+Ne 24 "/U_Core_Board/AN01"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5529,14 +5574,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 104 "N-000121"
+Ne 116 "N-000149"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5566,14 +5611,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 111 "N-000189"
+Ne 121 "N-000158"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 106 "N-000173"
+Ne 124 "N-000200"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5603,14 +5648,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 18 "/U_Core_Analogue_Inputs/CHT"
+Ne 21 "/U_Core_Analogue_Inputs/CHT"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5640,7 +5685,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 55 "N-000056"
+Ne 65 "N-000069"
 Po -375 0
 $EndPAD
 $PAD
@@ -5677,14 +5722,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 29 "/U_Core_Board/PB0"
+Ne 34 "/U_Core_Board/PB0"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 56 "N-000057"
+Ne 66 "N-000070"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5714,14 +5759,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 29 "/U_Core_Board/PB0"
+Ne 34 "/U_Core_Board/PB0"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5751,14 +5796,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 83 "N-000090"
+Ne 91 "N-000101"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 32 "/U_Core_Board/PT4"
+Ne 43 "/U_Digital_Inputs/PT6"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5788,14 +5833,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 81 "N-000088"
+Ne 89 "N-000099"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 83 "N-000090"
+Ne 91 "N-000101"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5825,14 +5870,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 81 "N-000088"
+Ne 89 "N-000099"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5862,14 +5907,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/U_Core_Board/PA1"
+Ne 17 "/Dashboard_Analogue_Outputs/PP1"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5883,11 +5928,11 @@ $MODULE SM0805
 Po 63973 45531 0 15 42806E04 4F111A6B ~~
 Li SM0805
 Sc 4F111A6B
-AR /4E930052/4E940DA7
+AR /4E930052/4F19371A
 Op 0 0 0
 At SMD 
 T0 0 0 250 250 0 50 N V 21 N"R64"
-T1 0 0 250 250 0 50 N I 21 N"100R"
+T1 0 0 250 250 0 50 N I 21 N"10k"
 DC -650 300 -650 250 50 21
 DS -200 300 -600 300 50 21
 DS -600 300 -600 -300 50 21
@@ -5899,14 +5944,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 3 "+5V_SWITCHED"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 77 "N-000082"
+Ne 37 "/U_Core_Board/PT0"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5936,14 +5981,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 107 "N-000174"
+Ne 123 "N-000199"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 106 "N-000173"
+Ne 124 "N-000200"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -5980,7 +6025,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 28 "/U_Core_Board/PA4"
+Ne 32 "/U_Core_Board/PA4"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6010,14 +6055,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 108 "N-000175"
+Ne 119 "N-000152"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6047,7 +6092,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
@@ -6084,14 +6129,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 106 "N-000173"
+Ne 124 "N-000200"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6121,14 +6166,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 33 "/U_Core_Board/RESET"
+Ne 39 "/U_Core_Board/RESET"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6158,14 +6203,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 91 "N-000102"
+Ne 100 "N-000114"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6195,14 +6240,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 91 "N-000102"
+Ne 100 "N-000114"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6232,14 +6277,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 8 "/Connector/TACH_OUT"
+Ne 13 "/Connector/TACH_OUT"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6276,7 +6321,7 @@ $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6313,7 +6358,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6350,7 +6395,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6380,7 +6425,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 51 "N-000046"
+Ne 54 "N-000048"
 Po -375 0
 $EndPAD
 $PAD
@@ -6417,14 +6462,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 51 "N-000046"
+Ne 54 "N-000048"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6454,7 +6499,7 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
@@ -6498,7 +6543,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6528,14 +6573,14 @@ $PAD
 Sh "1" R 350 550 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 53 "N-000051"
+Ne 59 "N-000060"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 2700
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6565,14 +6610,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 103 "N-000120"
+Ne 117 "N-000150"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6602,14 +6647,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 20 "/U_Core_Analogue_Inputs/TPS"
+Ne 14 "/Connector/TPS"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6639,14 +6684,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/U_Core_Board/AN02"
+Ne 19 "/U_Core_Analogue_Inputs/AN02"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6676,7 +6721,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/U_Core_Board/PA1"
+Ne 17 "/Dashboard_Analogue_Outputs/PP1"
 Po -375 0
 $EndPAD
 $PAD
@@ -6720,7 +6765,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6750,7 +6795,7 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
@@ -6787,14 +6832,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 68 "N-000073"
+Ne 79 "N-000083"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 67 "N-000072"
+Ne 78 "N-000082"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6831,7 +6876,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "N-000075"
+Ne 81 "N-000085"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6868,7 +6913,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6898,14 +6943,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 72 "N-000077"
+Ne 77 "N-000081"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 71 "N-000076"
+Ne 80 "N-000084"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6935,14 +6980,14 @@ $PAD
 Sh "1" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 69 "N-000074"
+Ne 82 "N-000086"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -6956,11 +7001,11 @@ $MODULE SM0805
 Po 63961 46743 0 15 42806E04 4F111AA5 ~~
 Li SM0805
 Sc 4F111AA5
-AR /4E930052/4E940DA4
+AR /4E930052/4F19371B
 Op 0 0 0
 At SMD 
 T0 0 0 250 250 0 50 N V 21 N"C38"
-T1 0 0 250 250 0 50 N I 21 N"0.047uF"
+T1 0 0 250 250 0 50 N I 21 N"0.1uF"
 DC -650 300 -650 250 50 21
 DS -200 300 -600 300 50 21
 DS -600 300 -600 -300 50 21
@@ -6972,14 +7017,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 79 "N-000084"
+Ne 3 "+5V_SWITCHED"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7009,14 +7054,14 @@ $PAD
 Sh "1" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/U_Core_Analogue_Inputs/AN00"
+Ne 23 "/U_Core_Board/AN00"
 Po -375 0
 $EndPAD
 $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7053,7 +7098,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7090,7 +7135,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7127,7 +7172,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7164,7 +7209,7 @@ $PAD
 Sh "2" R 350 550 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 375 0
 $EndPAD
 $SHAPE3D
@@ -7183,7 +7228,7 @@ AR /4E939ACE/4E941A02
 Op 0 0 0
 At SMD 
 T0 0 -200 300 300 0 50 N V 21 N"R25"
-T1 0 200 300 300 0 50 N V 21 N"330-1/4W"
+T1 0 200 300 300 0 50 N V 21 N"330"
 DC -950 600 -900 550 50 21
 DS -300 -550 -900 -550 50 21
 DS -900 -550 -900 550 50 21
@@ -7195,52 +7240,14 @@ $PAD
 Sh "1" R 500 1000 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 84 "N-000092"
+Ne 97 "N-000107"
 Po -600 0
 $EndPAD
 $PAD
 Sh "2" R 500 1000 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 1 "+12V_SWITCHED"
-Po 600 0
-$EndPAD
-$SHAPE3D
-Na "smd/chip_cms.wrl"
-Sc 0.170000 0.200000 0.170000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
-$EndSHAPE3D
-$EndMODULE  SM1210
-$MODULE SM1210
-Po 77193 25948 0 15 42806E94 4F111AB2 ~~
-Li SM1210
-Kw CMS SM
-Sc 4F111AB2
-AR /4E939ACE/4E9419FD
-Op 0 0 0
-At SMD 
-T0 0 -200 300 300 0 50 N V 21 N"R26"
-T1 0 200 300 300 0 50 N V 21 N"1K-1/4W"
-DC -950 600 -900 550 50 21
-DS -300 -550 -900 -550 50 21
-DS -900 -550 -900 550 50 21
-DS -900 550 -300 550 50 21
-DS 300 550 900 550 50 21
-DS 900 550 900 -550 50 21
-DS 900 -550 300 -550 50 21
-$PAD
-Sh "1" R 500 1000 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 1 "+12V_SWITCHED"
-Po -600 0
-$EndPAD
-$PAD
-Sh "2" R 500 1000 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 86 "N-000094"
+Ne 3 "+5V_SWITCHED"
 Po 600 0
 $EndPAD
 $SHAPE3D
@@ -7282,7 +7289,7 @@ $PAD
 Sh "2" R 500 1300 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1450 0
 $EndPAD
 $SHAPE3D
@@ -7324,7 +7331,7 @@ $PAD
 Sh "2" R 500 1300 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1450 0
 $EndPAD
 $SHAPE3D
@@ -7356,49 +7363,49 @@ $PAD
 Sh "1" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 100 "N-000115"
+Ne 111 "N-000129"
 Po -1500 1406
 $EndPAD
 $PAD
 Sh "2" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 94 "N-000105"
+Ne 106 "N-000120"
 Po -1000 1406
 $EndPAD
 $PAD
 Sh "3" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 101 "N-000116"
+Ne 110 "N-000128"
 Po -500 1406
 $EndPAD
 $PAD
 Sh "4" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 102 "N-000117"
+Ne 107 "N-000121"
 Po 0 1406
 $EndPAD
 $PAD
 Sh "5" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 94 "N-000105"
+Ne 106 "N-000120"
 Po 500 1406
 $EndPAD
 $PAD
 Sh "6" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 95 "N-000106"
+Ne 101 "N-000115"
 Po 1000 1406
 $EndPAD
 $PAD
 Sh "7" R 236 839 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1500 1406
 $EndPAD
 $PAD
@@ -7494,14 +7501,14 @@ $PAD
 Sh "7" R 200 450 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 8 "/Connector/TACH_OUT"
+Ne 13 "/Connector/TACH_OUT"
 Po -250 -1050
 $EndPAD
 $PAD
 Sh "6" R 200 450 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 91 "N-000102"
+Ne 100 "N-000114"
 Po 250 -1050
 $EndPAD
 $PAD
@@ -7515,14 +7522,14 @@ $PAD
 Sh "2" R 200 450 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 26 "/U_Core_Board/PA1"
+Ne 17 "/Dashboard_Analogue_Outputs/PP1"
 Po -250 1050
 $EndPAD
 $PAD
 Sh "3" R 200 450 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 250 1050
 $EndPAD
 $PAD
@@ -7539,87 +7546,6 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SO8E
-$MODULE SO8NB
-Po 66299 46692 0 15 4EAC9DE7 4F111AB8 ~~
-Li SO8NB
-Cd Module CMS SOJ 8 pins large
-Kw CMS SOJ
-Sc 4F111AB8
-AR /4E930052/4E940DA8
-Op 0 0 0
-At SMD 
-T0 19 -308 450 400 0 50 N V 21 N"U8"
-T1 0 500 400 400 0 50 N V 21 N"NCV1124"
-DS -1000 -718 1000 -718 50 21
-DS 1000 -718 1000 718 50 21
-DS 1000 718 -1000 718 50 21
-DS -1000 718 -1000 -718 50 21
-DS -1000 -232 -800 -232 50 21
-DS -800 -232 -800 268 50 21
-DS -800 268 -1000 268 50 21
-$PAD
-Sh "8" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 3 "+5V_SWITCHED"
-Po -750 -1127
-$EndPAD
-$PAD
-Sh "7" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 48 "/U_VR_Interfaces/PT0"
-Po -250 -1127
-$EndPAD
-$PAD
-Sh "6" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 250 -1127
-$EndPAD
-$PAD
-Sh "5" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 77 "N-000082"
-Po 750 -1127
-$EndPAD
-$PAD
-Sh "4" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 50 "ADCGND"
-Po 750 1127
-$EndPAD
-$PAD
-Sh "3" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 250 1127
-$EndPAD
-$PAD
-Sh "2" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 79 "N-000084"
-Po -250 1127
-$EndPAD
-$PAD
-Sh "1" R 200 568 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 78 "N-000083"
-Po -750 1127
-$EndPAD
-$SHAPE3D
-Na "smd/cms_so8.wrl"
-Sc 0.500000 0.380000 0.500000
-Of 0.000000 0.000000 0.000000
-Ro 0.000000 0.000000 0.000000
-$EndSHAPE3D
-$EndMODULE  SO8NB
 $MODULE SOD-123
 Po 54225 47137 0 15 4C83A360 4F111AB9 ~~
 Li SOD-123
@@ -7643,7 +7569,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/U_Core_Analogue_Inputs/AN01"
+Ne 24 "/U_Core_Board/AN01"
 Po -640 -10
 $EndPAD
 $PAD
@@ -7683,14 +7609,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 17 "/U_Core_Analogue_Inputs/AN01"
+Ne 24 "/U_Core_Board/AN01"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -7723,7 +7649,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/U_Core_Board/AN02"
+Ne 19 "/U_Core_Analogue_Inputs/AN02"
 Po -640 -10
 $EndPAD
 $PAD
@@ -7763,14 +7689,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 21 "/U_Core_Board/AN02"
+Ne 19 "/U_Core_Analogue_Inputs/AN02"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -7810,7 +7736,7 @@ $PAD
 Sh "2" R 380 500 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 91 "N-000102"
+Ne 100 "N-000114"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -7843,14 +7769,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 9 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
+Ne 15 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -7883,7 +7809,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
@@ -7923,14 +7849,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/U_Core_Analogue_Inputs/AN00"
+Ne 23 "/U_Core_Board/AN00"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -7963,14 +7889,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 24 "/U_Core_Board/AN06"
+Ne 27 "/U_Core_Board/AN06"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8003,14 +7929,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 43 "/U_Low_Side_Drivers/STEPPER_CLOSE"
+Ne 49 "/U_Low_Side_Drivers/STEPPER_CLOSE"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8043,14 +7969,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 39 "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
+Ne 4 "/Connector/FUEL_PUMP_RELAY"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8083,7 +8009,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 80 "N-000087"
+Ne 92 "N-000102"
 Po -640 -10
 $EndPAD
 $PAD
@@ -8123,7 +8049,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 83 "N-000090"
+Ne 91 "N-000101"
 Po -640 -10
 $EndPAD
 $PAD
@@ -8163,14 +8089,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 80 "N-000087"
+Ne 92 "N-000102"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8203,14 +8129,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 82 "N-000089"
+Ne 90 "N-000100"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8243,14 +8169,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 83 "N-000090"
+Ne 91 "N-000101"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8283,14 +8209,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 81 "N-000088"
+Ne 89 "N-000099"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8323,14 +8249,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 37 "/U_Injectors/INJECTOR1-4"
+Ne 45 "/U_Injectors/INJECTOR1-4"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8363,14 +8289,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 7 "/Connector/STEPPER_OPEN"
+Ne 12 "/Connector/STEPPER_OPEN"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8403,14 +8329,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/U_Core_Board/AN03"
+Ne 25 "/U_Core_Board/AN03"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8450,7 +8376,7 @@ $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 24 "/U_Core_Board/AN06"
+Ne 27 "/U_Core_Board/AN06"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8483,7 +8409,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 22 "/U_Core_Board/AN03"
+Ne 25 "/U_Core_Board/AN03"
 Po -640 -10
 $EndPAD
 $PAD
@@ -8523,14 +8449,14 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -640 -10
 $EndPAD
 $PAD
 Sh "2" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 38 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
+Ne 46 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
 Po 650 -10
 $EndPAD
 $SHAPE3D
@@ -8563,7 +8489,7 @@ $PAD
 Sh "1" R 380 500 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 16 "/U_Core_Analogue_Inputs/AN00"
+Ne 23 "/U_Core_Board/AN00"
 Po -640 -10
 $EndPAD
 $PAD
@@ -8581,9 +8507,9 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SOD-123
 $MODULE SOIC16
-Po 62248 21664 0 15 4EAC9834 4F111AE8 ~~
+Po 62248 21664 0 15 4EAC9834 4F1E2EEB ~~
 Li SOIC16
-Sc 4F111AE8
+Sc 4F1E2EEB
 AR /4E9276D8/4E92771D
 Op 0 0 0
 At SMD 
@@ -8600,42 +8526,42 @@ $PAD
 Sh "1" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 68 "N-000073"
+Ne 79 "N-000083"
 Po -2750 1059
 $EndPAD
 $PAD
 Sh "2" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 70 "N-000075"
+Ne 81 "N-000085"
 Po -2250 1059
 $EndPAD
 $PAD
 Sh "3" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 67 "N-000072"
+Ne 78 "N-000082"
 Po -1750 1059
 $EndPAD
 $PAD
 Sh "4" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 72 "N-000077"
+Ne 77 "N-000081"
 Po -1250 1059
 $EndPAD
 $PAD
 Sh "5" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 71 "N-000076"
+Ne 80 "N-000084"
 Po -750 1059
 $EndPAD
 $PAD
 Sh "6" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 69 "N-000074"
+Ne 82 "N-000086"
 Po -250 1059
 $EndPAD
 $PAD
@@ -8663,35 +8589,35 @@ $PAD
 Sh "15" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -2250 -1059
 $EndPAD
 $PAD
 Sh "14" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 74 "N-000079"
+Ne 84 "N-000088"
 Po -1750 -1059
 $EndPAD
 $PAD
 Sh "13" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 73 "N-000078"
+Ne 83 "N-000087"
 Po -1250 -1059
 $EndPAD
 $PAD
 Sh "12" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 46 "/U_RS232_Comms/RXD"
+Ne 40 "/U_Core_Board/RXD"
 Po -750 -1059
 $EndPAD
 $PAD
 Sh "11" R 300 718 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 47 "/U_RS232_Comms/TXD"
+Ne 41 "/U_Core_Board/TXD"
 Po -250 -1059
 $EndPAD
 $PAD
@@ -8734,21 +8660,21 @@ $PAD
 Sh "1" R 200 215 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -350 -400
 $EndPAD
 $PAD
 Sh "2" R 200 215 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 85 "N-000093"
+Ne 95 "N-000105"
 Po 350 -400
 $EndPAD
 $PAD
 Sh "3" R 200 215 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 86 "N-000094"
+Ne 96 "N-000106"
 Po 0 400
 $EndPAD
 $SHAPE3D
@@ -8777,14 +8703,14 @@ $PAD
 Sh "1" R 200 215 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 90 "N-000101"
+Ne 93 "N-000103"
 Po -350 -400
 $EndPAD
 $PAD
 Sh "2" R 200 215 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 89 "N-000100"
+Ne 94 "N-000104"
 Po 350 -400
 $EndPAD
 $PAD
@@ -8818,28 +8744,28 @@ $PAD
 Sh "1" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 1500 -1000
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 105 "N-000138"
+Ne 114 "N-000147"
 Po 1500 1000
 $EndPAD
 $PAD
 Sh "1" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -1500 -1000
 $EndPAD
 $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 105 "N-000138"
+Ne 114 "N-000147"
 Po -1500 1000
 $EndPAD
 $EndMODULE  SW_PUSH_SMALL
@@ -8859,14 +8785,14 @@ $PAD
 Sh "1" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 114 "N-000193"
+Ne 115 "N-000148"
 Po -1008 -20
 $EndPAD
 $PAD
 Sh "2" C 600 600 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 108 "N-000175"
+Ne 119 "N-000152"
 Po 992 -20
 $EndPAD
 $EndMODULE  TH_XTAL_02
@@ -8883,21 +8809,21 @@ $PAD
 Sh "1" R 850 420 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 51 "N-000046"
+Ne 54 "N-000048"
 Po -1340 1368
 $EndPAD
 $PAD
 Sh "2" R 850 420 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 28 "/U_Core_Board/PA4"
+Ne 32 "/U_Core_Board/PA4"
 Po -670 1368
 $EndPAD
 $PAD
 Sh "3" R 850 420 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1368
 $EndPAD
 $PAD
@@ -8918,12 +8844,12 @@ $PAD
 Sh "6" R 4100 4250 0 0 1800
 Dr 0 0 0
 At SMD N 00888000
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 -1907
 $EndPAD
 $EndMODULE  TO263
 $MODULE H2_MW
-Po 29721 57546 0 15 4F12F9E6 4F115458 ~~
+Po 29721 57546 0 15 4F12F9E6 4F115458 F~
 Li H2_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -8941,7 +8867,7 @@ Po 1066 92
 $EndPAD
 $EndMODULE  H2_MW
 $MODULE H2_MW
-Po 87551 57593 0 15 4F16E920 4F11547A ~~
+Po 87551 57593 0 15 4F16E920 4F11547A F~
 Li H2_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9006,28 +8932,28 @@ $PAD
 Sh "29" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 20 "/U_Core_Analogue_Inputs/TPS"
+Ne 14 "/Connector/TPS"
 Po -985 0
 $EndPAD
 $PAD
 Sh "28" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 4 "/Connector/EGO"
+Ne 10 "/Connector/NBO2+"
 Po 985 0
 $EndPAD
 $PAD
 Sh "9" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 36 "/U_Digital_Inputs/SPEED_SENSOR"
+Ne 44 "/U_Digital_Inputs/SPEED_SENSOR"
 Po 1970 0
 $EndPAD
 $PAD
 Sh "10" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 22 "/U_Core_Analogue_Inputs/NBO2-"
 Po 0 0
 $EndPAD
 $PAD
@@ -9048,28 +8974,28 @@ $PAD
 Sh "26" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 4925 0
 $EndPAD
 $PAD
 Sh "7" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 19 "/U_Core_Analogue_Inputs/MAP"
+Ne 9 "/Connector/MAP"
 Po 5910 0
 $EndPAD
 $PAD
 Sh "25" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 18 "/U_Core_Analogue_Inputs/CHT"
+Ne 21 "/U_Core_Analogue_Inputs/CHT"
 Po 6895 0
 $EndPAD
 $PAD
 Sh "6" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 8 "/Connector/TACH_OUT"
+Ne 13 "/Connector/TACH_OUT"
 Po 7880 0
 $EndPAD
 $PAD
@@ -9090,7 +9016,7 @@ $PAD
 Sh "23" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 38 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
+Ne 46 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
 Po 10835 0
 $EndPAD
 $PAD
@@ -9104,14 +9030,14 @@ $PAD
 Sh "22" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 9 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
+Ne 15 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
 Po 12805 0
 $EndPAD
 $PAD
 Sh "3" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 39 "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
+Ne 4 "/Connector/FUEL_PUMP_RELAY"
 Po 13790 0
 $EndPAD
 $PAD
@@ -9125,28 +9051,28 @@ $PAD
 Sh "2" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 15760 0
 $EndPAD
 $PAD
 Sh "20" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 13 "/Igniter_Outputs/IGNITER_2_3"
+Ne 8 "/Connector/IGNITER_2_3"
 Po 16745 0
 $EndPAD
 $PAD
 Sh "1" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 12 "/Igniter_Outputs/IGNITER_1_4"
+Ne 7 "/Connector/IGNITER_1_4"
 Po 17730 0
 $EndPAD
 $PAD
 Sh "19" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -17730 0
 $EndPAD
 $PAD
@@ -9174,7 +9100,7 @@ $PAD
 Sh "17" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 37 "/U_Injectors/INJECTOR1-4"
+Ne 45 "/U_Injectors/INJECTOR1-4"
 Po -13790 0
 $EndPAD
 $PAD
@@ -9188,7 +9114,7 @@ $PAD
 Sh "16" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 44 "/U_RS232_Comms/K_WIRE"
+Ne 50 "/U_RS232_Comms/K_WIRE"
 Po -11820 0
 $EndPAD
 $PAD
@@ -9202,35 +9128,35 @@ $PAD
 Sh "15" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 7 "/Connector/STEPPER_OPEN"
+Ne 12 "/Connector/STEPPER_OPEN"
 Po -9850 0
 $EndPAD
 $PAD
 Sh "33" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 43 "/U_Low_Side_Drivers/STEPPER_CLOSE"
+Ne 49 "/U_Low_Side_Drivers/STEPPER_CLOSE"
 Po -8865 0
 $EndPAD
 $PAD
 Sh "14" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po -7880 0
 $EndPAD
 $PAD
 Sh "32" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 34 "/U_Digital_Inputs/AC_SIGNAL"
+Ne 42 "/U_Digital_Inputs/AC_SIGNAL"
 Po -6895 0
 $EndPAD
 $PAD
 Sh "13" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 45 "/U_RS232_Comms/L_WIRE"
+Ne 51 "/U_RS232_Comms/L_WIRE"
 Po -5910 0
 $EndPAD
 $PAD
@@ -9251,14 +9177,14 @@ $PAD
 Sh "30" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 49 "/U_VR_Interfaces/RPM0+"
+Ne 52 "/U_VR_Interfaces/RPM0+"
 Po -2955 0
 $EndPAD
 $PAD
 Sh "11" C 550 550 0 0 0
 Dr 320 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 11 "/Connector/RPM0-"
 Po -1970 0
 $EndPAD
 $EndMODULE  MP52
@@ -9283,21 +9209,21 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 61 "N-000062"
+Ne 72 "N-000076"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 39 "/U_Low_Side_Drivers/FUEL_PUMP_RELAY"
+Ne 4 "/Connector/FUEL_PUMP_RELAY"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9322,21 +9248,21 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 59 "N-000060"
+Ne 74 "N-000078"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 43 "/U_Low_Side_Drivers/STEPPER_CLOSE"
+Ne 49 "/U_Low_Side_Drivers/STEPPER_CLOSE"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9361,21 +9287,21 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 58 "N-000059"
+Ne 75 "N-000079"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 7 "/Connector/STEPPER_OPEN"
+Ne 12 "/Connector/STEPPER_OPEN"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9400,21 +9326,21 @@ $PAD
 Sh "G" R 700 700 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 62 "N-000063"
+Ne 70 "N-000074"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 38 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
+Ne 46 "/U_Low_Side_Drivers/AC_CLUTCH_RELAY"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 0
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9439,7 +9365,7 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 63 "N-000064"
+Ne 69 "N-000073"
 Po 0 -1000
 $EndPAD
 $PAD
@@ -9453,7 +9379,7 @@ $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9478,21 +9404,21 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 88 "N-000098"
+Ne 98 "N-000110"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 9 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
+Ne 15 "/Dashboard_Analogue_Outputs/CHECK_ENGINE"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
@@ -9517,26 +9443,26 @@ $PAD
 Sh "G" R 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 56 "N-000057"
+Ne 66 "N-000070"
 Po 0 -1000
 $EndPAD
 $PAD
 Sh "D" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 37 "/U_Injectors/INJECTOR1-4"
+Ne 45 "/U_Injectors/INJECTOR1-4"
 Po 0 0
 $EndPAD
 $PAD
 Sh "S" C 700 700 0 0 900
 Dr 400 0 0
 At STD N 00E0FFFF
-Ne 50 "ADCGND"
+Ne 53 "ADCGND"
 Po 0 1000
 $EndPAD
 $EndMODULE  TO220_VERT_MW
 $MODULE H1_MW
-Po 35701 64944 0 15 4F15981F 4F1597D7 ~~
+Po 35701 64944 0 15 4F15981F 4F1597D7 F~
 Li H1_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9554,7 +9480,7 @@ Po 142 -6661
 $EndPAD
 $EndMODULE  H1_MW
 $MODULE H1_MW
-Po 83902 64141 0 15 4F1598A5 4F159827 ~~
+Po 83902 64141 0 15 4F1598A5 4F159827 F~
 Li H1_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9572,7 +9498,7 @@ Po -1279 -5858
 $EndPAD
 $EndMODULE  H1_MW
 $MODULE H4_MW
-Po 40784 55499 0 15 4F15A147 4F159AEC ~~
+Po 40784 55499 0 15 4F15A147 4F159AEC F~
 Li H4_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9590,7 +9516,7 @@ Po -1839 107
 $EndPAD
 $EndMODULE  H4_MW
 $MODULE H4_MW
-Po 79378 58916 0 15 4F15A154 4F159B6B ~~
+Po 79378 58916 0 15 4F15A154 4F159B6B F~
 Li H4_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9608,7 +9534,7 @@ Po -1425 76
 $EndPAD
 $EndMODULE  H4_MW
 $MODULE H3_MW
-Po 36500 23593 0 15 4F15A067 4F15A034 ~~
+Po 36500 23593 0 15 4F15A067 4F15A034 F~
 Li H3_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9626,7 +9552,7 @@ Po -1035 -845
 $EndPAD
 $EndMODULE  H3_MW
 $MODULE H3_MW
-Po 83311 23660 0 15 4F15A0D1 4F15A0BB ~~
+Po 83311 23660 0 15 4F15A0D1 4F15A0BB F~
 Li H3_MW
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
@@ -9643,6 +9569,679 @@ Ne 0 ""
 Po -374 -912
 $EndPAD
 $EndMODULE  H3_MW
+$MODULE SIL-2
+Po 99284 64259 0 15 00200000 4F1D6E05 ~~
+Li SIL-2
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 4F1D6E05
+AR /4E918900/4F199F3E
+Op 0 0 0
+T0 0 -1000 681 428 0 107 N V 21 N"P4"
+T1 0 -1000 600 400 0 100 N I 21 N"WBO2"
+DS -1000 500 -1000 -500 120 21
+DS -1000 -500 1000 -500 120 21
+DS 1000 -500 1000 500 120 21
+DS 1000 500 -1000 500 120 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 61 "N-000064"
+Po -500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 53 "ADCGND"
+Po 500 0
+$EndPAD
+$EndMODULE  SIL-2
+$MODULE SM0805
+Po 93343 67814 0 15 42806E04 4F1D6E0B ~~
+Li SM0805
+Sc 4F1D6E0B
+AR /4E918900/4F196E3A
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"R74"
+T1 0 0 250 250 0 50 N I 21 N"1K"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "/U_Core_Analogue_Inputs/AN11"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 58 "N-000058"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 93276 69574 0 15 42806E04 4F1A3375 ~~
+Li SM0805
+Sc 4F1A3375
+AR /4E918900/4F196F70
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"R73"
+T1 0 0 250 250 0 50 N I 21 N"178K"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 55 "N-000055"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 96225 65483 0 15 42806E04 4F1A3377 ~~
+Li SM0805
+Sc 4F1A3377
+AR /4E918900/4F196DFF
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"R72"
+T1 0 0 250 250 0 50 N I 21 N"51.1K"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "/U_Core_Analogue_Inputs/NBO2-"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 104299 69003 0 15 42806E04 4F1A3379 ~~
+Li SM0805
+Sc 4F1A3379
+AR /4E918900/4F196DED
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"R75"
+T1 0 0 250 250 0 50 N I 21 N"4.22K"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "/Connector/NBO2+"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 56 "N-000056"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 104473 70058 0 15 42806E04 4F1A337B ~~
+Li SM0805
+Sc 4F1A337B
+AR /4E918900/4F196DF1
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"R76"
+T1 0 0 250 250 0 50 N I 21 N"4.22K"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "/U_Core_Analogue_Inputs/NBO2-"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "N-000068"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 95827 70082 0 15 42806E04 4F1A337D ~~
+Li SM0805
+Sc 4F1A337D
+AR /4E918900/4F1984E2
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C51"
+T1 0 0 250 250 0 50 N I 21 N"0.01u"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "N-000068"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 93012 65613 0 15 42806E04 4F1A337F ~~
+Li SM0805
+Sc 4F1A337F
+AR /4E918900/4F196E2F
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C50"
+T1 0 0 250 250 0 50 N I 21 N"0.01u"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 58 "N-000058"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 104146 66936 0 15 42806E04 4F1A3381 ~~
+Li SM0805
+Sc 4F1A3381
+AR /4E918900/4F196E1A
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C49"
+T1 0 0 250 250 0 50 N I 21 N"0.01u"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 56 "N-000056"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "N-000068"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 93252 71928 0 15 42806E04 4F1A3383 ~~
+Li SM0805
+Sc 4F1A3383
+AR /4E918900/4F196E20
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C48"
+T1 0 0 250 250 0 50 N I 21 N"100P"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 57 "N-000057"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 60 "N-000061"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 104362 71664 0 15 42806E04 4F1A3385 ~~
+Li SM0805
+Sc 4F1A3385
+AR /4E918900/4F196F78
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C47"
+T1 0 0 250 250 0 50 N I 21 N"4.7u"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 96244 72877 0 15 42806E04 4F1A3387 ~~
+Li SM0805
+Sc 4F1A3387
+AR /4E918900/4F196F7B
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C46"
+T1 0 0 250 250 0 50 N I 21 N"0.1u"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE SM0805
+Po 102736 65196 0 15 42806E04 4F1A3389 ~~
+Li SM0805
+Sc 4F1A3389
+AR /4E930052/4F193719
+Op 0 0 0
+At SMD 
+T0 0 0 250 250 0 50 N V 21 N"C45"
+T1 0 0 250 250 0 50 N I 21 N"1nF"
+DC -650 300 -650 250 50 21
+DS -200 300 -600 300 50 21
+DS -600 300 -600 -300 50 21
+DS -600 -300 -200 -300 50 21
+DS 200 -300 600 -300 50 21
+DS 600 -300 600 300 50 21
+DS 600 300 200 300 50 21
+$PAD
+Sh "1" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 88 "N-000098"
+Po -375 0
+$EndPAD
+$PAD
+Sh "2" R 350 550 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 87 "N-000097"
+Po 375 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.100000 0.100000 0.100000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SM0805
+$MODULE M14B
+Po 100063 69432 0 15 4F1E228A 4F1E2C50 ~~
+Li M14B
+Sc 4F1E2C50
+AR /4E918900/4F1997E7
+Op 0 0 0
+T0 4 -504 600 600 0 120 N V 21 N"U11"
+T1 94 500 600 600 0 120 N V 21 N"LM9040"
+DS -1846 -220 -1512 -220 80 21
+DS -1512 -220 -1512 220 80 21
+DS -1512 220 -1846 220 80 21
+DS -1846 -1260 1846 -1260 80 21
+DS 1846 -1260 1846 1268 80 21
+DS 1846 1260 -1846 1260 80 21
+DS -1846 1260 -1846 -1260 80 21
+$PAD
+Sh "14" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po -1500 -1795
+$EndPAD
+$PAD
+Sh "13" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1000 -1795
+$EndPAD
+$PAD
+Sh "12" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -500 -1795
+$EndPAD
+$PAD
+Sh "11" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1795
+$EndPAD
+$PAD
+Sh "10" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 64 "N-000068"
+Po 500 -1795
+$EndPAD
+$PAD
+Sh "9" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 56 "N-000056"
+Po 1000 -1795
+$EndPAD
+$PAD
+Sh "8" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po 1500 -1795
+$EndPAD
+$PAD
+Sh "1" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1500 1795
+$EndPAD
+$PAD
+Sh "2" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 60 "N-000061"
+Po -1000 1795
+$EndPAD
+$PAD
+Sh "3" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 57 "N-000057"
+Po -500 1795
+$EndPAD
+$PAD
+Sh "4" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 0 1795
+$EndPAD
+$PAD
+Sh "5" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 55 "N-000055"
+Po 500 1795
+$EndPAD
+$PAD
+Sh "6" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 58 "N-000058"
+Po 1000 1795
+$EndPAD
+$PAD
+Sh "7" R 200 600 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1500 1795
+$EndPAD
+$EndMODULE  M14B
+$MODULE uSOP
+Po 95760 67794 0 15 4F1E2044 4F1E2C51 ~~
+Li uSOP
+Sc 4F1E2C51
+AR /4E930052/4F19371C
+Op 0 0 0
+T0 -8 165 200 200 0 50 N V 21 N"U8"
+T1 -16 -205 200 200 0 50 N V 21 N"MAX9924"
+DS -638 -122 -441 -122 80 21
+DS -441 -122 -441 122 80 21
+DS -441 122 -638 122 80 21
+DS -638 -524 638 -524 80 21
+DS 638 -524 638 524 80 21
+DS 638 524 -638 524 80 21
+DS -638 524 -638 -524 80 21
+$PAD
+Sh "5" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 394 880
+$EndPAD
+$PAD
+Sh "4" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 197 880
+$EndPAD
+$PAD
+Sh "3" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 880
+$EndPAD
+$PAD
+Sh "2" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 87 "N-000097"
+Po -197 880
+$EndPAD
+$PAD
+Sh "1" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 88 "N-000098"
+Po -394 880
+$EndPAD
+$PAD
+Sh "10" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "+5V_SWITCHED"
+Po -394 -880
+$EndPAD
+$PAD
+Sh "9" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po -197 -880
+$EndPAD
+$PAD
+Sh "8" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -880
+$EndPAD
+$PAD
+Sh "7" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 37 "/U_Core_Board/PT0"
+Po 197 -880
+$EndPAD
+$PAD
+Sh "6" R 106 370 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 53 "ADCGND"
+Po 394 -880
+$EndPAD
+$EndMODULE  uSOP
 $DRAWSEGMENT
 Po 0 27441 58189 27441 55685 150
 De 28 0 900 0 0

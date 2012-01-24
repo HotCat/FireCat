@@ -1,12 +1,7 @@
-update=21/01/2012 00:34:40
-last_client=eeschema
+update=24/01/2012 11:26:31
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -26,7 +21,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -38,6 +32,7 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=E:\\CatSquirt\\PCB-modules\\free_EMS
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -101,3 +96,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=freeEMS_lib
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
