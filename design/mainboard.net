@@ -1,60 +1,56 @@
-# EESchema Netlist Version 1.1 created  25/01/2012 01:16:52
+# EESchema Netlist Version 1.1 created  30/01/2012 23:54:58
 (
  ( /4E939A82/4F014602 $noname  R62 R {Lib=R}
   (    1 ADCGND )
-  (    2 N-000099 )
+  (    2 N-000098 )
  )
  ( /4E939A82/4F014375 $noname  R57 R {Lib=R}
-  (    1 N-000099 )
+  (    1 N-000098 )
   (    2 /U_Digital_Inputs/SPEED_SENSOR )
  )
  ( /4E939A82/4F01437A $noname  D28 ZENER {Lib=ZENER}
-  (    1 N-000101 )
+  (    1 N-000100 )
   (    2 +5V_SWITCHED )
  )
  ( /4E939A82/4F014379 $noname  D31 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 N-000101 )
+  (    2 N-000100 )
  )
  ( /4E939A82/4F014378 $noname  R61 470R {Lib=R}
-  (    1 N-000099 )
-  (    2 N-000101 )
+  (    1 N-000098 )
+  (    2 N-000100 )
  )
  ( /4E939A82/4F014377 $noname  D32 5.6V {Lib=ZENER}
   (    1 ADCGND )
-  (    2 N-000099 )
+  (    2 N-000098 )
  )
  ( /4E939A82/4F014376 $noname  R60 1K {Lib=R}
-  (    1 N-000101 )
+  (    1 N-000100 )
   (    2 /U_Digital_Inputs/PT6 )
  )
  ( /4E939A82/4E941878 $noname  R56 R {Lib=R}
-  (    1 N-000100 )
-  (    2 /Connector/AC_SIGNAL )
+  (    1 N-000099 )
+  (    2 /U_Digital_Inputs/AC_SIGNAL )
  )
  ( /4E939A82/4E94180F $noname  R58 1K {Lib=R}
-  (    1 N-000102 )
+  (    1 N-000101 )
   (    2 /U_Digital_Inputs/PA0 )
  )
  ( /4E939A82/4E94175B $noname  D30 5.6V {Lib=ZENER}
   (    1 ADCGND )
-  (    2 N-000100 )
+  (    2 N-000099 )
  )
  ( /4E939A82/4E941737 $noname  R59 470R {Lib=R}
-  (    1 N-000100 )
-  (    2 N-000102 )
+  (    1 N-000099 )
+  (    2 N-000101 )
  )
  ( /4E939A82/4E941736 $noname  D29 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 N-000102 )
+  (    2 N-000101 )
  )
  ( /4E939A82/4E941735 $noname  D27 ZENER {Lib=ZENER}
-  (    1 N-000102 )
+  (    1 N-000101 )
   (    2 +5V_SWITCHED )
- )
- ( /4E939ACE/4F0EC9C3 $noname  D13 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
  )
  ( /4E939ACE/4F0253AC $noname  W2 TEST {Lib=TEST}
   (    1 /Connector/TACH_OUT )
@@ -69,11 +65,11 @@
   (    2 ADCGND )
  )
  ( /4E939ACE/4E9469DC $noname  R23 100K {Lib=R}
-  (    1 /Dashboard_Analogue_Outputs/PA2 )
+  (    1 /U_Core_Board/PA2 )
   (    2 ADCGND )
  )
  ( /4E939ACE/4E9469D8 $noname  R28 100K {Lib=R}
-  (    1 /Dashboard_Analogue_Outputs/PA4 )
+  (    1 /U_Core_Board/PA4 )
   (    2 ADCGND )
  )
  ( /4E939ACE/4E94676F $noname  R24 100K {Lib=R}
@@ -81,33 +77,33 @@
   (    2 ADCGND )
  )
  ( /4E939ACE/4E941A02 $noname  R25 330 {Lib=R}
-  (    1 N-000107 )
+  (    1 N-000105 )
   (    2 +5V_SWITCHED )
  )
  ( /4E939ACE/4E941A01 $noname  D14 LED {Lib=LED}
-  (    1 N-000107 )
-  (    2 N-000106 )
+  (    1 N-000105 )
+  (    2 N-000107 )
  )
  ( /4E939ACE/4E9419FF $noname  R29 1K {Lib=R}
-  (    1 N-000105 )
+  (    1 N-000106 )
   (    2 /U_Core_Board/PA3 )
  )
  ( /4E939ACE/4E9419FE $noname  Q3 MMBT3904LT1 {Lib=NPN}
   (    1 ADCGND )
-  (    2 N-000105 )
-  (    3 N-000106 )
+  (    2 N-000106 )
+  (    3 N-000107 )
  )
  ( /4E939ACE/4E939DDA $noname  Q2 8050 {Lib=NPN}
-  (    1 N-000103 )
-  (    2 N-000104 )
+  (    1 N-000102 )
+  (    2 N-000103 )
   (    3 +5V_SWITCHED )
  )
  ( /4E939ACE/4E939DD9 $noname  R27 220R {Lib=R}
-  (    1 N-000104 )
-  (    2 /Dashboard_Analogue_Outputs/PA4 )
+  (    1 N-000103 )
+  (    2 /U_Core_Board/PA4 )
  )
  ( /4E939ACE/4E939DD8 $noname  SP1 SPEAKER {Lib=SPEAKER}
-  (    1 N-000103 )
+  (    1 N-000102 )
   (    2 ADCGND )
  )
  ( /4E939ACE/4E939C45 $noname  U3 MC34151P {Lib=MC34151P}
@@ -116,7 +112,7 @@
   (    3 ADCGND )
   (    4 ? )
   (    5 ? )
-  (    6 N-000114 )
+  (    6 N-000113 )
   (    7 /Connector/TACH_OUT )
   (    8 ? )
  )
@@ -125,54 +121,54 @@
   (    2 +5V_SWITCHED )
  )
  ( /4E939ACE/4E939C43 $noname  C25 0.1 {Lib=C}
-  (    1 N-000114 )
+  (    1 N-000113 )
   (    2 ADCGND )
  )
  ( /4E939ACE/4E939C42 $noname  C26 4.7 {Lib=CP1}
-  (    1 N-000114 )
+  (    1 N-000113 )
   (    2 ADCGND )
  )
  ( /4E939ACE/4E939C40 $noname  D11 1N4001 {Lib=DIODE}
   (    1 +12V_SWITCHED )
-  (    2 N-000114 )
+  (    2 N-000113 )
  )
  ( /4E939ACE/4E939C3A $noname  R20 3K {Lib=R}
-  (    1 N-000111 )
+  (    1 N-000110 )
   (    2 +12V_SWITCHED )
  )
  ( /4E939ACE/4E939C39 $noname  D12 LED {Lib=LED}
-  (    1 N-000111 )
-  (    2 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
+  (    1 N-000110 )
+  (    2 /Connector/CHECK_ENGINE )
  )
  ( /4E939ACE/4E939C38 $noname  Q1 vnp10n07 {Lib=MOS_N}
-  (    D /Dashboard_Analogue_Outputs/CHECK_ENGINE )
-  (    G N-000110 )
+  (    D /Connector/CHECK_ENGINE )
+  (    G N-000111 )
   (    S ADCGND )
  )
  ( /4E939ACE/4E939C36 $noname  R22 1K {Lib=R}
-  (    1 N-000110 )
-  (    2 /Dashboard_Analogue_Outputs/PA2 )
+  (    1 N-000111 )
+  (    2 /U_Core_Board/PA2 )
  )
  ( /4E918900/4F199F3E $noname  P4 WBO2 {Lib=CONN_2}
-  (    1 N-000064 )
+  (    1 N-000066 )
   (    2 ADCGND )
  )
  ( /4E918900/4F1997E7 $noname  U11 LM9040 {Lib=LM9040}
   (    1 ? )
-  (    2 N-000061 )
-  (    3 N-000057 )
+  (    2 N-000055 )
+  (    3 N-000063 )
   (    4 ADCGND )
-  (    5 N-000055 )
-  (    6 N-000058 )
+  (    5 N-000054 )
+  (    6 N-000067 )
   (    8 +5V_SWITCHED )
-  (    9 N-000056 )
-  (   10 N-000068 )
+  (    9 N-000062 )
+  (   10 N-000065 )
   (   12 ? )
   (   13 ? )
   (   14 ADCGND )
  )
  ( /4E918900/4F1984E2 $noname  C51 0.01u {Lib=C}
-  (    1 N-000068 )
+  (    1 N-000065 )
   (    2 ADCGND )
  )
  ( /4E918900/4F196F7B $noname  C46 0.1u {Lib=C}
@@ -185,55 +181,55 @@
  )
  ( /4E918900/4F196F70 $noname  R73 178K {Lib=R}
   (    1 +5V_SWITCHED )
-  (    2 N-000055 )
+  (    2 N-000054 )
  )
  ( /4E918900/4F196E3A $noname  R74 1K {Lib=R}
   (    1 /U_Core_Board/AN11 )
-  (    2 N-000058 )
+  (    2 N-000067 )
  )
  ( /4E918900/4F196E2F $noname  C50 0.01u {Lib=C}
-  (    1 N-000058 )
+  (    1 N-000067 )
   (    2 ADCGND )
  )
  ( /4E918900/4F196E20 $noname  C48 100P {Lib=C}
-  (    1 N-000057 )
-  (    2 N-000061 )
+  (    1 N-000063 )
+  (    2 N-000055 )
  )
  ( /4E918900/4F196E1A $noname  C49 0.01u {Lib=C}
-  (    1 N-000056 )
-  (    2 N-000068 )
+  (    1 N-000062 )
+  (    2 N-000065 )
  )
  ( /4E918900/4F196DFF $noname  R72 51.1K {Lib=R}
   (    1 +5V_SWITCHED )
-  (    2 /Connector/NBO2- )
+  (    2 /U_Core_Analogue_Inputs/NBO2- )
  )
  ( /4E918900/4F196DF1 $noname  R76 4.22K {Lib=R}
-  (    1 /Connector/NBO2- )
-  (    2 N-000068 )
+  (    1 /U_Core_Analogue_Inputs/NBO2- )
+  (    2 N-000065 )
  )
  ( /4E918900/4F196DED $noname  R75 4.22K {Lib=R}
   (    1 /U_Core_Analogue_Inputs/NBO2+ )
-  (    2 N-000056 )
+  (    2 N-000062 )
  )
  ( /4E918900/4F01C42F $noname  W1 TEST {Lib=TEST}
   (    1 ADCGND )
-  (    2 N-000067 )
+  (    2 N-000064 )
  )
  ( /4E918900/4E9197EB $noname  K1 jumper {Lib=CONN_3}
   (    1 /U_Core_Analogue_Inputs/MAP )
-  (    2 N-000060 )
-  (    3 N-000067 )
+  (    2 N-000057 )
+  (    3 N-000064 )
  )
  ( /4E918900/4E91975F $noname  C9 0.1 {Lib=C}
   (    1 +5V_SWITCHED )
   (    2 ADCGND )
  )
  ( /4E918900/4E919633 $noname  R9 470R {Lib=R}
-  (    1 N-000060 )
+  (    1 N-000057 )
   (    2 /U_Core_Analogue_Inputs/AN04 )
  )
  ( /4E918900/4E919627 $noname  C11 47pF {Lib=C}
-  (    1 N-000060 )
+  (    1 N-000057 )
   (    2 ADCGND )
  )
  ( /4E918900/4E919623 $noname  C10 0.22uF {Lib=C}
@@ -245,23 +241,23 @@
   (    2 ADCGND )
  )
  ( /4E918900/4E91927F $noname  C12 0.22uF {Lib=C}
-  (    1 /U_Core_Board/AN02 )
+  (    1 /U_Core_Analogue_Inputs/AN02 )
   (    2 ADCGND )
  )
  ( /4E918900/4E91927D $noname  R10 470R {Lib=R}
   (    1 /Connector/TPS )
-  (    2 /U_Core_Board/AN02 )
+  (    2 /U_Core_Analogue_Inputs/AN02 )
  )
  ( /4E918900/4E91927C $noname  D10 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 /U_Core_Board/AN02 )
+  (    2 /U_Core_Analogue_Inputs/AN02 )
  )
  ( /4E918900/4E91927B $noname  D9 ZENER {Lib=ZENER}
-  (    1 /U_Core_Board/AN02 )
+  (    1 /U_Core_Analogue_Inputs/AN02 )
   (    2 +5V_SWITCHED )
  )
  ( /4E918900/4E919229 SOP_case_482  U1 MPX4250A {Lib=MPX4100A}
-  (    1 N-000067 )
+  (    1 N-000064 )
   (    2 ADCGND )
   (    3 +5V_SWITCHED )
   (    4 ? )
@@ -270,30 +266,30 @@
  )
  ( /4E918900/4E918DDE $noname  R2 3K9 {Lib=R}
   (    1 +12V_SWITCHED )
-  (    2 N-000065 )
+  (    2 N-000058 )
  )
  ( /4E918900/4E918DBD $noname  R6 1K {Lib=R}
-  (    1 N-000065 )
+  (    1 N-000058 )
   (    2 ADCGND )
  )
  ( /4E918900/4E918D47 $noname  D7 ZENER {Lib=ZENER}
-  (    1 /U_Core_Board/AN01 )
+  (    1 /U_Core_Analogue_Inputs/AN01 )
   (    2 +5V_SWITCHED )
  )
  ( /4E918900/4E918D46 $noname  D8 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 /U_Core_Board/AN01 )
+  (    2 /U_Core_Analogue_Inputs/AN01 )
  )
  ( /4E918900/4E918D45 $noname  R8 470R {Lib=R}
   (    1 /Connector/CHT )
-  (    2 /U_Core_Board/AN01 )
+  (    2 /U_Core_Analogue_Inputs/AN01 )
  )
  ( /4E918900/4E918D44 $noname  R7 2K4 {Lib=R}
   (    1 +5V_SWITCHED )
   (    2 /Connector/CHT )
  )
  ( /4E918900/4E918D43 $noname  C7 0.22uF {Lib=C}
-  (    1 /U_Core_Board/AN01 )
+  (    1 /U_Core_Analogue_Inputs/AN01 )
   (    2 ADCGND )
  )
  ( /4E918900/4E918D42 $noname  C8 0.1uF {Lib=C}
@@ -301,15 +297,15 @@
   (    2 ADCGND )
  )
  ( /4E918900/4E918D29 $noname  D3 ZENER {Lib=ZENER}
-  (    1 +5V_SWITCHED )
-  (    2 /U_Core_Analogue_Inputs/AN06 )
+  (    1 /U_Core_Analogue_Inputs/AN06 )
+  (    2 +5V_SWITCHED )
  )
  ( /4E918900/4E918D28 $noname  D6 ZENER {Lib=ZENER}
   (    1 ADCGND )
   (    2 /U_Core_Analogue_Inputs/AN06 )
  )
  ( /4E918900/4E918D27 $noname  R5 470R {Lib=R}
-  (    1 N-000065 )
+  (    1 N-000058 )
   (    2 /U_Core_Analogue_Inputs/AN06 )
  )
  ( /4E918900/4E918D25 $noname  C5 0.22uF {Lib=C}
@@ -317,27 +313,27 @@
   (    2 ADCGND )
  )
  ( /4E918900/4E918D24 $noname  C6 0.1uF {Lib=C}
-  (    1 N-000065 )
+  (    1 N-000058 )
   (    2 ADCGND )
  )
  ( /4E918900/4E918CA3 $noname  D2 ZENER {Lib=ZENER}
-  (    1 /U_Core_Analogue_Inputs/AN03 )
+  (    1 /U_Core_Board/AN03 )
   (    2 +5V_SWITCHED )
  )
  ( /4E918900/4E918CA2 $noname  D5 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 /U_Core_Analogue_Inputs/AN03 )
+  (    2 /U_Core_Board/AN03 )
  )
  ( /4E918900/4E918CA1 $noname  R4 470R {Lib=R}
-  (    1 N-000064 )
-  (    2 /U_Core_Analogue_Inputs/AN03 )
+  (    1 N-000066 )
+  (    2 /U_Core_Board/AN03 )
  )
  ( /4E918900/4E918C9F $noname  C3 0.22uF {Lib=C}
-  (    1 /U_Core_Analogue_Inputs/AN03 )
+  (    1 /U_Core_Board/AN03 )
   (    2 ADCGND )
  )
  ( /4E918900/4E918C9E $noname  C4 0.1uF {Lib=C}
-  (    1 N-000064 )
+  (    1 N-000066 )
   (    2 ADCGND )
  )
  ( /4E918900/4E9189EE $noname  C2 0.1uF {Lib=C}
@@ -345,7 +341,7 @@
   (    2 ADCGND )
  )
  ( /4E918900/4E9189EC $noname  C1 0.22uF {Lib=C}
-  (    1 /U_Core_Board/AN00 )
+  (    1 /U_Core_Analogue_Inputs/AN00 )
   (    2 ADCGND )
  )
  ( /4E918900/4E9189EA $noname  R1 2K4 {Lib=R}
@@ -354,55 +350,55 @@
  )
  ( /4E918900/4E9189E2 $noname  R3 470R {Lib=R}
   (    1 /U_Core_Analogue_Inputs/IAT )
-  (    2 /U_Core_Board/AN00 )
+  (    2 /U_Core_Analogue_Inputs/AN00 )
  )
  ( /4E918900/4E9189DC $noname  D4 ZENER {Lib=ZENER}
   (    1 ADCGND )
-  (    2 /U_Core_Board/AN00 )
+  (    2 /U_Core_Analogue_Inputs/AN00 )
  )
  ( /4E918900/4E9189DA $noname  D1 ZENER {Lib=ZENER}
-  (    1 /U_Core_Board/AN00 )
+  (    1 /U_Core_Analogue_Inputs/AN00 )
   (    2 +5V_SWITCHED )
  )
  ( /4E9462BE/4F1E6A56 $noname  P5 CONN_6 {Lib=CONN_6}
-  (    1 N-000130 )
-  (    2 N-000145 )
-  (    3 N-000131 )
-  (    4 N-000133 )
-  (    5 N-000132 )
+  (    1 N-000136 )
+  (    2 N-000144 )
+  (    3 N-000137 )
+  (    4 N-000132 )
+  (    5 N-000138 )
   (    6 ADCGND )
  )
  ( /4E9462BE/4F1E6A3C $noname  R80 1.6k {Lib=R}
-  (    1 N-000132 )
-  (    2 N-000138 )
+  (    1 N-000138 )
+  (    2 N-000189 )
  )
  ( /4E9462BE/4F1E6A33 $noname  R79 1.6k {Lib=R}
-  (    1 N-000133 )
-  (    2 N-000142 )
+  (    1 N-000132 )
+  (    2 N-000135 )
  )
  ( /4E9462BE/4F1E6A2D $noname  R78 1.6k {Lib=R}
-  (    1 N-000131 )
-  (    2 N-000169 )
+  (    1 N-000137 )
+  (    2 N-000191 )
  )
  ( /4E9462BE/4F1E6A25 $noname  R77 1.6k {Lib=R}
-  (    1 N-000145 )
+  (    1 N-000144 )
   (    2 /U_Core_Board/RXCAN3 )
  )
  ( /4E9462BE/4F1E6A18 $noname  R26 1.6k {Lib=R}
-  (    1 N-000130 )
+  (    1 N-000136 )
   (    2 /U_Core_Board/TXCAN3 )
  )
  ( /4E9462BE/4EFA4A93 $noname  P2 jumper {Lib=CONN_2}
-  (    1 N-000137 )
+  (    1 N-000139 )
   (    2 ADCGND )
  )
  ( /4E9462BE/4EF8A148 $noname  R19 1K {Lib=R}
-  (    1 N-000137 )
-  (    2 N-000152 )
+  (    1 N-000139 )
+  (    2 N-000131 )
  )
  ( /4E9462BE/4EF89427 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
   (    1 ADCGND )
-  (    2 N-000139 )
+  (    2 N-000142 )
  )
  ( /4E9462BE/4EF89426 $noname  C24 104 {Lib=C}
   (    1 /U_Core_Board/RESET )
@@ -410,11 +406,11 @@
  )
  ( /4E9462BE/4EF89425 $noname  R18 100R {Lib=R}
   (    1 /U_Core_Board/RESET )
-  (    2 N-000139 )
+  (    2 N-000142 )
  )
  ( /4E9462BE/4EF89424 $noname  X1 CRYSTAL {Lib=CRYSTAL}
-  (    1 N-000146 )
-  (    2 N-000147 )
+  (    1 N-000147 )
+  (    2 N-000130 )
  )
  ( /4E9462BE/4EF89422 $noname  P1 BDM {Lib=CONN_3X2}
   (    1 ? )
@@ -434,11 +430,11 @@
  )
  ( /4E9462BE/4EF89419 $noname  C18 .1uF {Lib=C}
   (    1 ADCGND )
-  (    2 N-000140 )
+  (    2 N-000141 )
  )
  ( /4E9462BE/4EF89418 $noname  C14 .1uF {Lib=C}
   (    1 ADCGND )
-  (    2 N-000141 )
+  (    2 N-000140 )
  )
  ( /4E9462BE/4EF89417 $noname  C16 .1uF {Lib=C}
   (    1 ADCGND )
@@ -449,15 +445,15 @@
   (    2 +5V_MICRO )
  )
  ( /4E9462BE/4EF89414 $noname  R15 10k {Lib=R}
-  (    1 N-000170 )
+  (    1 N-000133 )
   (    2 +5V_MICRO )
  )
  ( /4E9462BE/4EF89413 $noname  R14 10k {Lib=R}
-  (    1 N-000171 )
+  (    1 N-000134 )
   (    2 ADCGND )
  )
  ( /4E9462BE/4EF89412 $noname  R13 10k {Lib=R}
-  (    1 N-000168 )
+  (    1 N-000146 )
   (    2 ADCGND )
  )
  ( /4E9462BE/4EF89411 $noname  R17 10k {Lib=R}
@@ -465,35 +461,35 @@
   (    2 +5V_MICRO )
  )
  ( /4E9462BE/4EF8940E $noname  R11 3.9K {Lib=R}
-  (    1 N-000213 )
-  (    2 N-000167 )
+  (    1 N-000209 )
+  (    2 N-000129 )
  )
  ( /4E9462BE/4EF8940D $noname  R12 10M {Lib=R}
-  (    1 N-000146 )
-  (    2 N-000147 )
+  (    1 N-000147 )
+  (    2 N-000130 )
  )
  ( /4E9462BE/4EF8940C $noname  C20 330pF {Lib=C}
-  (    1 N-000213 )
-  (    2 N-000212 )
+  (    1 N-000209 )
+  (    2 N-000210 )
  )
  ( /4E9462BE/4EF8940B $noname  C23 100nF {Lib=C}
   (    1 ADCGND )
-  (    2 N-000212 )
+  (    2 N-000210 )
  )
  ( /4E9462BE/4EF8940A $noname  C19 3.3nF {Lib=C}
-  (    1 N-000167 )
-  (    2 N-000212 )
+  (    1 N-000129 )
+  (    2 N-000210 )
  )
  ( /4E9462BE/4EF89409 $noname  C21 22pF {Lib=C}
   (    1 ADCGND )
-  (    2 N-000147 )
+  (    2 N-000130 )
  )
  ( /4E9462BE/4EF89408 $noname  C17 22pF {Lib=C}
-  (    1 N-000146 )
+  (    1 N-000147 )
   (    2 ADCGND )
  )
  ( /4E9462BE/4EF89400 $noname  U2 MC9S12XDP512 {Lib=MC9S12XDP512}
-  (    1 /U_Core_Board/PP3 )
+  (    1 /U_Low_Side_Drivers/PP3 )
   (    2 ? )
   (    3 /Dashboard_Analogue_Outputs/PP1 )
   (    4 ? )
@@ -503,9 +499,9 @@
   (    8 ? )
   (    9 /U_VR_Interfaces/PT0 )
   (   10 ? )
-  (   11 /Igniter_Outputs/PT2 )
-  (   12 /Igniter_Outputs/PT3 )
-  (   13 N-000141 )
+  (   11 /U_Core_Board/PT2 )
+  (   12 /U_Core_Board/PT3 )
+  (   13 N-000140 )
   (   14 ADCGND )
   (   15 ? )
   (   16 ? )
@@ -528,18 +524,18 @@
   (   33 ? )
   (   34 ? )
   (   35 ? )
-  (   36 N-000170 )
-  (   37 N-000171 )
-  (   38 N-000168 )
+  (   36 N-000133 )
+  (   37 N-000134 )
+  (   38 N-000146 )
   (   39 ? )
   (   40 ADCGND )
   (   41 +5V_MICRO )
   (   42 /U_Core_Board/RESET )
-  (   43 N-000212 )
-  (   44 N-000213 )
+  (   43 N-000210 )
+  (   44 N-000209 )
   (   45 ADCGND )
-  (   46 N-000146 )
-  (   47 N-000147 )
+  (   46 N-000147 )
+  (   47 N-000130 )
   (   48 ADCGND )
   (   49 ? )
   (   50 ? )
@@ -551,21 +547,21 @@
   (   56 ? )
   (   57 /U_Digital_Inputs/PA0 )
   (   58 ? )
-  (   59 /Dashboard_Analogue_Outputs/PA2 )
+  (   59 /U_Core_Board/PA2 )
   (   60 /U_Core_Board/PA3 )
-  (   61 /Dashboard_Analogue_Outputs/PA4 )
-  (   62 /U_Core_Board/PA5 )
-  (   63 N-000152 )
+  (   61 /U_Core_Board/PA4 )
+  (   62 ? )
+  (   63 N-000131 )
   (   64 /U_Low_Side_Drivers/PA7 )
-  (   65 N-000140 )
+  (   65 N-000141 )
   (   66 ADCGND )
-  (   67 /U_Core_Board/AN00 )
+  (   67 /U_Core_Analogue_Inputs/AN00 )
   (   68 ? )
-  (   69 /U_Core_Board/AN01 )
+  (   69 /U_Core_Analogue_Inputs/AN01 )
   (   70 ? )
-  (   71 /U_Core_Board/AN02 )
+  (   71 /U_Core_Analogue_Inputs/AN02 )
   (   72 ? )
-  (   73 /U_Core_Analogue_Inputs/AN03 )
+  (   73 /U_Core_Board/AN03 )
   (   74 /U_Core_Board/AN11 )
   (   75 /U_Core_Analogue_Inputs/AN04 )
   (   76 ? )
@@ -582,12 +578,12 @@
   (   87 /U_Core_Board/TXCAN3 )
   (   88 /U_Core_Board/RXCAN3 )
   (   89 /U_Core_Board/RXD )
-  (   90 /U_Core_Board/TXD )
+  (   90 /U_RS232_Comms/TXD )
   (   91 ? )
   (   92 ? )
-  (   93 N-000169 )
-  (   94 N-000142 )
-  (   95 N-000138 )
+  (   93 N-000191 )
+  (   94 N-000135 )
+  (   95 N-000189 )
   (   96 ? )
   (   97 +5V_MICRO )
   (   98 ? )
@@ -601,8 +597,8 @@
   (  106 ADCGND )
   (  107 +5V_MICRO )
   (  108 ? )
-  (  109 /U_Low_Side_Drivers/PP7 )
-  (  110 /U_Low_Side_Drivers/PP6 )
+  (  109 /U_Core_Board/PP7 )
+  (  110 /U_Core_Board/PP6 )
   (  111 /U_Low_Side_Drivers/PP5 )
   (  112 ? )
  )
@@ -616,29 +612,29 @@
   (    7 /U_Core_Analogue_Inputs/MAP )
   (    8 ? )
   (    9 /U_Digital_Inputs/SPEED_SENSOR )
-  (   10 /Connector/NBO2- )
-  (   11 /U_VR_Interfaces/RPM0- )
+  (   10 /U_Core_Analogue_Inputs/NBO2- )
+  (   11 /Connector/RPM0- )
   (   12 +5V_SWITCHED )
-  (   13 /Connector/L_WIRE )
+  (   13 /U_RS232_Comms/L_WIRE )
   (   14 ADCGND )
   (   15 /U_Low_Side_Drivers/STEPPER_OPEN )
-  (   16 /Connector/K_WIRE )
+  (   16 /U_RS232_Comms/K_WIRE )
   (   17 /Connector/INJECTOR1-4 )
   (   18 ? )
   (   19 ADCGND )
   (   20 /Connector/IGNITER_2_3 )
   (   21 ? )
-  (   22 /Dashboard_Analogue_Outputs/CHECK_ENGINE )
-  (   23 /Connector/AC_CLUTCH_RELAY )
+  (   22 /Connector/CHECK_ENGINE )
+  (   23 /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
   (   24 ? )
   (   25 /Connector/CHT )
   (   26 ADCGND )
   (   27 /U_Core_Analogue_Inputs/IAT )
   (   28 /U_Core_Analogue_Inputs/NBO2+ )
   (   29 /Connector/TPS )
-  (   30 /U_VR_Interfaces/RPM0+ )
+  (   30 /Connector/RPM0+ )
   (   31 ? )
-  (   32 /Connector/AC_SIGNAL )
+  (   32 /U_Digital_Inputs/AC_SIGNAL )
   (   33 /U_Low_Side_Drivers/STEPPER_CLOSE )
   (   34 ? )
   (   35 ? )
@@ -646,10 +642,10 @@
   (   37 +12V_SWITCHED )
  )
  ( /4E939B76/4F07A6A8 $noname  U5 74LS86_MW {Lib=74LS86_MW}
-  (    1 N-000129 )
+  (    1 N-000120 )
   (    2 N-000128 )
-  (    3 N-000126 )
-  (    4 N-000119 )
+  (    3 N-000127 )
+  (    4 N-000114 )
   (    5 N-000128 )
   (    6 N-000116 )
   (    7 ADCGND )
@@ -660,23 +656,23 @@
   (    2 ADCGND )
  )
  ( /4E939B76/4F01C234 $noname  W3 TEST {Lib=TEST}
-  (    1 N-000126 )
+  (    1 N-000127 )
   (    2 ADCGND )
  )
  ( /4E939B76/4E95AA74 $noname  R38 2K4 {Lib=R}
-  (    1 N-000115 )
+  (    1 N-000117 )
   (    2 +12V_SWITCHED )
  )
  ( /4E939B76/4E95AA73 $noname  D16 LED {Lib=LED}
-  (    1 N-000115 )
+  (    1 N-000117 )
   (    2 /Connector/IGNITER_2_3 )
  )
  ( /4E939B76/4E95AA37 $noname  R31 2K4 {Lib=R}
-  (    1 N-000127 )
+  (    1 N-000126 )
   (    2 +12V_SWITCHED )
  )
  ( /4E939B76/4E95AA36 $noname  D15 LED {Lib=LED}
-  (    1 N-000127 )
+  (    1 N-000126 )
   (    2 /Connector/IGNITER_1_4 )
  )
  ( /4E939B76/4E940542 $noname  K2 jumper {Lib=CONN_3}
@@ -689,20 +685,20 @@
   (    2 +5V_SWITCHED )
  )
  ( /4E939B76/4E94048E $noname  R37 100K {Lib=R}
-  (    1 /Igniter_Outputs/PT3 )
+  (    1 /U_Core_Board/PT3 )
   (    2 ADCGND )
  )
  ( /4E939B76/4E94048B $noname  R36 100K {Lib=R}
-  (    1 /Igniter_Outputs/PT2 )
+  (    1 /U_Core_Board/PT2 )
   (    2 ADCGND )
  )
  ( /4E939B76/4E940487 $noname  R34 1K {Lib=R}
-  (    1 N-000119 )
-  (    2 /Igniter_Outputs/PT3 )
+  (    1 N-000114 )
+  (    2 /U_Core_Board/PT3 )
  )
  ( /4E939B76/4E940485 $noname  R35 1K {Lib=R}
-  (    1 N-000129 )
-  (    2 /Igniter_Outputs/PT2 )
+  (    1 N-000120 )
+  (    2 /U_Core_Board/PT2 )
  )
  ( /4E939B76/4E93D673 $noname  C31 1uF {Lib=CAPAPOL}
   (    1 +5V_SWITCHED )
@@ -714,7 +710,7 @@
  )
  ( /4E939B76/4E93D671 $noname  R39 1k {Lib=R}
   (    1 ADCGND )
-  (    2 N-000120 )
+  (    2 N-000115 )
  )
  ( /4E939B76/4E93D670 $noname  R40 1k {Lib=R}
   (    1 N-000116 )
@@ -726,7 +722,7 @@
   (    3 ADCGND )
   (    4 ADCGND )
   (    5 ADCGND )
-  (    6 N-000120 )
+  (    6 N-000115 )
   (    7 +5V_SWITCHED )
   (    8 ? )
   (    9 N-000121 )
@@ -739,20 +735,20 @@
   (    3 ADCGND )
   (    4 ADCGND )
   (    5 ADCGND )
-  (    6 N-000118 )
+  (    6 N-000119 )
   (    7 +5V_SWITCHED )
   (    8 ? )
-  (    9 N-000117 )
+  (    9 N-000118 )
   (   10 ? )
   (  TAB /Connector/IGNITER_1_4 )
  )
  ( /4E939B76/4E939C22 $noname  R33 1k {Lib=R}
-  (    1 N-000126 )
-  (    2 N-000117 )
+  (    1 N-000127 )
+  (    2 N-000118 )
  )
  ( /4E939B76/4E939C21 $noname  R32 1k {Lib=R}
   (    1 ADCGND )
-  (    2 N-000118 )
+  (    2 N-000119 )
  )
  ( /4E939B76/4E939C20 $noname  C29 100nf {Lib=C}
   (    1 +5V_SWITCHED )
@@ -762,36 +758,16 @@
   (    1 +5V_SWITCHED )
   (    2 ADCGND )
  )
- ( /4E919CB5/4F0ECBC1 $noname  D26 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /Connector/FUEL_PUMP_RELAY )
- )
- ( /4E919CB5/4F0ECBB4 $noname  D24 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /U_Low_Side_Drivers/STEPPER_CLOSE )
- )
- ( /4E919CB5/4F0ECBA9 $noname  D23 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /U_Low_Side_Drivers/STEPPER_OPEN )
- )
- ( /4E919CB5/4F0ECB9C $noname  D20 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /Connector/AC_CLUTCH_RELAY )
- )
- ( /4E919CB5/4F0ECB85 $noname  D19 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /Connector/GAS_VENTI_VALVE )
- )
  ( /4E919CB5/4F0250C8 $noname  W5 TEST {Lib=TEST}
   (    1 /U_Low_Side_Drivers/PA7 )
   (    2 ADCGND )
  )
  ( /4E919CB5/4E927232 $noname  R53 2K4 {Lib=R}
-  (    1 N-000080 )
+  (    1 N-000077 )
   (    2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E927231 $noname  D25 LED {Lib=LED}
-  (    1 N-000080 )
+  (    1 N-000077 )
   (    2 /Connector/FUEL_PUMP_RELAY )
  )
  ( /4E919CB5/4E92722F $noname  R55 100K {Lib=R}
@@ -800,62 +776,62 @@
  )
  ( /4E919CB5/4E92722D $noname  R54 1K {Lib=R}
   (    1 /U_Low_Side_Drivers/PA7 )
-  (    2 N-000076 )
+  (    2 N-000078 )
  )
  ( /4E919CB5/4E92722C $noname  Q8 vnp10n07 {Lib=MOS_N}
   (    D /Connector/FUEL_PUMP_RELAY )
-  (    G N-000076 )
+  (    G N-000078 )
   (    S ADCGND )
  )
  ( /4E919CB5/4E924B5A $noname  R47 2K4 {Lib=R}
-  (    1 N-000075 )
+  (    1 N-000079 )
   (    2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924B59 $noname  D21 LED {Lib=LED}
-  (    1 N-000075 )
+  (    1 N-000079 )
   (    2 /U_Low_Side_Drivers/STEPPER_OPEN )
  )
  ( /4E919CB5/4E924B57 $noname  R51 100K {Lib=R}
-  (    1 /U_Low_Side_Drivers/PP6 )
+  (    1 /U_Core_Board/PP6 )
   (    2 ADCGND )
  )
  ( /4E919CB5/4E924B55 $noname  R49 1K {Lib=R}
-  (    1 /U_Low_Side_Drivers/PP6 )
-  (    2 N-000079 )
+  (    1 /U_Core_Board/PP6 )
+  (    2 N-000073 )
  )
  ( /4E919CB5/4E924B54 $noname  Q6 vnp10n07 {Lib=MOS_N}
   (    D /U_Low_Side_Drivers/STEPPER_OPEN )
-  (    G N-000079 )
+  (    G N-000073 )
   (    S ADCGND )
  )
  ( /4E919CB5/4E924B26 $noname  Q7 vnp10n07 {Lib=MOS_N}
   (    D /U_Low_Side_Drivers/STEPPER_CLOSE )
-  (    G N-000078 )
+  (    G N-000074 )
   (    S ADCGND )
  )
  ( /4E919CB5/4E924B25 $noname  R50 1K {Lib=R}
-  (    1 /U_Low_Side_Drivers/PP7 )
-  (    2 N-000078 )
+  (    1 /U_Core_Board/PP7 )
+  (    2 N-000074 )
  )
  ( /4E919CB5/4E924B23 $noname  R52 100K {Lib=R}
-  (    1 /U_Low_Side_Drivers/PP7 )
+  (    1 /U_Core_Board/PP7 )
   (    2 ADCGND )
  )
  ( /4E919CB5/4E924B21 $noname  D22 LED {Lib=LED}
-  (    1 N-000077 )
+  (    1 N-000075 )
   (    2 /U_Low_Side_Drivers/STEPPER_CLOSE )
  )
  ( /4E919CB5/4E924B20 $noname  R48 2K4 {Lib=R}
-  (    1 N-000077 )
+  (    1 N-000075 )
   (    2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924A83 $noname  R42 2K4 {Lib=R}
-  (    1 N-000071 )
+  (    1 N-000076 )
   (    2 +12V_SWITCHED )
  )
  ( /4E919CB5/4E924A82 $noname  D18 LED {Lib=LED}
-  (    1 N-000071 )
-  (    2 /Connector/AC_CLUTCH_RELAY )
+  (    1 N-000076 )
+  (    2 /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
  )
  ( /4E919CB5/4E924A80 $noname  R46 100K {Lib=R}
   (    1 /U_Low_Side_Drivers/PP5 )
@@ -863,24 +839,24 @@
  )
  ( /4E919CB5/4E924A7E $noname  R44 1K {Lib=R}
   (    1 /U_Low_Side_Drivers/PP5 )
-  (    2 N-000074 )
+  (    2 N-000070 )
  )
  ( /4E919CB5/4E924A7D $noname  Q5 vnp10n07 {Lib=MOS_N}
-  (    D /Connector/AC_CLUTCH_RELAY )
-  (    G N-000074 )
+  (    D /U_Low_Side_Drivers/AC_CLUTCH_RELAY )
+  (    G N-000070 )
   (    S ADCGND )
  )
  ( /4E919CB5/4E919D96 $noname  Q4 vnp10n07 {Lib=MOS_N}
   (    D /Connector/GAS_VENTI_VALVE )
-  (    G N-000073 )
+  (    G N-000071 )
   (    S ADCGND )
  )
  ( /4E919CB5/4E919D95 $noname  R43 1K {Lib=R}
-  (    1 /U_Core_Board/PP3 )
-  (    2 N-000073 )
+  (    1 /U_Low_Side_Drivers/PP3 )
+  (    2 N-000071 )
  )
  ( /4E919CB5/4E919D93 $noname  R45 100K {Lib=R}
-  (    1 /U_Core_Board/PP3 )
+  (    1 /U_Low_Side_Drivers/PP3 )
   (    2 ADCGND )
  )
  ( /4E919CB5/4E919D91 $noname  D17 LED {Lib=LED}
@@ -896,57 +872,57 @@
   (    2 ADCGND )
  )
  ( /4E9276D8/4E927716 $noname  K3 jumper {Lib=CONN_3}
-  (    1 N-000089 )
-  (    2 N-000087 )
-  (    3 /Connector/K_WIRE )
+  (    1 N-000082 )
+  (    2 N-000080 )
+  (    3 /U_RS232_Comms/K_WIRE )
  )
  ( /4E9276D8/4E927715 $noname  K4 jumper {Lib=CONN_3}
-  (    1 N-000094 )
-  (    2 N-000088 )
-  (    3 /Connector/L_WIRE )
+  (    1 N-000083 )
+  (    2 N-000081 )
+  (    3 /U_RS232_Comms/L_WIRE )
  )
  ( /4E9276D8/4E927849 $noname  J1 JACK_2P {Lib=JACK_2P}
   (    1 ADCGND )
-  (    2 N-000094 )
-  (    3 N-000089 )
+  (    2 N-000083 )
+  (    3 N-000082 )
  )
  ( /4E9276D8/4E92771D $noname  U7 MAX232 {Lib=MAX232}
-  (    1 N-000083 )
-  (    2 N-000085 )
-  (    3 N-000082 )
-  (    4 N-000081 )
-  (    5 N-000084 )
-  (    6 N-000086 )
+  (    1 N-000086 )
+  (    2 N-000088 )
+  (    3 N-000085 )
+  (    4 N-000084 )
+  (    5 N-000087 )
+  (    6 N-000089 )
   (    7 ? )
   (    8 ? )
   (    9 ? )
   (   10 ? )
-  (   11 /U_Core_Board/TXD )
+  (   11 /U_RS232_Comms/TXD )
   (   12 /U_Core_Board/RXD )
-  (   13 N-000087 )
-  (   14 N-000088 )
+  (   13 N-000080 )
+  (   14 N-000081 )
   (   15 ADCGND )
   (   16 +5V_SWITCHED )
  )
  ( /4E9276D8/4E92771C $noname  C36 0.1 {Lib=C}
-  (    1 N-000081 )
-  (    2 N-000084 )
+  (    1 N-000084 )
+  (    2 N-000087 )
  )
  ( /4E9276D8/4E92771B $noname  C34 0.1 {Lib=C}
   (    1 +5V_SWITCHED )
-  (    2 N-000085 )
+  (    2 N-000088 )
  )
  ( /4E9276D8/4E92771A $noname  C37 0.1 {Lib=C}
   (    1 ADCGND )
-  (    2 N-000086 )
+  (    2 N-000089 )
  )
  ( /4E9276D8/4E927719 $noname  C33 0.1 {Lib=C}
-  (    1 N-000083 )
-  (    2 N-000082 )
+  (    1 N-000086 )
+  (    2 N-000085 )
  )
  ( /4E930052/4F19371C $noname  U8 MAX9924 {Lib=MAX9924}
-  (    1 N-000098 )
-  (    2 N-000097 )
+  (    1 N-000097 )
+  (    2 N-000096 )
   (    3 ? )
   (    4 ADCGND )
   (    5 ADCGND )
@@ -965,24 +941,20 @@
   (    2 /U_VR_Interfaces/PT0 )
  )
  ( /4E930052/4F193719 $noname  C45 1nF {Lib=C}
-  (    1 N-000098 )
-  (    2 N-000097 )
+  (    1 N-000097 )
+  (    2 N-000096 )
  )
  ( /4E930052/4F193718 $noname  R65 10k {Lib=R}
-  (    1 N-000097 )
-  (    2 /U_VR_Interfaces/RPM0- )
+  (    1 N-000096 )
+  (    2 /Connector/RPM0- )
  )
  ( /4E930052/4F193717 $noname  R63 10k {Lib=R}
-  (    1 N-000098 )
-  (    2 /U_VR_Interfaces/RPM0+ )
+  (    1 N-000097 )
+  (    2 /Connector/RPM0+ )
  )
  ( /4E930052/4F01BDF8 $noname  W6 TEST {Lib=TEST}
   (    1 /U_VR_Interfaces/PT0 )
   (    2 ADCGND )
- )
- ( /4E919A91/4F0EC8E1 $noname  D34 DIODE {Lib=DIODE}
-  (    1 ADCGND )
-  (    2 /Connector/INJECTOR1-4 )
  )
  ( /4E919A91/4F01C365 $noname  W7 TEST {Lib=TEST}
   (    1 /U_Injectors/PB0 )
@@ -990,52 +962,45 @@
  )
  ( /4E919A91/4E919ABF $noname  Q9 vnp10n07 {Lib=MOS_N}
   (    D /Connector/INJECTOR1-4 )
-  (    G N-000070 )
+  (    G N-000069 )
   (    S ADCGND )
  )
  ( /4E919A91/4E919ABE $noname  R67 1K {Lib=R}
   (    1 /U_Injectors/PB0 )
-  (    2 N-000070 )
+  (    2 N-000069 )
  )
  ( /4E919A91/4E919ABC $noname  R68 100K {Lib=R}
   (    1 /U_Injectors/PB0 )
   (    2 ADCGND )
  )
  ( /4E919A91/4E919ABA $noname  D33 LED {Lib=LED}
-  (    1 N-000069 )
+  (    1 N-000068 )
   (    2 /Connector/INJECTOR1-4 )
  )
  ( /4E919A91/4E919AB9 $noname  R66 2K4 {Lib=R}
-  (    1 N-000069 )
+  (    1 N-000068 )
   (    2 +12V_SWITCHED )
  )
- ( /4E918622/4F0194BC $noname  C43 22uF {Lib=C}
+ ( /4E918622/4F26B73F $noname  C52 22uF {Lib=C}
   (    1 +5V_SWITCHED )
   (    2 ADCGND )
  )
- ( /4E918622/4F019462 $noname  R70 29K4 {Lib=R}
-  (    1 N-000048 )
-  (    2 +5V_SWITCHED )
- )
- ( /4E918622/4F01945B $noname  R71 10K {Lib=R}
-  (    1 N-000048 )
+ ( /4E918622/4F26B73E C1V7  C53 .1uF {Lib=C}
+  (    1 +5V_SWITCHED )
   (    2 ADCGND )
  )
- ( /4E918622/4F019343 $noname  R69 33K {Lib=R}
-  (    1 +12V_SWITCHED )
-  (    2 /U_Core_Board/PA5 )
- )
- ( /4E918622/4F019338 $noname  C44 470nF {Lib=C}
+ ( /4E918622/4F26B73D C1V7  C43 10uF {Lib=CAPAPOL}
   (    1 +12V_SWITCHED )
   (    2 ADCGND )
  )
- ( /4E918622/4F019269 $noname  U10 LM2941S {Lib=LM2941S}
-  (    1 N-000048 )
-  (    2 /U_Core_Board/PA5 )
+ ( /4E918622/4F26B73C C1V7  C44 .1uF {Lib=C}
+  (    1 +12V_SWITCHED )
+  (    2 ADCGND )
+ )
+ ( /4E918622/4F26B738 $noname  U10 TLE4275 {Lib=TLE4275}
+  (    1 +12V_SWITCHED )
   (    3 ADCGND )
-  (    4 +12V_SWITCHED )
   (    5 +5V_SWITCHED )
-  (    6 ADCGND )
  )
  ( /4E918622/4F018DA4 $noname  U9 TLE4275 {Lib=TLE4275}
   (    1 +12V_SWITCHED )
@@ -1139,10 +1104,6 @@ $component D27
  D?
  SO*
  SM*
-$endlist
-$component D13
- D?
- S*
 $endlist
 $component C27
  SM*
@@ -1776,26 +1737,6 @@ $component C28
  CP*
  SM*
 $endlist
-$component D26
- D?
- S*
-$endlist
-$component D24
- D?
- S*
-$endlist
-$component D23
- D?
- S*
-$endlist
-$component D20
- D?
- S*
-$endlist
-$component D19
- D?
- S*
-$endlist
 $component R53
  R?
  SM0603
@@ -2002,10 +1943,6 @@ $component R63
  R?-*
  SM1206
 $endlist
-$component D34
- D?
- S*
-$endlist
 $component R67
  R?
  SM0603
@@ -2036,39 +1973,24 @@ $component R66
  R?-*
  SM1206
 $endlist
-$component C43
+$component C52
  SM*
  C?
  C1-1
 $endlist
-$component R70
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C53
+ SM*
+ C?
+ C1-1
 $endlist
-$component R71
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R69
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C43
+ CP*
+ SM*
 $endlist
 $component C44
  SM*
  C?
  C1-1
-$endlist
-$component U10
- tach
 $endlist
 $component C40
  SM*
@@ -2092,254 +2014,275 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/U_Core Board/TXD" "TXD"
+Net 1 "/U_RS232 Comms/TXD" "TXD"
  U7 11
  U2 90
 Net 2 "/U_Low Side Drivers/PA7" "PA7"
- R55 1
- R54 1
- U2 64
  W5 1
-Net 3 "/U_Low Side Drivers/PP7" "PP7"
+ R54 1
+ R55 1
+ U2 64
+Net 3 "/U_Core Board/PP7" "PP7"
  U2 109
  R52 1
  R50 1
 Net 4 "/U_Low Side Drivers/PP5" "PP5"
- R44 1
- R46 1
  U2 111
-Net 5 "/Dashboard Analogue Outputs/PA4" "PA4"
- R28 1
- R27 2
+ R46 1
+ R44 1
+Net 5 "/U_Core Board/PA4" "PA4"
  U2 61
-Net 6 "/Dashboard Analogue Outputs/PA2" "PA2"
+ R27 2
+ R28 1
+Net 6 "/U_Core Board/PA2" "PA2"
  U2 59
- R23 1
  R22 2
+ R23 1
 Net 7 "/U_Digital Inputs/PA0" "PA0"
  R58 2
  U2 57
-Net 8 "/U_Core Analogue Inputs/AN03" "AN03"
+Net 8 "/U_Core Board/AN03" "AN03"
+ U2 73
  C3 1
  R4 2
  D5 2
  D2 1
- U2 73
 Net 9 "/U_Digital Inputs/PT6" "PT6"
- U2 17
  R60 2
+ U2 17
 Net 10 "/Dashboard Analogue Outputs/PP1" "PP1"
- U2 3
- U3 2
- R21 1
  R24 1
+ U3 2
+ U2 3
+ R21 1
 Net 11 "/U_Core Analogue Inputs/AN06" "AN06"
  U2 79
- D3 2
+ C5 1
+ D3 1
  D6 2
  R5 2
- C5 1
-Net 12 "/U_Core Board/AN01" "AN01"
+Net 12 "/U_Core Analogue Inputs/AN01" "AN01"
  U2 69
  D7 1
  D8 2
  R8 2
  C7 1
-Net 13 "/U_Core Board/AN00" "AN00"
+Net 13 "/U_Core Analogue Inputs/AN00" "AN00"
+ U2 67
+ C1 1
  R3 2
  D4 2
  D1 1
- U2 67
- C1 1
 Net 14 "/U_Injectors/PB0" "PB0"
  W7 1
  R68 1
  R67 1
  U2 24
-Net 15 "/Igniter Outputs/PT3" "PT3"
- R37 1
+Net 15 "/U_Core Board/PT3" "PT3"
  R34 2
+ R37 1
  U2 12
-Net 16 "/Igniter Outputs/PT2" "PT2"
- R36 1
+Net 16 "/U_Core Board/PT2" "PT2"
  R35 2
+ R36 1
  U2 11
 Net 17 "/Connector/IGNITER_2_3" "IGNITER_2_3"
  P3 20
- D16 2
- U6 TAB
  P3 20
+ U6 TAB
+ D16 2
 Net 18 "/Connector/IGNITER_1_4" "IGNITER_1_4"
  P3 1
- U4 TAB
  D15 2
+ U4 TAB
 Net 19 "/U_Core Analogue Inputs/IAT" "IAT"
  C2 1
- R3 1
  R1 2
  P3 27
+ R3 1
 Net 20 "/Connector/CHT" "CHT"
- C8 1
- R7 2
  R8 1
+ R7 2
+ C8 1
  P3 25
 Net 21 "/Connector/TPS" "TPS"
  P3 29
- C13 1
  R10 1
+ C13 1
 Net 22 "/U_Core Analogue Inputs/NBO2+" "NBO2+"
  R75 1
  P3 28
 Net 23 "/U_Core Analogue Inputs/MAP" "MAP"
  P3 7
  K1 1
-Net 24 "/Connector/AC_SIGNAL" "AC_SIGNAL"
- P3 32
+Net 24 "/U_Digital Inputs/AC_SIGNAL" "AC_SIGNAL"
  R56 2
+ P3 32
 Net 25 "/U_Digital Inputs/SPEED_SENSOR" "SPEED_SENSOR"
- R57 2
  P3 9
+ R57 2
 Net 26 "/Connector/TACH_OUT" "TACH_OUT"
- P3 6
+ W2 1
  U3 7
  C27 1
- W2 1
-Net 27 "/Dashboard Analogue Outputs/CHECK_ENGINE" "CHECK_ENGINE"
+ P3 6
+Net 27 "/Connector/CHECK_ENGINE" "CHECK_ENGINE"
+ P3 22
  Q1 D
  D12 2
- D13 2
- P3 22
 Net 28 "/Connector/INJECTOR1-4" "INJECTOR1-4"
- D34 2
  P3 17
- Q9 D
  D33 2
-Net 29 "/Connector/K_WIRE" "K_WIRE"
- P3 16
+ Q9 D
+Net 29 "/U_RS232 Comms/K_WIRE" "K_WIRE"
  K3 3
-Net 30 "/Connector/L_WIRE" "L_WIRE"
- K4 3
+ P3 16
+Net 30 "/U_RS232 Comms/L_WIRE" "L_WIRE"
  P3 13
-Net 31 "/U_VR Interfaces/RPM0+" "RPM0+"
+ K4 3
+Net 31 "/Connector/RPM0+" "RPM0+"
  P3 30
  R63 2
-Net 32 "/U_VR Interfaces/RPM0-" "RPM0-"
+Net 32 "/Connector/RPM0-" "RPM0-"
  P3 11
  R65 2
 Net 33 "/Connector/GAS_VENTI_VALVE" "GAS_VENTI_VALVE"
- P3 5
- D17 2
  Q4 D
- D19 2
-Net 34 "/Connector/AC_CLUTCH_RELAY" "AC_CLUTCH_RELAY"
- P3 23
+ D17 2
+ P3 5
+Net 34 "/U_Low Side Drivers/AC_CLUTCH_RELAY" "AC_CLUTCH_RELAY"
  D18 2
+ P3 23
  Q5 D
- D20 2
 Net 35 "/U_Low Side Drivers/STEPPER_OPEN" "STEPPER_OPEN"
- D23 2
- D21 2
- Q6 D
  P3 15
+ Q6 D
+ D21 2
 Net 36 "/U_Low Side Drivers/STEPPER_CLOSE" "STEPPER_CLOSE"
- D22 2
- D24 2
  Q7 D
  P3 33
+ D22 2
 Net 37 "/Connector/FUEL_PUMP_RELAY" "FUEL_PUMP_RELAY"
  Q8 D
- D25 2
  P3 3
- D26 2
+ D25 2
 Net 38 "/U_Core Board/AN11" "AN11"
  R74 1
  U2 74
-Net 39 "/U_Core Board/AN02" "AN02"
- U2 71
- D9 1
- C12 1
+Net 39 "/U_Core Analogue Inputs/AN02" "AN02"
  D10 2
+ D9 1
  R10 2
+ C12 1
+ U2 71
 Net 40 "/U_Core Analogue Inputs/AN04" "AN04"
- U2 75
  R9 2
  C10 1
+ U2 75
 Net 41 "/U_Core Board/PA3" "PA3"
  U2 60
  R30 1
  R29 2
 Net 42 "/U_VR Interfaces/PT0" "PT0"
  R64 2
+ W6 1
  U8 7
  U2 9
- W6 1
-Net 43 "/U_Core Board/PP3" "PP3"
- U2 1
+Net 43 "/U_Low Side Drivers/PP3" "PP3"
  R43 1
  R45 1
-Net 44 "/U_Low Side Drivers/PP6" "PP6"
+ U2 1
+Net 44 "/U_Core Board/PP6" "PP6"
+ U2 110
  R49 1
  R51 1
- U2 110
 Net 45 "/U_Core Board/RXD" "RXD"
  U2 89
  U7 12
-Net 46 "/U_Core Board/PA5" "PA5"
- U2 62
- R69 2
- U10 2
-Net 47 "/Connector/NBO2-" "NBO2-"
- P3 10
+Net 47 "/U_Core Analogue Inputs/NBO2-" "NBO2-"
  R72 2
+ P3 10
  R76 1
-Net 48 "" ""
- R70 1
- R71 1
- U10 1
+Net 48 "+5V_SWITCHED" "+5V_SWITCHED"
+ R7 1
+ D7 2
+ D27 2
+ R21 2
+ R25 2
+ U1 3
+ Q2 3
+ D9 2
+ C9 1
+ C35 1
+ U7 16
+ C34 1
+ C46 2
+ C47 1
+ C38 1
+ U8 10
+ R73 1
+ R64 1
+ R72 1
+ D28 2
+ U2 83
+ U2 84
+ U10 5
+ C52 1
+ C53 1
+ P3 12
+ C22 2
+ U6 7
+ U5 14
+ K2 3
+ C30 2
+ U11 8
+ U4 7
+ C29 1
+ C28 1
+ C31 1
+ C32 1
+ D2 2
+ R1 1
+ D1 2
+ D3 2
 Net 49 "+12V_SWITCHED" "+12V_SWITCHED"
- R69 1
  U9 1
- R41 2
  R48 2
- R42 2
- P3 37
- U10 4
- C44 1
- R47 2
+ C43 1
  C40 1
- C39 1
- R53 2
+ P3 37
  R31 2
- R2 1
+ D11 1
+ R42 2
  R38 2
  R20 2
- D11 1
+ C39 1
+ U10 1
+ R2 1
+ R47 2
+ R41 2
+ R53 2
  R66 2
-Net 50 "+5V_MICRO" "+5V_MICRO"
- U2 41
- P1 6
- R17 2
- U2 97
- U2 107
- U9 5
- C42 1
- C41 1
- R16 2
- C16 2
- C15 2
- R15 2
-Net 51 "ADCGND" "ADCGND"
- W3 2
- U4 2
- U4 1
- U6 5
- U6 4
- C50 2
- W4 2
+ C44 1
+Net 50 "ADCGND" "ADCGND"
  R36 2
- R37 2
- C30 1
+ W3 2
+ W7 2
  U11 4
+ Q5 S
+ U11 14
+ K2 1
+ U5 7
+ C30 1
+ R37 2
+ W4 2
+ C2 2
+ R45 2
+ C1 2
+ C4 2
+ W2 2
+ R51 2
+ C27 2
  U6 3
  U6 2
  U6 1
@@ -2352,444 +2295,401 @@ Net 51 "ADCGND" "ADCGND"
  U4 5
  U4 4
  U4 3
- K2 1
- C26 2
- C25 2
- U3 3
- D13 1
- P4 2
- SP1 2
- Q3 1
- R24 2
- Q1 S
- W2 2
- C47 2
- C27 2
- R28 2
- R23 2
- R30 2
- C46 1
- P3 2
- U2 106
- U2 48
- P3 14
- U11 14
- C40 2
- U2 86
- U2 40
- C39 2
- U2 66
- U2 85
- C16 1
- C15 1
- U2 45
- C43 2
- U2 14
- R13 2
- R14 2
- C51 2
+ U4 2
+ U4 1
+ R46 2
+ D4 1
+ Q4 S
+ U6 5
+ U6 4
  C42 2
+ P3 2
+ C39 2
+ C40 2
  U9 3
- C41 2
- U10 6
- C23 1
- U10 3
- C21 1
- C17 2
- C44 2
- C18 1
- C14 1
- R71 2
- P5 6
- P2 2
- P1 2
- U5 7
- P3 19
+ C43 2
+ C53 2
+ C52 2
  P3 26
+ P3 19
  C22 1
  SW1 1
  C24 2
- D26 1
- D24 1
- D23 1
- D20 1
- D6 1
- D19 1
- C5 2
- C6 2
- W5 2
- R55 2
- W6 2
- R6 2
- D8 1
- C7 2
- C8 2
- D5 1
- C3 2
- C4 2
- C2 2
- U7 15
- C37 1
- C35 2
- J1 1
- C38 2
+ C41 2
+ P3 14
+ C44 2
+ U10 3
+ U2 40
+ C51 2
+ U2 106
+ U2 48
+ R68 2
+ P5 6
+ Q9 S
+ C14 1
+ C16 1
+ C15 1
+ R14 2
+ R13 2
+ P2 2
+ P1 2
+ U2 45
+ U2 14
+ P4 2
+ U2 86
+ U2 66
+ U2 85
+ C23 1
+ C21 1
+ C17 2
+ C18 1
  U8 9
+ D29 1
  U8 6
  U8 5
  U8 4
- W7 2
- Q9 S
- R68 2
- D4 1
- C1 2
- R46 2
- D34 1
- C9 2
- C11 2
- C10 2
- C13 2
- C12 2
- D10 1
- U1 2
- W1 1
- R45 2
- Q4 S
- Q5 S
- R51 2
- Q8 S
- R52 2
- Q7 S
- Q6 S
- D32 1
- D31 1
- D29 1
+ Q3 1
  R62 1
+ Q7 S
  D30 1
-Net 52 "+5V_SWITCHED" "+5V_SWITCHED"
- D1 2
- R25 2
- C22 2
- U2 84
- D27 2
- U10 5
- U1 3
- U7 16
- C30 2
- D2 2
- U8 10
- C38 1
- K2 3
- C35 1
- R21 2
- U11 8
- C9 1
- U5 14
- R1 1
- R73 1
- C34 1
- R70 2
- P3 12
- D9 2
- U2 83
- C43 1
- R7 1
- C46 2
- U6 7
- Q2 3
- D7 2
- C32 1
- C31 1
- D3 1
- C47 1
- D28 2
- U4 7
- R72 1
- R64 1
- C28 1
- C29 1
-Net 55 "" ""
+ R24 2
+ W6 2
+ U3 3
+ U7 15
+ D6 1
+ C37 1
+ SP1 2
+ C46 1
+ D31 1
+ J1 1
+ Q1 S
+ C8 2
+ C47 2
+ C38 2
+ D10 1
+ C12 2
+ C13 2
+ C10 2
+ C11 2
+ C7 2
+ D32 1
+ U1 2
+ C50 2
+ C6 2
+ C5 2
+ R6 2
+ R52 2
+ D8 1
+ W5 2
+ C3 2
+ R28 2
+ R23 2
+ R30 2
+ R55 2
+ W1 1
+ Q8 S
+ C35 2
+ Q6 S
+ C26 2
+ C25 2
+ D5 1
+ C9 2
+Net 51 "+5V_MICRO" "+5V_MICRO"
+ U2 41
+ U2 107
+ R15 2
+ R17 2
+ C42 1
+ P1 6
+ R16 2
+ C41 1
+ U2 97
+ C15 2
+ U9 5
+ C16 2
+Net 54 "" ""
+ U11 5
+ U11 5
  R73 2
- U11 5
- U11 5
-Net 56 "" ""
- U11 9
- C49 1
- U11 9
- R75 2
-Net 57 "" ""
- C48 1
- U11 3
- U11 3
-Net 58 "" ""
- U11 6
- R74 2
- C50 1
-Net 60 "" ""
- K1 2
- R9 1
- C11 1
-Net 61 "" ""
+Net 55 "" ""
  C48 2
  U11 2
-Net 64 "" ""
- C4 1
- R4 1
- P4 1
-Net 65 "" ""
+Net 57 "" ""
+ R9 1
+ K1 2
+ C11 1
+Net 58 "" ""
  R5 1
- R2 2
- R6 1
  C6 1
-Net 67 "" ""
+ R6 1
+ R2 2
+Net 62 "" ""
+ R75 2
+ C49 1
+ U11 9
+ U11 9
+Net 63 "" ""
+ U11 3
+ U11 3
+ C48 1
+Net 64 "" ""
  U1 1
  W1 2
  K1 3
-Net 68 "" ""
- C49 2
- C51 1
- U11 10
+Net 65 "" ""
  R76 2
+ C49 2
  U11 10
-Net 69 "" ""
+ U11 10
+ C51 1
+Net 66 "" ""
+ P4 1
+ C4 1
+ R4 1
+Net 67 "" ""
+ U11 6
+ C50 1
+ R74 2
+Net 68 "" ""
  R66 1
  D33 1
-Net 70 "" ""
- R67 2
+Net 69 "" ""
  Q9 G
-Net 71 "" ""
- D18 1
- R42 1
-Net 72 "" ""
- D17 1
- R41 1
-Net 73 "" ""
- R43 2
- Q4 G
-Net 74 "" ""
- Q5 G
+ R67 2
+Net 70 "" ""
  R44 2
-Net 75 "" ""
- D21 1
- R47 1
-Net 76 "" ""
- R54 2
- Q8 G
-Net 77 "" ""
- D22 1
- R48 1
-Net 78 "" ""
- Q7 G
- R50 2
-Net 79 "" ""
+ Q5 G
+Net 71 "" ""
+ Q4 G
+ R43 2
+Net 72 "" ""
+ R41 1
+ D17 1
+Net 73 "" ""
  R49 2
  Q6 G
-Net 80 "" ""
- D25 1
+Net 74 "" ""
+ Q7 G
+ R50 2
+Net 75 "" ""
+ R48 1
+ D22 1
+Net 76 "" ""
+ D18 1
+ R42 1
+Net 77 "" ""
  R53 1
+ D25 1
+Net 78 "" ""
+ Q8 G
+ R54 2
+Net 79 "" ""
+ D21 1
+ R47 1
+Net 80 "" ""
+ U7 13
+ K3 2
 Net 81 "" ""
+ K4 2
+ U7 14
+Net 82 "" ""
+ K3 1
+ J1 3
+Net 83 "" ""
+ K4 1
+ J1 2
+Net 84 "" ""
  C36 1
  U7 4
-Net 82 "" ""
- C33 2
- U7 3
-Net 83 "" ""
- C33 1
- U7 1
-Net 84 "" ""
- U7 5
- C36 2
 Net 85 "" ""
+ U7 3
+ C33 2
+Net 86 "" ""
+ U7 1
+ C33 1
+Net 87 "" ""
+ C36 2
+ U7 5
+Net 88 "" ""
  U7 2
  C34 2
-Net 86 "" ""
- C37 2
- U7 6
-Net 87 "" ""
- K3 2
- U7 13
-Net 88 "" ""
- U7 14
- K4 2
 Net 89 "" ""
- J1 3
- K3 1
-Net 94 "" ""
- J1 2
- K4 1
-Net 97 "" ""
+ U7 6
+ C37 2
+Net 96 "" ""
+ C45 2
  U8 2
  R65 1
- C45 2
-Net 98 "" ""
+Net 97 "" ""
  U8 1
- C45 1
  R63 1
-Net 99 "" ""
- R57 1
- R62 2
+ C45 1
+Net 98 "" ""
  R61 1
  D32 2
-Net 100 "" ""
- D30 2
- R56 1
+ R57 1
+ R62 2
+Net 99 "" ""
  R59 1
-Net 101 "" ""
+ R56 1
+ D30 2
+Net 100 "" ""
  R60 1
+ D31 2
  D28 1
  R61 2
- D31 2
-Net 102 "" ""
+Net 101 "" ""
  R59 2
  R58 1
- D27 1
  D29 2
-Net 103 "" ""
+ D27 1
+Net 102 "" ""
  SP1 1
  Q2 1
-Net 104 "" ""
+Net 103 "" ""
  Q2 2
  R27 1
 Net 105 "" ""
- Q3 2
- R29 1
-Net 106 "" ""
- Q3 3
- D14 2
-Net 107 "" ""
- R25 1
  D14 1
+ R25 1
+Net 106 "" ""
+ R29 1
+ Q3 2
+Net 107 "" ""
+ D14 2
+ Q3 3
 Net 110 "" ""
- Q1 G
- R22 1
-Net 111 "" ""
- D12 1
  R20 1
-Net 114 "" ""
- U3 6
- C25 1
+ D12 1
+Net 111 "" ""
+ R22 1
+ Q1 G
+Net 113 "" ""
  C26 1
+ C25 1
+ U3 6
  D11 2
+Net 114 "" ""
+ R34 1
+ U5 4
 Net 115 "" ""
- D16 1
- R38 1
+ R39 2
+ U6 6
 Net 116 "" ""
  R40 1
  W4 1
  U5 6
 Net 117 "" ""
+ R38 1
+ D16 1
+Net 118 "" ""
  U4 9
  R33 2
-Net 118 "" ""
+Net 119 "" ""
  U4 6
  R32 2
-Net 119 "" ""
- R34 1
- U5 4
 Net 120 "" ""
- R39 2
- U6 6
+ R35 1
+ U5 1
 Net 121 "" ""
- R40 2
  U6 9
+ R40 2
 Net 126 "" ""
- W3 1
- R33 1
- U5 3
-Net 127 "" ""
  R31 1
  D15 1
+Net 127 "" ""
+ R33 1
+ U5 3
+ W3 1
 Net 128 "" ""
- U5 2
  K2 2
  U5 5
+ U5 2
 Net 129 "" ""
- U5 1
- R35 1
+ C19 1
+ R11 2
 Net 130 "" ""
- P5 1
- R26 1
+ X1 2
+ U2 47
+ C21 2
+ R12 2
 Net 131 "" ""
- P5 3
- R78 1
+ U2 63
+ R19 2
 Net 132 "" ""
- R80 1
- P5 5
-Net 133 "" ""
  P5 4
  R79 1
-Net 137 "" ""
- P2 1
- R19 1
-Net 138 "" ""
- U2 95
- R80 2
-Net 139 "" ""
- SW1 2
- R18 2
-Net 140 "" ""
- U2 65
- C18 2
-Net 141 "" ""
- C14 2
- U2 13
-Net 142 "" ""
- R79 2
+Net 133 "" ""
+ U2 36
+ R15 1
+Net 134 "" ""
+ U2 37
+ R14 1
+Net 135 "" ""
  U2 94
-Net 143 "/U_Core Board/TXCAN3" "TXCAN3"
+ R79 2
+Net 136 "" ""
+ P5 1
+ R26 1
+Net 137 "" ""
+ P5 3
+ R78 1
+Net 138 "" ""
+ P5 5
+ R80 1
+Net 139 "" ""
+ R19 1
+ P2 1
+Net 140 "" ""
+ U2 13
+ C14 2
+Net 141 "" ""
+ C18 2
+ U2 65
+Net 142 "" ""
+ R18 2
+ SW1 2
+Net 143 "/U_Core Board/RESET" "RESET"
+ R18 1
+ U2 42
+ C24 1
+ R17 1
+ P1 4
+Net 144 "" ""
+ R77 1
+ P5 2
+Net 145 "/U_Core Board/TXCAN3" "TXCAN3"
  U2 87
  R26 2
-Net 144 "/U_Core Board/RXCAN3" "RXCAN3"
- R77 2
- U2 88
-Net 145 "" ""
- P5 2
- R77 1
 Net 146 "" ""
+ R13 1
+ U2 38
+Net 147 "" ""
  X1 1
  C17 1
  R12 1
  U2 46
-Net 147 "" ""
- R12 2
- X1 2
- C21 2
- U2 47
-Net 151 "/U_Core Board/BKGD" "BKGD"
- R16 1
- U2 23
- P1 3
-Net 152 "" ""
- U2 63
- R19 2
-Net 167 "" ""
- C19 1
- R11 2
-Net 168 "" ""
- R13 1
- U2 38
-Net 169 "" ""
+Net 185 "/U_Core Board/RXCAN3" "RXCAN3"
+ R77 2
+ U2 88
+Net 189 "" ""
+ U2 95
+ R80 2
+Net 191 "" ""
  R78 2
  U2 93
-Net 170 "" ""
- U2 36
- R15 1
-Net 171 "" ""
- R14 1
- U2 37
-Net 186 "/U_Core Board/RESET" "RESET"
- P1 4
- R18 1
- R17 1
- C24 1
- U2 42
-Net 212 "" ""
- U2 43
+Net 203 "/U_Core Board/BKGD" "BKGD"
+ P1 3
+ U2 23
+ R16 1
+Net 209 "" ""
+ C20 1
+ R11 1
+ U2 44
+Net 210 "" ""
  C20 2
  C23 2
  C19 2
-Net 213 "" ""
- R11 1
- U2 44
- C20 1
+ U2 43
 }
 #End

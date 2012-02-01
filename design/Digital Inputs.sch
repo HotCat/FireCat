@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 29/01/2012 19:39:37
+EESchema Schematic File Version 2  date 01/02/2012 17:26:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,9 @@ LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 12
+Sheet 4 11
 Title "Digital Inputs"
-Date "24 jan 2012"
+Date "1 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -191,7 +191,7 @@ F 1 "GND" H 7300 4080 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6350 3450 0    60   Output ~ 0
-PT6
+PT7
 $Comp
 L GND #PWR04
 U 1 1 4F008CAA
