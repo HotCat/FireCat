@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/02/2012 00:51:37
+EESchema Schematic File Version 2  date 02/02/2012 10:58:16
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 10
 Title "Analogue output"
-Date "1 feb 2012"
+Date "2 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
