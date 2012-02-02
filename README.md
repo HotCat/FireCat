@@ -33,4 +33,4 @@ Core IO specs:
 * 5 Ground connections(CPU,Ignition,Analog Sensors, O2 Sensor and Lowside drives)
 * 1 "12V" connections to power 2 voltage regulators
 
-Special effort was put on making PCB geometry nearly identical as OEM ECU and reuse OEM metal case, connector and aluminium heat sink frame. It is a mixture of SMD and through hole so that it can be assembled at home and it is almost plug and play for my Citroen ZX
+Special effort was put on making PCB geometry nearly identical as OEM ECU and reuse OEM metal case, connector and aluminium frame for heat sink. It is a mixture of SMD and through hole so that it can be assembled at home and it is almost plug and play for my Citroen ZX
