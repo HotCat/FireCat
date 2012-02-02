@@ -17,3 +17,20 @@ no windows in the room... I define myself as a advanced migrant worker. The
 only thing that distinguishs me from them is that I have my private car and can
 speak a little English. Hence I named my first FreeEMS hardware in this way.
 
+#### Goals
+
+Core IO specs:
+
+* 1 RPM/Position VR for 60-2 wheel pattern
+* 6 Standard 'CORE' analog inputs(IAT,CHIT,TPS,EXO,BRV,MAP)
+* 2 ignition drives for 4 cylinders wasted spark(PT2,PT3)
+* 2 injector drives(HI-Z ONLY). Can setup to either do semi sequential fuel injection or do batch injection(PT4,PT5)
+* 1 Fuel Pump relay drive.
+* 1 dash board tacheometer drive.
+* 1 pair of idle air valve drive.
+* 1 gas tank ventilation valve drive.
+* 1 switched +5V output for TPS.
+* 5 Ground connections(CPU,Ignition,Analog Sensors, O2 Sensor and Lowside drives)
+* 1 "12V" connections to power 2 voltage regulators
+
+Special effort was put on making PCB geometry nearly identical as OEM ECU and reuse OEM metal case, connector and aluminium frame for heat sink. It is a mixture of SMD and through hole so that it can be assembled at home and it is almost plug and play for my Citroen ZX
