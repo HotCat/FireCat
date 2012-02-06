@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/02/2012 10:58:16
+EESchema Schematic File Version 2  date 07/02/2012 00:44:28
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 10
 Title "CatSquirt main board(code migrant worker)"
-Date "2 feb 2012"
+Date "6 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 "for PSA TU5JP/K engine"
@@ -44,6 +44,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 8650 2900 1000 1700
+U 4E951714
+F0 "Connector" 60
+F1 "U_Connector.sch" 60
+F2 "TPS" O L 8650 4000 60 
+F3 "CHT" O L 8650 3900 60 
+F4 "IAT" O L 8650 3800 60 
+F5 "RPM0-" O L 8650 4250 60 
+F6 "INJECTOR1-4" O L 8650 2950 60 
+F7 "FUEL_PUMP_RELAY" O L 8650 3050 60 
+F8 "TACH_OUT" I L 8650 3150 60 
+F9 "GAS_VENTI_VALVE" O L 8650 3300 60 
+F10 "STEPPER_OPEN" O L 8650 3450 60 
+F11 "STEPPER_CLOSE" O L 8650 3550 60 
+F12 "EGO" O L 8650 3700 60 
+F13 "RPM0+" O L 8650 4150 60 
+F14 "IGNITER_1_4" O L 8650 4350 60 
+F15 "IGNITER_2_3" O L 8650 4450 60 
+$EndSheet
+Wire Wire Line
+	7700 3700 8650 3700
+Wire Wire Line
+	7700 3300 8650 3300
 Wire Wire Line
 	2750 4250 3200 4250
 Wire Wire Line
@@ -65,11 +89,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 3150 7700 3150
 Wire Wire Line
-	8650 3350 7700 3350
-Wire Wire Line
 	8650 3550 7700 3550
-Wire Wire Line
-	8650 3650 7700 3650
 Wire Wire Line
 	2750 5550 3200 5550
 Wire Wire Line
@@ -188,6 +208,18 @@ Wire Bus Line
 	7600 1950 7150 1950
 Wire Wire Line
 	2750 4050 3200 4050
+Wire Wire Line
+	5900 3450 7050 3450
+Wire Wire Line
+	7700 3450 8650 3450
+Text Label 7750 3700 0    60   ~ 0
+EGO
+Entry Wire Line
+	7600 3550 7700 3450
+Text Label 6150 3450 0    60   ~ 0
+EGO
+Entry Wire Line
+	7050 3450 7150 3350
 $Sheet
 S 1950 2900 800  2750
 U 4E9462BE
@@ -243,25 +275,6 @@ Entry Wire Line
 Entry Wire Line
 	3750 2850 3850 2750
 $Sheet
-S 8650 2900 1000 1700
-U 4E951714
-F0 "Connector" 60
-F1 "U_Connector.sch" 60
-F2 "FUEL_PUMP_RELAY" I L 8650 3050 60 
-F3 "STEPPER_CLOSE" I L 8650 3650 60 
-F4 "STEPPER_OPEN" I L 8650 3550 60 
-F5 "GAS_VENTI_VALVE" I L 8650 3350 60 
-F6 "RPM0-" I L 8650 4250 60 
-F7 "RPM0+" I L 8650 4150 60 
-F8 "TACH_OUT" I L 8650 3150 60 
-F9 "TPS" I L 8650 4000 60 
-F10 "CHT" I L 8650 3900 60 
-F11 "IAT" I L 8650 3800 60 
-F12 "INJECTOR1-4" I L 8650 2950 60 
-F13 "IGNITER_2_3" I L 8650 4450 60 
-F14 "IGNITER_1_4" I L 8650 4350 60 
-$EndSheet
-$Sheet
 S 4500 3950 1400 200 
 U 4E939ACE
 F0 "Dashboard Analogue Outputs" 60
@@ -287,6 +300,7 @@ F7 "AN03" O L 4500 3450 60
 F8 "IAT" I R 5900 3150 60 
 F9 "AN00" O L 4500 3150 60 
 F10 "AN06" O L 4500 3650 60 
+F11 "EGO" I R 5900 3450 60 
 $EndSheet
 Entry Wire Line
 	3200 5550 3300 5450
@@ -434,11 +448,11 @@ Text Label 7750 3900 0    60   ~ 0
 CHT
 Text Label 7750 3800 0    60   ~ 0
 IAT
-Text Label 7750 3650 0    60   ~ 0
-STEPPER_CLOSE
 Text Label 7750 3550 0    60   ~ 0
+STEPPER_CLOSE
+Text Label 7750 3450 0    60   ~ 0
 STEPPER_OPEN
-Text Label 7750 3350 0    60   ~ 0
+Text Label 7750 3300 0    60   ~ 0
 GAS_VENTI_VALVE
 Text Label 7750 3150 0    60   ~ 0
 TACH_OUT
@@ -459,11 +473,11 @@ Entry Wire Line
 Entry Wire Line
 	7600 3900 7700 3800
 Entry Wire Line
-	7600 3750 7700 3650
+	7600 3800 7700 3700
 Entry Wire Line
 	7600 3650 7700 3550
 Entry Wire Line
-	7600 3450 7700 3350
+	7600 3400 7700 3300
 Entry Wire Line
 	7600 3250 7700 3150
 Entry Wire Line

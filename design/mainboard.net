@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  02/02/2012 14:59:13
+# EESchema Netlist Version 1.1 created  03/02/2012 08:23:02
 (
  ( /4E9462BE/4F28F553 $noname  C40 0.22uF {Lib=C}
   (    1 +5V_SWITCHED )
@@ -78,7 +78,7 @@
   (    1 +5V_MICRO )
   (    2 N-000187 )
  )
- ( /4E9462BE/4EFA4A93 $noname  P2 jumper {Lib=CONN_2}
+ ( /4E9462BE/4EFA4A93 $noname  K2 Bootldr {Lib=CONN_2}
   (    1 N-000187 )
   (    2 ADCGND )
  )
@@ -280,7 +280,7 @@
   (  111 /Dashboard_Analogue_Outputs/PP5 )
   (  112 ? )
  )
- ( /4E951714/4F290E03 $noname  P5 AC_open {Lib=CONN_2}
+ ( /4E951714/4F290E03 $noname  P2 AC_open {Lib=CONN_2}
   (    1 ADCGND )
   (    2 N-000195 )
  )
@@ -539,7 +539,7 @@
   (    1 N-000095 )
   (    2 N-000091 )
  )
- ( /4E939B76/4E940542 $noname  K2 jumper {Lib=CONN_3}
+ ( /4E939B76/4E940542 $noname  K1 Polarity {Lib=CONN_3}
   (    1 ADCGND )
   (    2 N-000098 )
   (    3 +5V_SWITCHED )
@@ -722,7 +722,7 @@
   (    1 N-000057 )
   (    2 +12V_SWITCHED )
  )
- ( /4E9276D8/4F28EFEF $noname  K1 CONN_3 {Lib=CONN_3}
+ ( /4E9276D8/4F28EFEF $noname  P5 COM {Lib=CONN_3}
   (    1 ADCGND )
   (    2 N-000070 )
   (    3 N-000073 )
@@ -1909,7 +1909,7 @@ Net 40 "+5V_SWITCHED" "+5V_SWITCHED"
  C9 2
  C30 2
  U7 16
- K2 3
+ K1 3
  C53 1
  D30 1
  R64 1
@@ -2024,7 +2024,7 @@ Net 65 "" ""
  C33 1
  U7 1
 Net 70 "" ""
- K1 2
+ P5 2
  U7 13
 Net 71 "" ""
  U7 4
@@ -2034,7 +2034,7 @@ Net 72 "" ""
  U7 5
 Net 73 "" ""
  U7 14
- K1 3
+ P5 3
 Net 75 "" ""
  U8 2
  R65 1
@@ -2103,7 +2103,7 @@ Net 87 "ADCGND" "ADCGND"
  P3 2
  C51 1
  Q6 S
- P5 1
+ P2 1
  R6 2
  R51 2
  Q1 S
@@ -2127,10 +2127,10 @@ Net 87 "ADCGND" "ADCGND"
  C41 2
  D13 1
  R45 2
- P2 2
+ K2 2
  U7 15
  C35 2
- K2 1
+ K1 1
  C30 1
  R37 2
  R36 2
@@ -2159,7 +2159,7 @@ Net 87 "ADCGND" "ADCGND"
  C32 2
  C31 2
  U5 7
- K1 1
+ P5 1
  C52 2
  C37 1
  C27 2
@@ -2197,7 +2197,7 @@ Net 97 "" ""
  D19 1
 Net 98 "" ""
  U5 5
- K2 2
+ K1 2
  U5 2
 Net 101 "" ""
  U4 6
@@ -2281,9 +2281,9 @@ Net 187 "" ""
  R18 2
  R19 1
  R20 2
- P2 1
+ K2 1
 Net 195 "" ""
  P3 23
- P5 2
+ P2 2
 }
 #End

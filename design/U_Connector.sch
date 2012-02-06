@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/02/2012 10:58:16
+EESchema Schematic File Version 2  date 07/02/2012 00:44:28
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,9 @@ LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 10
+Sheet 2 10
 Title "OEM harness interface"
-Date "2 feb 2012"
+Date "6 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -44,14 +44,35 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4750 1500 0    30   ~ 0
-my ECU is not responsible to control AC\njust solder pin 23 to low side ground
+NoConn ~ 6600 2200
 Wire Wire Line
-	7900 2200 7900 2600
+	4550 2500 4400 2500
 Wire Wire Line
-	7900 2600 5300 2600
+	4400 2500 4400 2250
 Wire Wire Line
-	5300 2600 5300 2100
+	4450 5350 7900 5350
+Wire Wire Line
+	7900 5350 7900 2200
+Wire Wire Line
+	1750 2250 1750 2350
+Wire Wire Line
+	1750 2350 1500 2350
+Wire Wire Line
+	1500 2350 1500 2500
+Wire Wire Line
+	2150 2500 2150 2350
+Wire Wire Line
+	2150 2350 1950 2350
+Wire Wire Line
+	1950 2350 1950 2250
+Wire Wire Line
+	3000 2250 3000 2350
+Wire Wire Line
+	3000 2350 3200 2350
+Wire Wire Line
+	3200 2350 3200 2500
+Wire Wire Line
+	2550 2500 2550 2350
 Wire Wire Line
 	9300 2200 9300 6300
 Wire Wire Line
@@ -141,23 +162,113 @@ Wire Wire Line
 Wire Wire Line
 	3550 4400 3550 4350
 Wire Wire Line
-	5100 2100 5100 2350
+	4200 2250 4200 2500
+Wire Wire Line
+	8400 2200 8400 5800
+Wire Wire Line
+	8400 5800 4450 5800
+Wire Wire Line
+	2550 2350 2800 2350
+Wire Wire Line
+	2800 2350 2800 2250
+Text GLabel 4550 2500 2    60   Output ~ 0
+AC clutch relay
+Text GLabel 4450 5350 0    60   Output ~ 0
+AC clutch relay
 $Comp
-L LSGND #PWR030
-U 1 1 4F290E5D
-P 5100 2350
-F 0 "#PWR030" H 5100 2350 40  0001 C CNN
-F 1 "LSGND" H 5100 2280 40  0000 C CNN
-	1    5100 2350
+L PWR_FLAG #FLG01
+U 1 1 4F2FFC81
+P 2550 2350
+F 0 "#FLG01" H 2550 2620 30  0001 C CNN
+F 1 "PWR_FLAG" H 2550 2580 30  0000 C CNN
+	1    2550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P5
+L PWR_FLAG #FLG02
+U 1 1 4F2FFC74
+P 2150 2350
+F 0 "#FLG02" H 2150 2620 30  0001 C CNN
+F 1 "PWR_FLAG" H 2150 2580 30  0000 C CNN
+	1    2150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGNGND #PWR03
+U 1 1 4F2FF9A3
+P 1500 2500
+F 0 "#PWR03" H 1500 2500 40  0001 C CNN
+F 1 "IGNGND" H 1500 2430 40  0000 C CNN
+	1    1500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LSGND #PWR04
+U 1 1 4F2FF9A2
+P 2150 2500
+F 0 "#PWR04" H 2150 2500 40  0001 C CNN
+F 1 "LSGND" H 2150 2430 40  0000 C CNN
+	1    2150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 4F2FF9A1
+P 1850 1900
+F 0 "P4" V 1800 1900 40  0000 C CNN
+F 1 "Gnd Option" V 1900 1900 40  0000 C CNN
+	1    1850 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P7
+U 1 1 4F2FF830
+P 2900 1900
+F 0 "P7" V 2850 1900 40  0000 C CNN
+F 1 "Gnd Option" V 2950 1900 40  0000 C CNN
+	1    2900 1900
+	0    -1   -1   0   
+$EndComp
+Text Notes 1950 1550 0    30   ~ 0
+IGNGND and LSGND can be combined \nwith this screw connector. Build two\nidentical connector allow high current\nto be splitted to gnds. Prevent too much\n current flow through one pin
+$Comp
+L LSGND #PWR05
+U 1 1 4F2FF7D1
+P 3200 2500
+F 0 "#PWR05" H 3200 2500 40  0001 C CNN
+F 1 "LSGND" H 3200 2430 40  0000 C CNN
+	1    3200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGNGND #PWR06
+U 1 1 4F2FF7CD
+P 2550 2500
+F 0 "#PWR06" H 2550 2500 40  0001 C CNN
+F 1 "IGNGND" H 2550 2430 40  0000 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4450 5800 0    60   Output ~ 0
+EGO
+Text Notes 3850 1650 0    30   ~ 0
+my ECU is not responsible to control AC\njust solder pin 23 to low side ground
+$Comp
+L LSGND #PWR07
+U 1 1 4F290E5D
+P 4200 2500
+F 0 "#PWR07" H 4200 2500 40  0001 C CNN
+F 1 "LSGND" H 4200 2430 40  0000 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
 U 1 1 4F290E03
-P 5200 1750
-F 0 "P5" V 5150 1750 40  0000 C CNN
-F 1 "AC open" V 5250 1750 40  0000 C CNN
-	1    5200 1750
+P 4300 1900
+F 0 "P2" V 4250 1900 40  0000 C CNN
+F 1 "AC open" V 4350 1900 40  0000 C CNN
+	1    4300 1900
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6500 2200
@@ -165,61 +276,59 @@ NoConn ~ 8800 2200
 NoConn ~ 7200 2200
 NoConn ~ 6900 2200
 NoConn ~ 6300 2200
-NoConn ~ 8400 2200
-NoConn ~ 6600 2200
 NoConn ~ 7800 2200
 $Comp
-L GND #PWR031
+L GND #PWR08
 U 1 1 4F014DC6
 P 3550 5200
-F 0 "#PWR031" H 3550 5200 30  0001 C CNN
+F 0 "#PWR08" H 3550 5200 30  0001 C CNN
 F 1 "GND" H 3550 5130 30  0001 C CNN
 	1    3550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L LSGND #PWR032
+L LSGND #PWR09
 U 1 1 4F014D72
 P 3550 4700
-F 0 "#PWR032" H 3550 4700 40  0001 C CNN
+F 0 "#PWR09" H 3550 4700 40  0001 C CNN
 F 1 "LSGND" H 3550 4630 40  0000 C CNN
 	1    3550 4700
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7400 2200
 $Comp
-L ADCGND #PWR033
+L ADCGND #PWR010
 U 1 1 4EFDEA8C
 P 3550 5700
-F 0 "#PWR033" H 3550 5700 40  0001 C CNN
+F 0 "#PWR010" H 3550 5700 40  0001 C CNN
 F 1 "ADCGND" H 3550 5630 40  0000 C CNN
 	1    3550 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L IGNGND #PWR034
+L IGNGND #PWR011
 U 1 1 4EFDE808
 P 3550 3700
-F 0 "#PWR034" H 3550 3700 40  0001 C CNN
+F 0 "#PWR011" H 3550 3700 40  0001 C CNN
 F 1 "IGNGND" H 3550 3630 40  0000 C CNN
 	1    3550 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V_SWITCHED #PWR035
+L +12V_SWITCHED #PWR012
 U 1 1 4E9E2255
 P 3550 6250
-F 0 "#PWR035" H 3550 6200 20  0001 C CNN
+F 0 "#PWR012" H 3550 6200 20  0001 C CNN
 F 1 "+12V_SWITCHED" H 3550 6350 30  0000 C CNN
 	1    3550 6250
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9100 2200
 $Comp
-L +5V_SWITCHED #PWR036
+L +5V_SWITCHED #PWR013
 U 1 1 4E95B079
 P 3550 4350
-F 0 "#PWR036" H 3550 4300 20  0001 C CNN
+F 0 "#PWR013" H 3550 4300 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 3550 4450 30  0000 C CNN
 	1    3550 4350
 	1    0    0    -1  
@@ -242,30 +351,30 @@ F 1 "BOSCH_MP5.2_37PIN" V 6700 1150 60  0000 C CNN
 $EndComp
 Text Notes 7650 1400 2    60   ~ 0
 OEM ECU connector ripped\nfrom Bosch MP5.2
-Text HLabel 4500 3700 0    60   Input ~ 0
+Text HLabel 4500 3700 0    60   Output ~ 0
 FUEL_PUMP_RELAY
-Text HLabel 4450 6200 0    60   Input ~ 0
+Text HLabel 4450 6200 0    60   Output ~ 0
 STEPPER_CLOSE
-Text HLabel 4450 4700 0    60   Input ~ 0
+Text HLabel 4450 4700 0    60   Output ~ 0
 STEPPER_OPEN
-Text HLabel 4500 3800 0    60   Input ~ 0
+Text HLabel 4500 3800 0    60   Output ~ 0
 GAS_VENTI_VALVE
-Text HLabel 4450 4300 0    60   Input ~ 0
+Text HLabel 4450 4300 0    60   Output ~ 0
 RPM0-
-Text HLabel 4450 6000 0    60   Input ~ 0
+Text HLabel 4450 6000 0    60   Output ~ 0
 RPM0+
 Text HLabel 4500 3900 0    60   Input ~ 0
 TACH_OUT
-Text HLabel 4450 5900 0    60   Input ~ 0
+Text HLabel 4450 5900 0    60   Output ~ 0
 TPS
-Text HLabel 4450 5500 0    60   Input ~ 0
+Text HLabel 4450 5500 0    60   Output ~ 0
 CHT
-Text HLabel 4450 5700 0    60   Input ~ 0
+Text HLabel 4450 5700 0    60   Output ~ 0
 IAT
-Text HLabel 4450 4900 0    60   Input ~ 0
+Text HLabel 4450 4900 0    60   Output ~ 0
 INJECTOR1-4
-Text HLabel 4450 5200 0    60   Input ~ 0
+Text HLabel 4450 5200 0    60   Output ~ 0
 IGNITER_2_3
-Text HLabel 4500 3500 0    60   Input ~ 0
+Text HLabel 4500 3500 0    60   Output ~ 0
 IGNITER_1_4
 $EndSCHEMATC

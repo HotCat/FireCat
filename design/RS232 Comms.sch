@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/02/2012 10:58:16
+EESchema Schematic File Version 2  date 07/02/2012 00:44:28
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 8 10
 Title "RS232"
-Date "2 feb 2012"
+Date "6 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -86,11 +86,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 3950 6600 4150
 $Comp
-L CONN_3 K1
+L CONN_3 P5
 U 1 1 4F28EFEF
 P 6600 4500
-F 0 "K1" V 6550 4500 50  0000 C CNN
-F 1 "CONN_3" V 6650 4500 40  0000 C CNN
+F 0 "P5" V 6550 4500 50  0000 C CNN
+F 1 "COM" V 6650 4500 40  0000 C CNN
 	1    6600 4500
 	0    1    1    0   
 $EndComp
@@ -104,19 +104,19 @@ F 1 "0.1" H 6750 2750 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR081
+L GND #PWR084
 U 1 1 4E92FFAF
 P 6850 4100
-F 0 "#PWR081" H 6850 4100 30  0001 C CNN
+F 0 "#PWR084" H 6850 4100 30  0001 C CNN
 F 1 "GND" H 6850 4030 30  0001 C CNN
 	1    6850 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR082
+L +5V_SWITCHED #PWR085
 U 1 1 4E9277BA
 P 6350 2650
-F 0 "#PWR082" H 6350 2600 20  0001 C CNN
+F 0 "#PWR085" H 6350 2600 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 6350 2750 30  0000 C CNN
 	1    6350 2650
 	1    0    0    -1  
@@ -177,10 +177,10 @@ NoConn ~ 4450 3850
 Text Notes 4700 4950 0    60   ~ 0
 Serial port communication
 $Comp
-L GND #PWR083
+L GND #PWR086
 U 1 1 4E927717
 P 6700 3250
-F 0 "#PWR083" H 6700 3250 30  0001 C CNN
+F 0 "#PWR086" H 6700 3250 30  0001 C CNN
 F 1 "GND" H 6700 3180 30  0001 C CNN
 	1    6700 3250
 	1    0    0    -1  
