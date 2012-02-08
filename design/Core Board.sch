@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/02/2012 00:44:28
+EESchema Schematic File Version 2  date 08/02/2012 17:27:58
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 3 10
 Title "CPU circuit"
-Date "6 feb 2012"
+Date "8 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -44,6 +44,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2000 10100 0    60   ~ 0
+C43, C48, C44 and C49 are 50v X7R Ceramic capacitors.
+Text Notes 2250 10200 0    60   ~ 0
+C42 and C47 are 35v Tantalum capacitors.\nC46 and C50 are 16v Tantalum capacitors.
+Text Notes 5850 9550 0    40   ~ 0
+5.6v/3w
+Text Notes 5850 7650 0    40   ~ 0
+5.6v/3w
+Text Notes 8250 1850 0    60   ~ 0
+C24 10v Tantalum\nC15 X7R Ceramic
+Text Notes 7300 2350 0    60   ~ 0
+C39 10v Tantalum\nC16 X7R Ceramic
+Text Notes 11900 4250 0    60   ~ 0
+C22 and C40 X7R Ceramic
+Text Notes 5650 3400 1    60   ~ 0
+R12 is Optional
+Text Notes 12550 2600 0    60   ~ 0
+C18 X7R Ceramic
 Text Notes 6150 10100 2    60   ~ 0
 ADC and CPU gnd finally\n meet together at regulator
 Wire Wire Line
@@ -432,7 +450,7 @@ L CP1 C46
 U 1 1 4F28B9E0
 P 5350 7600
 F 0 "C46" H 5400 7700 50  0000 L CNN
-F 1 "22uF" H 5400 7500 50  0000 L CNN
+F 1 "47uF" H 5400 7500 50  0000 L CNN
 	1    5350 7600
 	1    0    0    -1  
 $EndComp
@@ -977,7 +995,7 @@ L R R12
 U 1 1 4EF8940D
 P 5750 3100
 F 0 "R12" V 5830 3100 50  0000 C CNN
-F 1 "1M" V 5750 3100 50  0000 C CNN
+F 1 "10M" V 5750 3100 50  0000 C CNN
 	1    5750 3100
 	1    0    0    -1  
 $EndComp
@@ -1015,7 +1033,7 @@ P 5400 3350
 F 0 "C21" H 5450 3450 50  0000 L CNN
 F 1 "18pF" H 5450 3250 50  0000 L CNN
 	1    5400 3350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C17
@@ -1024,7 +1042,7 @@ P 5400 2850
 F 0 "C17" H 5450 2950 50  0000 L CNN
 F 1 "18pF" H 5450 2750 50  0000 L CNN
 	1    5400 2850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 11400 4050
 NoConn ~ 11400 4150

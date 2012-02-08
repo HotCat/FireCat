@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/02/2012 00:44:28
+EESchema Schematic File Version 2  date 08/02/2012 17:27:57
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 10
 Title "OEM harness interface"
-Date "6 feb 2012"
+Date "8 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -230,7 +230,7 @@ F 1 "Gnd Option" V 2950 1900 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 1950 1550 0    30   ~ 0
-IGNGND and LSGND can be combined \nwith this screw connector. Build two\nidentical connector allow high current\nto be splitted to gnds. Prevent too much\n current flow through one pin
+IGNGND and LSGND can be combined \nwith this screw connector. Build two\nidentical connector allow high current\nto be splitted to gnds. Prevent too much\n current flowing through one pin
 $Comp
 L LSGND #PWR05
 U 1 1 4F2FF7D1

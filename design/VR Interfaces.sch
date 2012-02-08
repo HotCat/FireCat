@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/02/2012 00:44:28
+EESchema Schematic File Version 2  date 08/02/2012 17:27:58
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 9 10
 Title "VR interface"
-Date "6 feb 2012"
+Date "8 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -44,6 +44,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6650 4100 0    40   ~ 0
+1/4 W
+Text Notes 3450 3600 1    40   ~ 0
+1 W
+Text Notes 3800 3600 0    40   ~ 0
+1/2 W
+Text Notes 3800 3200 0    40   ~ 0
+1/2 W
 Wire Wire Line
 	7200 3900 7500 3900
 Wire Wire Line
@@ -115,7 +123,7 @@ L R R29
 U 1 1 4F296BDB
 P 6750 4150
 F 0 "R29" V 6830 4150 50  0000 C CNN
-F 1 "??" V 6750 4150 50  0000 C CNN
+F 1 "2.4K" V 6750 4150 50  0000 C CNN
 	1    6750 4150
 	0    1    1    0   
 $EndComp
