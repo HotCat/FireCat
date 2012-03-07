@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 08/02/2012 17:27:57
+EESchema Schematic File Version 2  date 06/03/2012 22:16:34
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 10
 Title "CatSquirt main board(code migrant worker)"
-Date "8 feb 2012"
+Date "11 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 "for PSA TU5JP/K engine"
