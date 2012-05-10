@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 06/03/2012 22:16:34
+EESchema Schematic File Version 2  date 06/04/2012 11:55:18
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 6 10
 Title "ignition module"
-Date "11 feb 2012"
+Date "6 apr 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -453,7 +453,7 @@ F 1 "1K" V 2650 3650 50  0000 C CNN
 	1    2650 3650
 	0    1    1    0   
 $EndComp
-Text HLabel 8300 4100 2    60   Input ~ 0
+Text HLabel 8200 1700 2    60   Input ~ 0
 IGNITER_2_3
 NoConn ~ 7250 5100
 NoConn ~ 7250 4900
@@ -567,6 +567,6 @@ F 1 "GND" H 7350 3380 30  0001 C CNN
 $EndComp
 NoConn ~ 7250 2500
 NoConn ~ 7250 2700
-Text HLabel 8200 1700 2    60   Input ~ 0
+Text HLabel 8300 4100 2    60   Input ~ 0
 IGNITER_1_4
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/02/2012 17:02:28
+# EESchema Netlist Version 1.1 created  06/04/2012 12:00:58
 (
  ( /4E951714/4F2FF9A1 $noname  P4 Gnd_Option {Lib=CONN_2}
   (    1 IGNGND )
@@ -229,7 +229,7 @@
   (   13 N-000107 )
   (   14 ADCGND )
   (   15 /U_Injectors/PT4 )
-  (   16 /U_Injectors/PT5 )
+  (   16 /CPU/PT5 )
   (   17 ? )
   (   18 ? )
   (   19 ? )
@@ -237,7 +237,7 @@
   (   21 ? )
   (   22 ? )
   (   23 /CPU/BKGD )
-  (   24 /CPU/PB0 )
+  (   24 /U_Injectors/PB0 )
   (   25 /CPU/PB1 )
   (   26 ? )
   (   27 ? )
@@ -507,11 +507,11 @@
  )
  ( /4E939B76/4F2943F4 $noname  D19 1N4148 {Lib=DIODE}
   (    1 N-000091 )
-  (    2 /Connector/IGNITER_2_3 )
+  (    2 /Igniter_Outputs/IGNITER_1_4 )
  )
  ( /4E939B76/4F29435B $noname  D18 1N4148 {Lib=DIODE}
   (    1 N-000104 )
-  (    2 /Igniter_Outputs/IGNITER_1_4 )
+  (    2 /Connector/IGNITER_2_3 )
  )
  ( /4E939B76/4F07A6A8 $noname  U5 74LS86_MW {Lib=74LS86_MW}
   (    1 N-000094 )
@@ -591,7 +591,7 @@
   (    8 ? )
   (    9 N-000089 )
   (   10 ? )
-  (  TAB /Connector/IGNITER_2_3 )
+  (  TAB /Igniter_Outputs/IGNITER_1_4 )
  )
  ( /4E939B76/4E939C23 $noname  U4 VB325SP {Lib=VB325SP}
   (    1 ADCGND )
@@ -604,7 +604,7 @@
   (    8 ? )
   (    9 N-000097 )
   (   10 ? )
-  (  TAB /Igniter_Outputs/IGNITER_1_4 )
+  (  TAB /Connector/IGNITER_2_3 )
  )
  ( /4E939B76/4E939C22 $noname  R33 1k {Lib=R}
   (    1 N-000095 )
@@ -834,7 +834,7 @@
   (    2 ADCGND )
  )
  ( /4E919A91/4F2914CD $noname  R23 1K {Lib=R}
-  (    1 /U_Injectors/PT5 )
+  (    1 /CPU/PT5 )
   (    2 N-000044 )
  )
  ( /4E919A91/4F2914CC $noname  Q1 vnp10n07 {Lib=MOS_N}
@@ -851,7 +851,7 @@
   (    2 N-000044 )
  )
  ( /4E919A91/4F291411 $noname  R25 1K {Lib=R}
-  (    1 /CPU/PB0 )
+  (    1 /U_Injectors/PB0 )
   (    2 N-000050 )
  )
  ( /4E919A91/4F28C019 $noname  D27 1N4148 {Lib=DIODE}
@@ -868,7 +868,7 @@
   (    2 N-000050 )
  )
  ( /4E919A91/4E919ABC $noname  R68 100K {Lib=R}
-  (    1 /CPU/PB0 )
+  (    1 /U_Injectors/PB0 )
   (    2 ADCGND )
  )
  ( /4E919A91/4E919ABA $noname  D33 LED {Lib=LED}
@@ -1778,34 +1778,34 @@ Net 9 "/CPU/PB1" "PB1"
  R26 1
  R27 1
  U2 25
-Net 10 "/CPU/PB0" "PB0"
+Net 10 "/U_Injectors/PB0" "PB0"
  R68 1
  R25 1
  U2 24
-Net 11 "/U_Injectors/PT5" "PT5"
- R23 1
+Net 11 "/CPU/PT5" "PT5"
  U2 16
+ R23 1
 Net 12 "/U_Injectors/PT4" "PT4"
  R67 1
  U2 15
 Net 13 "/CPU/PT3" "PT3"
- R34 2
  U2 12
  R37 1
+ R34 2
 Net 14 "/U_Core Analogue Inputs/IAT" "IAT"
- C2 1
  R3 1
  R1 2
+ C2 1
  P3 27
 Net 15 "/Connector/IGNITER_2_3" "IGNITER_2_3"
- U6 TAB
+ U4 TAB
  P3 20
+ D18 2
  P3 20
- D19 2
 Net 16 "/Igniter Outputs/IGNITER_1_4" "IGNITER_1_4"
  P3 1
- U4 TAB
- D18 2
+ D19 2
+ U6 TAB
 Net 17 "/U_Injectors/INJECTOR1-4" "INJECTOR1-4"
  P6 1
  D29 2

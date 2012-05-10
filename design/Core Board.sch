@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 06/03/2012 22:16:34
+EESchema Schematic File Version 2  date 06/04/2012 11:55:18
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 3 10
 Title "CPU circuit"
-Date "11 feb 2012"
+Date "6 apr 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
