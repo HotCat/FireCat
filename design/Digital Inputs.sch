@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 14/01/2012 13:46:11
+EESchema Schematic File Version 2  date 01/02/2012 17:26:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:freeEMS_lib
 LIBS:mainboard-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 9 12
+Sheet 4 11
 Title "Digital Inputs"
-Date "14 jan 2012"
+Date "1 feb 2012"
 Rev "0.01"
 Comp "diyefi.org"
 Comment1 ""
@@ -98,10 +99,10 @@ Wire Wire Line
 Wire Wire Line
 	8700 3450 8700 3550
 $Comp
-L GND #PWR98
+L GND #PWR01
 U 1 1 4F014611
 P 8700 4150
-F 0 "#PWR98" H 8700 4150 30  0001 C CNN
+F 0 "#PWR01" H 8700 4150 30  0001 C CNN
 F 1 "GND" H 8700 4080 30  0001 C CNN
 	1    8700 4150
 	1    0    0    -1  
@@ -125,10 +126,10 @@ F 1 "R" V 8250 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR95
+L +5V_SWITCHED #PWR02
 U 1 1 4F01437B
 P 7300 2750
-F 0 "#PWR95" H 7300 2700 20  0001 C CNN
+F 0 "#PWR02" H 7300 2700 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 7300 2850 30  0000 C CNN
 	1    7300 2750
 	1    0    0    -1  
@@ -181,21 +182,21 @@ $EndComp
 Text Notes 7100 4750 0    60   ~ 0
 Vehicle speed senor input
 $Comp
-L GND #PWR97
+L GND #PWR03
 U 1 1 4F014374
 P 7300 4150
-F 0 "#PWR97" H 7300 4150 30  0001 C CNN
+F 0 "#PWR03" H 7300 4150 30  0001 C CNN
 F 1 "GND" H 7300 4080 30  0001 C CNN
 	1    7300 4150
 	1    0    0    -1  
 $EndComp
 Text HLabel 6350 3450 0    60   Output ~ 0
-PT4
+PT7
 $Comp
-L GND #PWR96
+L GND #PWR04
 U 1 1 4F008CAA
 P 3050 4150
-F 0 "#PWR96" H 3050 4150 30  0001 C CNN
+F 0 "#PWR04" H 3050 4150 30  0001 C CNN
 F 1 "GND" H 3050 4080 30  0001 C CNN
 	1    3050 4150
 	1    0    0    -1  
@@ -263,10 +264,10 @@ F 1 "ZENER" H 3050 2950 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V_SWITCHED #PWR94
+L +5V_SWITCHED #PWR05
 U 1 1 4E941734
 P 3050 2750
-F 0 "#PWR94" H 3050 2700 20  0001 C CNN
+F 0 "#PWR05" H 3050 2700 20  0001 C CNN
 F 1 "+5V_SWITCHED" H 3050 2850 30  0000 C CNN
 	1    3050 2750
 	1    0    0    -1  

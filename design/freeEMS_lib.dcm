@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 07/01/2012 09:57:43
+EESchema-DOCLIB  Version 2.0  Date: 21/01/2012 00:59:08
 #
 $CMP 74LS86_FREEEMS
 D Quad XOR 2 inputs
@@ -69,6 +69,11 @@ $CMP LM7812
 D Linear Regulator +12V
 K POWER REGUL
 F regulator/lm78*.*
+$ENDCMP
+#
+$CMP LM9040
+D MAP SENSOR
+K MAP MPX4100A
 $ENDCMP
 #
 $CMP LM9076Q
